@@ -1,0 +1,31 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import Compile from "./Compile";
+import { Evolvhack,Ctf, Gaming, Triathon, Codingcomp } from "./pages";
+import { EvolvhackReg, CtfReg, GamingReg, TriathonReg, CodingcompReg } from "./pages/registration";
+
+const App = () => {
+  return (
+    <BrowserRouter>
+     <Routes>
+          <Route path = '/'>
+          <Route index element={<Compile />} />
+          // Event pages
+            <Route path='/evolvhack' element={<Evolvhack/>}/>
+            <Route path='/ctf' element={<Ctf/>}/>
+            <Route path='/codingcompetition' element={<Codingcomp/>}/>
+            <Route path='/gaming' element={<Gaming/>}/>
+            <Route path='/triathon' element={<Triathon/>}/>
+          // Event registration
+            <Route path='/evolvhack/registration' element={<EvolvhackReg/>}/>
+            <Route path='/ctf/registration' element={<CtfReg/>}/>
+            <Route path='/codingcompetition/registration' element={<CodingcompReg/>}/>
+            <Route path='/gaming/registration' element={<GamingReg/>}/>
+            <Route path='/triathon/registration' element={<TriathonReg/>}/>
+            </Route>
+        </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;

@@ -35,11 +35,11 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Events",
     },
     {
       id: "work",
-      title: "Events",
+      title: "Sponsors",
     },
     {
       id: "gallery",
@@ -65,60 +65,8 @@ import {
       icon: backend,
     },
     {
-      title: "Karthik Murali",
-      icon: creator,
-    },
-    {
-      title: "Ninu",
-      icon: mobile,
-    },
-    {
-      title: "Prince",
+      title: "Joesph",
       icon: backend,
-    },
-    {
-      title: "Rex",
-      icon: creator,
-    },
-    {
-      title: "Tasleem",
-      icon: creator,
-    },
-    {
-      title: "Anil",
-      icon: creator,
-    },
-    {
-      title: "Franics Alexander",
-      icon: creator,
-    },
-    {
-      title: "Jaison",
-      icon: creator,
-    },
-    {
-      title: "Jithu",
-      icon: creator,
-    },
-    {
-      title: "Nishad Hameed",
-      icon: creator,
-    },
-    {
-      title: "Athul Jacob",
-      icon: creator,
-    },
-    {
-      title: "Nirmal Mtech",
-      icon: creator,
-    },
-    {
-      title: "Anil",
-      icon: creator,
-    },
-    {
-      title: "Rintumol",
-      icon: creator,
     },
     
   ];

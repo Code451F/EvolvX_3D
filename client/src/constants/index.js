@@ -25,6 +25,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    controller,
+    flag,
+    triathon,
+    hack,
+    trail,
   } from "../assets";
   
   export const navLinks = [
@@ -48,33 +53,74 @@ import {
   
   const services = [
     {
-      title: "EvolveHack",
+      title: "Anju Mathew",
       icon: web,
     },
     {
-      title: "Coding Competition",
+      title: "Bobin Shaji",
       icon: mobile,
     },
     {
-      title: "Capture The Flag",
+      title: "Joesph",
       icon: backend,
     },
     {
-      title: "Gaming",
+      title: "Karthik Murali",
       icon: creator,
     },
     {
-      title: "Coding Competition",
+      title: "Ninu",
       icon: mobile,
     },
     {
-      title: "Capture The Flag",
+      title: "Prince",
       icon: backend,
     },
     {
-      title: "Gaming",
+      title: "Rex",
       icon: creator,
     },
+    {
+      title: "Tasleem",
+      icon: creator,
+    },
+    {
+      title: "Anil",
+      icon: creator,
+    },
+    {
+      title: "Franics Alexander",
+      icon: creator,
+    },
+    {
+      title: "Jaison",
+      icon: creator,
+    },
+    {
+      title: "Jithu",
+      icon: creator,
+    },
+    {
+      title: "Nishad Hameed",
+      icon: creator,
+    },
+    {
+      title: "Athul Jacob",
+      icon: creator,
+    },
+    {
+      title: "Nirmal Mtech",
+      icon: creator,
+    },
+    {
+      title: "Anil",
+      icon: creator,
+    },
+    {
+      title: "Rintumol",
+      icon: creator,
+    },
+    
   ];
   
   const technologies = [
@@ -135,67 +181,66 @@ import {
   const experiences = [
     {
       title: "EvolvHack '23",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "23-24 April 2023, 2 PM - 2 PM",
+      company_name: "Event Coordinators",
+      icon: hack,
+      iconBg: "#fff",
+      date: "24 April 2023",
       points: [
-        "Team event with teams of 2-4 members",
-        "Problem statements will not be provided to the participants.",
-        "Participants are expected to identify problems and come up with practical solutions.",
-        "Participants are then expected to build a working prototype of their solutions by the end of the event.",
+        "Anandu Sunil - 8590159583",
+        "Febin K Dominic - 9495505782",
+        // "Participants are expected to identify problems and come up with practical solutions.",
+        // "Participants are then expected to build a working prototype of their solutions by the end of the event.",
         
       ],
     },
     {
       title: "Capture The Flag",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      company_name: "Event Coordinators",
+      icon: flag,
+      iconBg: "#fff",
       date: "24 April 2023, 9 AM",
       points: [
-        "Team event with teams of 2-4 members",
-        "Will be conducted in two phases where the first round will be a 24-hour online CTF and the final round being a 7-hour offline CTF",
-        "Contestants will be tasked with solving a series of cybersecurity challenges in a given amount of time ",
-        "The challenges could be related to cryptography, steganography, web application security, network security, digital forensics, and other related domains.",
+        "Jonat J - 9654352870",
+        "Meghana S - 8547427115",
+        // "Contestants will be tasked with solving a series of cybersecurity challenges in a given amount of time ",
+        // "The challenges could be related to cryptography, steganography, web application security, network security, digital forensics, and other related domains.",
       ],
     },
     {
-      title: "Coding Competition",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
+      title: "Code Quest",
+      company_name: "Event Coordinators",
+      icon: trail,
+      iconBg: "#fff",
       date: "24 April 2023, 9 AM",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Nikhil Prakash - 6282409303",
+        "Joel C Raju - 8750940057",
+        // "Implementing responsive design and ensuring cross-browser compatibility.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Triathon",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      title: "Triathlon",
+      company_name: "Event Coordinators",
+      icon: triathon,
+      iconBg: "#fff",
       date: "24 April 2023, 9:30 AM",
       points: [
-        "Team event with atmost 2 members.",
-        "Will contain three challenges with each challenge having a set of tasks or questions to be solved",
-        "Teams scoring above the cutoff in each challenge will move on to the subsequent challenge",
+        "Antony Thomas - 9496615892",
+        "Akhil P Dominic - 6235136689",
+        // "Teams scoring above the cutoff in each challenge will move on to the subsequent challenge",
         
       ],
     },
     {
       title: "Gaming",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      company_name: "Event Coordinators",
+      icon: controller,
+      iconBg: "#fff",
       date: "24 April 2023, 9 AM",
       points: [
-        "CSGO Tournament: Participants can form teams of 5 and are put in brackets wherein which the winners of the bracket will play a final match to win the tournament.",
-        "FIFA 23 Tournament: Individuals can compete in knockout matches to try and win the final cash prize",
-      
+        "Joel Abraham - 9544357926",
+        "Hari K - 9633234578",
       ],
     },
   ];
@@ -271,20 +316,20 @@ import {
       source_code_link: "/ctf",
     },
     {
-      name: "Coding Competition",
+      name: "Code Quest",
       description:
-        "An individual competition where the contestant will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
+        "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
       tags: [
         {
-          name: "nextjs",
+          name: "coding",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "programming",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "problems",
           color: "pink-text-gradient",
         },
       ],
@@ -292,20 +337,20 @@ import {
       source_code_link: "/codingcompetition",
     },
     {
-      name: "Triathon",
+      name: "Triathlon",
       description:
         "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
       tags: [
         {
-          name: "react",
+          name: "triathlon",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "coding",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "programming",
           color: "pink-text-gradient",
         },
       ],
@@ -318,7 +363,7 @@ import {
         "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
       tags: [
         {
-          name: "Video Games",
+          name: "VideoGames",
           color: "blue-text-gradient",
         },
         {

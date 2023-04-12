@@ -31,7 +31,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     try{
-    const response = await fetch("http://localhost:6000/send/remark", {
+    const response = await fetch("http://localhost:3000/send/remark", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -105,7 +105,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Message sent" : "Send"}
           </button>
         </form>
       </motion.div>

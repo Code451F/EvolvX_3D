@@ -32,6 +32,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import controller from "./controller.png";
+import flag from "./flag.png";
+import triathon from "./triathon.png";
+import trail from "./trail.png"
+import hack from "./hack.png"
+
 export {
   logo_nbg,
   logo,
@@ -62,4 +68,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  controller,
+  flag,
+  triathon,
+  trail,
+  hack,
 };

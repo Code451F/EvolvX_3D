@@ -1,11 +1,13 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import ImageGallery from 'react-image-gallery';
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+
 
 const FeedbackCard = ({
   index,
@@ -45,14 +47,28 @@ const FeedbackCard = ({
 );
 
 const Gallery = () => {
+  // const images = [
+  //   {
+  //     original: ff14,
+      
+  //   },
+  //   {
+  //     original: ff14,
+      
+  //   },
+  //   {
+  //     original: ff14,
+      
+  //   },
+  // ]
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>A few famous words from the pioneers</p>
-          <h2 className={styles.sectionHeadText_exe}>Testimonials</h2>
+          <p className={styles.sectionSubText}>A few images of our department</p>
+          <h2 className={styles.sectionHeadText_exe}>Gallery</h2>
         </motion.div>
       </div>
       <div className={`-mt-24 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
@@ -60,6 +76,9 @@ const Gallery = () => {
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
+      {/* <div className="flex flex-col">
+      <ImageGallery items={images} />
+      </div> */}
     </div>
   );
 };

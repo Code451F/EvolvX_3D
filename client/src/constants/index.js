@@ -208,16 +208,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "EvolvHack",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "EvolveHack '23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering,Kanjirappally, Kerala, India during April 23-24.",
       tags: [
         {
-          name: "react",
+          name: "Hack-a-thon",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "24HRS",
           color: "green-text-gradient",
         },
         {
@@ -226,10 +226,10 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "/evolvhack",
     },
     {
-      name: "Job IT",
+      name: "Caputre The Flag",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -250,7 +250,7 @@ import {
       source_code_link: "/ctf",
     },
     {
-      name: "Trip Guide",
+      name: "Coding Competition",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -268,6 +268,48 @@ import {
         },
       ],
       image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Triathon",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Gaming",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
       source_code_link: "https://github.com/",
     },
   ];

@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const CtfReg = () => {
+  
   return (
-    <div>CtfReg</div>
+   <div>lefsf</div>
   )
 }
+
 
 export default CtfReg

@@ -27,42 +27,29 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  async function handleSubmit(e) {
     e.preventDefault();
     setLoading(true);
-
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "Code451F",
-          from_email: form.email,
-          to_email: "chetanmanoj2001@gmail.com",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you for contacting us. We will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, Something went wrong. Please try again.");
-        }
-      );
+    try{
+    const response = await fetch("http://localhost:3000/send/remark", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name:form.name,
+        email:form.email,
+        message:form.message,
+      }),
+    });
+    const data = await response.json();
+    console.log(data)
+  }
+  catch(err){
+    console.log(err)
+  }
   };
+  
 
   return (
     <div
@@ -118,7 +105,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? "Message sent" : "Send"}
           </button>
         </form>
       </motion.div>

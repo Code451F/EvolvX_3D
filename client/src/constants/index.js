@@ -1,9 +1,5 @@
 import React from "react";
 
-
-// import { Evolvhack,Ctf, Gaming, Triathon, Codingcomp } from "../pages";
-// import { EvolvhackReg, CtfReg, GamingReg, TriathonReg, CodingcompReg } from "../pages/registration";
-
 import {
     mobile,
     backend,
@@ -126,37 +122,38 @@ import {
   
   const experiences = [
     {
-      title: "EvolvX",
+      title: "EvolvHack '23",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "23-24 April 2023, 2 PM - 2 PM",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Team event with teams of 2-4 members",
+        "Problem statements will not be provided to the participants.",
+        "Participants are expected to identify problems and come up with practical solutions.",
+        "Participants are then expected to build a working prototype of their solutions by the end of the event.",
+        
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Capture The Flag",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "24 April 2023, 9 AM",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Team event with teams of 2-4 members",
+        "Will be conducted in two phases where the first round will be a 24-hour online CTF and the final round being a 7-hour offline CTF",
+        "Contestants will be tasked with solving a series of cybersecurity challenges in a given amount of time ",
+        "The challenges could be related to cryptography, steganography, web application security, network security, digital forensics, and other related domains.",
       ],
     },
     {
-      title: "Web Developer",
+      title: "Coding Competition",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "24 April 2023, 9 AM",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -165,16 +162,28 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Triathon",
       company_name: "Meta",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "24 April 2023, 9:30 AM",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Team event with atmost 2 members.",
+        "Will contain three challenges with each challenge having a set of tasks or questions to be solved",
+        "Teams scoring above the cutoff in each challenge will move on to the subsequent challenge",
+        
+      ],
+    },
+    {
+      title: "Gaming",
+      company_name: "Meta",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "24 April 2023, 9 AM",
+      points: [
+        "CSGO Tournament: Participants can form teams of 5 and are put in brackets wherein which the winners of the bracket will play a final match to win the tournament.",
+        "FIFA 23 Tournament: Individuals can compete in knockout matches to try and win the final cash prize",
+      
       ],
     },
   ];
@@ -210,7 +219,7 @@ import {
     {
       name: "EvolvHack",
       description:
-        "EvolveHack '23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering,Kanjirappally, Kerala, India during April 23-24.",
+        "EvolveHack '23 is a 24-hour open hackathon for university students. Teams of 2-4 members can participate in this hackathon where the participants are expected to identify any problem of their liking and come up with practical solutions of their own.",
       tags: [
         {
           name: "Hack-a-thon",
@@ -229,9 +238,9 @@ import {
       source_code_link: "/evolvhack",
     },
     {
-      name: "Caputre The Flag",
+      name: "Capture The Flag",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
       tags: [
         {
           name: "react",
@@ -252,7 +261,7 @@ import {
     {
       name: "Coding Competition",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An individual competition where the contestant will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
       tags: [
         {
           name: "nextjs",
@@ -268,12 +277,12 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "/codingcompetition",
     },
     {
       name: "Triathon",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
       tags: [
         {
           name: "react",
@@ -289,28 +298,28 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "/triathon",
     },
     {
       name: "Gaming",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
       tags: [
         {
-          name: "react",
+          name: "Video Games",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSGO",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "FIFA 23",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "/gaming",
     },
   ];
   

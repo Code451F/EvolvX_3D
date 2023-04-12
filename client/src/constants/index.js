@@ -63,6 +63,18 @@ import {
       title: "Gaming",
       icon: creator,
     },
+    {
+      title: "Coding Competition",
+      icon: mobile,
+    },
+    {
+      title: "Capture The Flag",
+      icon: backend,
+    },
+    {
+      title: "Gaming",
+      icon: creator,
+    },
   ];
   
   const technologies = [
@@ -230,7 +242,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Hack4AJCE",
           color: "pink-text-gradient",
         },
       ],
@@ -243,15 +255,15 @@ import {
         "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
       tags: [
         {
-          name: "react",
+          name: "CTF",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CEH",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "capturetheflag",
           color: "pink-text-gradient",
         },
       ],

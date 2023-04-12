@@ -27,7 +27,7 @@ const Evolvhack = () => {
           className={'flex flex-col bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00] text-center mb-20 mt-10 w-3/4'}
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
-          <h3 className={styles.sectionHeadText}>What is <span className='text-[#ffffff]'>Evolv</span>Hack 2023?</h3>
+          <h3 className={styles.sectionHeadText}>What is <span className='text-[#ffffff]'>Evolv</span>Hackathon 2023?</h3>
         </motion.div>
         <StarsCanvas/>
       </div>

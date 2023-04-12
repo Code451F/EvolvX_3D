@@ -1,51 +1,52 @@
 import { motion } from "framer-motion";
-
+import React, { useRef, useState } from "react";
 import { styles } from "../styles";
-import { ComputersCanvas } from "../components/canvas";
+import { slideIn } from "../utils/motion";
+
+import { StarsCanvas } from "../components";
 
 const Evolvhack = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto bg-primary`}>
-      <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-      >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#fe8e00]' />
-          <div className='w-1 sm:h-80 h-40 orange-line-gradient' />
-        </div>
-
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Azure<span className='text-[#fe8e00]'>'23</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            The Tech Fest of the Century <br className='sm:block hidden' />
-            Come join us @Amal Jyothi
-          </p>
-        </div>
-      </div>
-
-      <ComputersCanvas />
-
-      {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
-            />
+    <div>
+      <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
+        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center content-center items-center mb-20`}>
+          <div className="justify-center content-center items-center">
+            <h1 className={`${styles.heroHeadText} text-white text-center`}>
+              Evolv<span className='text-[#fe8e00]'>Hack</span>
+            </h1>
           </div>
-        </a>
-      </div> */}
-    </section>
+        </div>
+      </div> 
+
+      <div className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary relative w-full h-screen relative z-0`}>
+        <motion.div
+          variants={slideIn("left", "tween", 0.2, 1)}
+          // initial={{ x: "-100%" }}
+          // animate={{ x: 0 }}
+          // transition={{ duration: 0.5 }}
+          className={'flex flex-col bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00] text-center mb-20 mt-10 w-3/4'}
+        >
+          <p className={styles.sectionSubText}>Guidelines and Regulation</p>
+          <h3 className={styles.sectionHeadText}>What is <span className='text-[#ffffff]'>Evolv</span>Hack 2023?</h3>
+        </motion.div>
+        <StarsCanvas/>
+      </div>
+    </div> 
   );
 };
 
 export default Evolvhack;
+
+{/* <button
+type='submit'
+className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+>
+{loading ? "Sending..." : "Send"}
+</button> */}
+
+{/* <div className='relative z-0'>
+<Contact />
+<StarsCanvas />
+</div> */}
+
+// xl:bg-transparent

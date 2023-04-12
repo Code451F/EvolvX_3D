@@ -10,7 +10,7 @@ const Compile = () => {
           </div>
           <About />
           <Experience />
-          <Tech />
+          {/* <Tech /> */}
           <Works />
           <Gallery/>
           <Feedbacks />

@@ -334,7 +334,7 @@ const projects = [
         },
       ],
       image: csgo,
-      source_code_link: "/gaming",
+      source_code_link: "/gaming/csgo",
     },
     {
       name: "FIFA23",
@@ -355,7 +355,7 @@ const projects = [
         },
       ],
       image: fifa,
-      source_code_link: "/gaming",
+      source_code_link: "/gaming/fifa",
     },
   ];
 

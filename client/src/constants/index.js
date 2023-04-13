@@ -24,6 +24,9 @@ import {
     carrent,
     jobit,
     tripguide,
+    triathlon,
+    csgo,
+    fifa,
     threejs,
     controller,
     flag,
@@ -242,7 +245,7 @@ import {
       source_code_link: "/evolvhack",
     },
     {
-      name: "CAPTURE THE FLAG",
+      name: "ARCHON CTF",
       description:
         "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
       tags: [
@@ -301,11 +304,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: triathlon,
       source_code_link: "/triathon",
     },
     {
-      name: "GAMING",
+      name: "CSGO",
       description:
         "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
       tags: [
@@ -322,7 +325,28 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: csgo,
+      source_code_link: "/gaming",
+    },
+    {
+      name: "FIFA23",
+      description:
+        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+      tags: [
+        {
+          name: "VideoGames",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSGO",
+          color: "green-text-gradient",
+        },
+        {
+          name: "FIFA 23",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fifa,
       source_code_link: "/gaming",
     },
   ];

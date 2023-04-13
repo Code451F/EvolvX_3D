@@ -31,6 +31,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import triathlon from "./Triathlon.png";
+import csgo from "./csgo.png";
+import fifa from "./fifa.png";
 
 import controller from "./controller.png";
 import flag from "./flag.png";
@@ -68,6 +71,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  triathlon,
+  csgo,
+  fifa,
   controller,
   flag,
   triathon,

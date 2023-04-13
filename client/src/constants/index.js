@@ -38,6 +38,14 @@ import {
   tiara,
   eatkochieat,
   waytonikah,
+  alan,
+  anandu,
+  anson,
+  joyal,
+  juby,
+  klal,
+  riya,
+  sharon
 } from "../assets";
 
 export const navLinks = [
@@ -137,39 +145,72 @@ const other_sponsors = [
   }
 ];
 
-const HOD = [
+const main = [
   {
     name: "Dr. Juby Mathew",
-    image: "",
-    designation: "HOD"
-  }
-]
-
-const klal = [
+    image: juby,
+    designation: "HoD"
+  },
   {
     name: "Mr. Krishnalal G",
-    image: "",
-    designation: "Associate Coordinator"
+    image: klal,
+    designation: "CSE Association In-charge"
   }
 ]
 
 const main_coords = [
   {
     name: "Sharon Thomas",
-    image: "",
+    image: sharon,
     designation: "President"
   },
   {
     name: "Anson Benny",
-    image: "",
+    image: anson,
     designation: "Secretary",
   },
   {
     name: "Joyal Joby",
-    image: "",
+    image: joyal,
     designation: "Treasurer"
   }
 
+]
+
+const coords = [
+  {
+    name: "Alan James",
+    image: alan,
+    designation: "Coordinator",
+  },
+  {
+    name: "Anandu Sunil",
+    image: anandu,
+    designation: "Coordinator",
+  },
+  {
+    name: "Riya Maria Jose",
+    image: riya,
+    designation: "Coordinator"
+  }
+]
+
+const web_team = [
+  {
+    name: "Asif Shereef",
+    image: "",
+    designation: "Frontend Master"
+  },
+  {
+    name: "Chetan Manoj",
+    image: "",
+    designation: "CSS King",
+  },
+  {
+    name: "Glen Pereira",
+    image: "",
+    designation: "Lord Fullstack"
+  }
 ]
 
 const technologies = [
@@ -498,5 +539,9 @@ export {
   projects,
   guidelines_EH,
   sponsors,
-  other_sponsors
+  other_sponsors,
+  main,
+  main_coords,
+  coords,
+  web_team
 };

@@ -138,7 +138,6 @@ import {
         "Febin K Dominic - 9495505782",
         // "Participants are expected to identify problems and come up with practical solutions.",
         // "Participants are then expected to build a working prototype of their solutions by the end of the event.",
-        
       ],
     },
     {
@@ -328,12 +327,9 @@ import {
     },
   ];
 
-  const guidelines = [
+  const guidelines_EH = [
     {
-      event_key: "EvolvHack",
-      sub_headings: [
-        {
-          description_start: `EvolveHack '23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering, 
+          description: `EvolveHack '23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering, 
                         Kanjirappally, Kerala, India during April 23-24. EvolveHack intends to find open-source solutions to relevant 
                         problems by bringing together passionate teams of developers and innovators together.
                         EvolveHack will be open to all university students across the country without any restrictions. This
@@ -373,8 +369,6 @@ import {
           description_end: `Last but not least, participants should have fun during the hackathon. The event is an opportunity to
                             showcase your skills, learn from others, and make new connections. Enjoy the experience!`
         },
-      ],
-    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, guidelines_EH };

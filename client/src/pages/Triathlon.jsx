@@ -179,4 +179,4 @@ const Triathlon = () => {
   );
 };
 
-export default Triathon;
+export default Triathlon;

@@ -12,7 +12,7 @@ const GamingFifa = () => {
   return (
     <div>
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center content-center items-center mb-20`}>
+        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
           <div className="justify-center content-center items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
               FIFA<span className='text-[#fe8e00]'>23</span>
@@ -21,7 +21,7 @@ const GamingFifa = () => {
         </div>
       </div> 
 
-      <div className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary relative w-full h-full relative z-0`}>
+      <div className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary w-full h-full relative z-0`}>
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
           initial={{ x: "-100%" }}
@@ -46,7 +46,7 @@ const GamingFifa = () => {
             <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            Confident in your FIFA skills? It’s time to put your hours of practice and playtime to the test. Prove your mettle in a series of 1v1 matches and outplay your opponents. Join us and compete to win money while having fun, and meet other likeminded individuals!
+            Confident in your FIFA skills? It's time to put your hours of practice and playtime to the test. Prove your mettle in a series of 1v1 matches and outplay your opponents. Join us and compete to win money while having fun, and meet other likeminded individuals!
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
@@ -87,7 +87,7 @@ const GamingFifa = () => {
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center content-center items-center mb-20`}>
+        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
           <div className="justify-center content-center items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
               EVOLV<span className='text-[#fe8e00]'>X</span>

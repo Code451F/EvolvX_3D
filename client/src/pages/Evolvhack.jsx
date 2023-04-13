@@ -10,16 +10,16 @@ const Evolvhack = () => {
   return (
     <div>
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center content-center items-center mb-20`}>
+        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
           <div className="justify-center content-center items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
-              EVOLV<span className='text-[#fe8e00]'>X</span>
+              EVOLV<span className='text-[#fe8e00]'>HACK</span> '23
             </h1>
           </div>
         </div>
       </div> 
 
-      <div className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary relative w-full h-full relative z-0`}>
+      <div className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary w-full h-full relative z-0`}>
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
           initial={{ x: "-100%" }}
@@ -28,7 +28,7 @@ const Evolvhack = () => {
           className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl xs:border-4 xs:border-[#ff8f00] xxs:border-transparent'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
-          <h3 className={styles.sectionHeadText}>EVOLV<span className='text-[#ffffff]'>HACK '23</span></h3>
+          <h3 className={styles.sectionHeadText}>EVOLV<span className='text-[#ffffff]'>HACK</span></h3>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               EvolvHack'23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering, Kanjirappally, Kerala, India during April 23-24. EvolvHack intends to find open-source solutions to relevant problems by bringing together passionate teams of developers and innovators together. This event will be open to all university students across the country without any restrictions. This is an exciting opportunity for students and innovators to network with their peers and industry experts as well as brainstorm new solutions to problems at an accelerated pace.
@@ -50,7 +50,7 @@ const Evolvhack = () => {
               Interested teams can register on our website by providing details such as team name, member names and email addresses. During registration, each team should come up with a unique solution to a problem statement of their choice. A screening will be conducted on these problem statements, and 10 teams will be invited to develop their solutions at our event. Only the selected teams are required to pay Rs 250 for each member of the team as registration fees.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
-          <ol className="text-left list-decimal pl-8 pr-4 text-justify">
+          <ol className="list-decimal pl-8 pr-4 text-justify">
             <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. The registration process may involve providing personal details, such as name, email address, and phone number. Participants are required to form a team of minimum two members and a maximum of four members. Each member of the team will be required to pay ₹250 as the registration fees.</li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must follow a code of conduct that outlines expected behavior during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>
             <li><span className="font-bold text-[#ffba61]">Problem Statement and Solution:</span> Teams are required to choose any relevant problem statement and come up with solutions to these problems. The problem should be a valid issue faced by the society and the solution must be realistic and practical. Both hardware and software solutions are welcome.</li>
@@ -92,10 +92,10 @@ const Evolvhack = () => {
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center content-center items-center mb-20`}>
+        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
           <div className="justify-center content-center items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
-              EVOLV<span className='text-[#fe8e00]'>HACK</span>
+              EVOLV<span className='text-[#fe8e00]'>X</span>
             </h1>
           </div>
         </div>

@@ -21,7 +21,7 @@ const ServiceCard = ({ index, title, icon, source_code_link }) => (
           scale: 1,
           speed: 450,
         }}
-        onClick={() => window.open(source_code_link, "_blank")}
+        onClick={() => window.open(source_code_link, "_self")}
         className='bg-primary rounded-[20px] py-5 px-12 min-h-[320px] flex justify-evenly items-center flex-col cursor-pointer'
       >
         <img

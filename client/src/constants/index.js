@@ -138,7 +138,6 @@ import {
         "Febin K Dominic - 9495505782",
         // "Participants are expected to identify problems and come up with practical solutions.",
         // "Participants are then expected to build a working prototype of their solutions by the end of the event.",
-        
       ],
     },
     {
@@ -327,5 +326,49 @@ import {
       source_code_link: "/gaming",
     },
   ];
+
+  const guidelines_EH = [
+    {
+          description: `EvolveHack '23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering, 
+                        Kanjirappally, Kerala, India during April 23-24. EvolveHack intends to find open-source solutions to relevant 
+                        problems by bringing together passionate teams of developers and innovators together.
+                        EvolveHack will be open to all university students across the country without any restrictions. This
+                        is an exciting opportunity for students and innovators to network with their peers and industry
+                        experts as well as brainstorm new solutions to problems at an accelerated pace.
+                        This is an open hackathon. Problem statements will not be provided to the participants. Participants
+                        are expected to identify problems and come up with practical solutions. Participants are then
+                        expected to build a working prototype of their solutions by the end of the event.
+                        All participants are required to strictly adhere to the following guidelines. Any failure to do the
+                        same will lead to immediate disqualification. Participants are expected to maintain the proper
+                        decorum that enriches the spirit of the hackathon.`,
+          points: [
+                    "Participants are required to form a team of minimum two members and a maximum of four members.",
+                    "Each member of the team will be required to pay ₹250 as the registration fees.",
+                    "The hackathon will be from 2:00 PM on Sunday, 23rd April till 2:00 PM on Monday, 24th April. All teams are expected to report at the venue by 1:00 PM on 23rd April at the latest. Members that fail to comply will be deemed disqualified.",
+                    "Participants should carry their college ID card and another government-issued ID card while entering the hackathon premises.",
+                    "This is an open hackathon. Teams can choose any problem statement and work on any solution. Both hardware and software solutions are welcome.",
+                    "Hack4AJCE is a special segment of EvolveHack '23. Participants will be asked to provide innovative solutions to problems faced by the college. Participants can refer to the problem statements on the website. Participants providing solutions to these problem statements will be give appropriate priority during valuation.",
+                    "Participants are expected to bring any equipment that they require to complete the solution. Participants should inform the volunteers beforehand if they require any other facilities.",
+                    "Participants should not roam around the campus during the hackathon hours.",
+                    "All participants must wear their event ID card visibly at all times. All participants should also carry their college ID card and should reproduce the same when asked.",
+                    "Participants are expected to keep the decorum of the event and maintain the spirit of the hackathon.",
+                    "Food and snacks will be provided for participants from Sunday 4:00 PM till Monday 2:00 PM. Nap-rooms will be provided for participants during the hackathon hours.",
+                    "The hackathon will be divided into two rounds:",
+                    "All solutions presented at the hackathon must be original and not infringe any third-party intellectual property rights. Participants should not use any copyrighted material without the owner's consent. We also require all solutions to be open-source and be freely available to all.",
+                    "Participants are encouraged to collaborate with other teams during the event. However, they should not sabotage or plagiarize other teams' work. Any unethical behaviour will result in disqualification.",
+                    "Participants should ensure their safety during the event. They should not indulge in any behaviour that can cause harm to themselves or others. If they notice any hazardous situation, they should inform the volunteers immediately.",
+                    "The winners will receive their awards during the Awards and Closure Ceremony at 4:00 PM on Monday.",
+                    "All participants are expected to clear out of the campus by Monday, 5:30 PM.",
+                    "Participants are also expected to respect volunteers and follow their instructions. Participants should approach volunteers for help and to resolve any doubts related to the event.",
+                    "Certificates will be provided to all participants. Participants must make sure to collect their certificates before they leave the campus unless specified.",
+                  ],
+          sub_points: [
+                        "A 24-hour hackathon round to develop and present the solution to mentors. The mentors will then select teams that qualify the minimum requirements for round 2.",
+                        "Qualified teams will be required to present their solution to an expert judging panel and will face questions from both the judges as well as the audience.",
+                      ],
+          description_end: `Last but not least, participants should have fun during the hackathon. The event is an opportunity to
+                            showcase your skills, learn from others, and make new connections. Enjoy the experience!`
+        },
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, guidelines_EH };

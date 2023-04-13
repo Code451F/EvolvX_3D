@@ -53,21 +53,21 @@ import {
   
   const services = [
     {
-      title: "Anju Mathew",
+      title:  "Sponsors",
       icon: web,
+      source_code_link:'/sponsors'
     },
     {
-      title: "Bobin Shaji",
+      title: "Team",
       icon: mobile,
+      source_code_link:'/team'
     },
     {
-      title: "Joesph",
+      title: "CSEA",
       icon: backend,
+      source_code_link:'/csea'
     },
-    {
-      title: "Joesph",
-      icon: backend,
-    },
+    
     
   ];
   
@@ -222,7 +222,7 @@ import {
   
   const projects = [
     {
-      name: "EvolvHack",
+      name: "EVOLVHACK",
       description:
         "EvolveHack '23 is a 24-hour open hackathon for university students. Teams of 2-4 members can participate in this hackathon where the participants are expected to identify any problem of their liking and come up with practical solutions of their own.",
       tags: [
@@ -243,7 +243,7 @@ import {
       source_code_link: "/evolvhack",
     },
     {
-      name: "Capture The Flag",
+      name: "CAPTURE THE FLAG",
       description:
         "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
       tags: [
@@ -264,7 +264,7 @@ import {
       source_code_link: "/ctf",
     },
     {
-      name: "Code Quest",
+      name: "CODE QUEST",
       description:
         "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
       tags: [
@@ -285,7 +285,7 @@ import {
       source_code_link: "/codingcompetition",
     },
     {
-      name: "Triathlon",
+      name: "TIRATHLON",
       description:
         "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
       tags: [
@@ -306,7 +306,7 @@ import {
       source_code_link: "/triathon",
     },
     {
-      name: "Gaming",
+      name: "GAMING",
       description:
         "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
       tags: [

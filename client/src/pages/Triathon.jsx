@@ -1,3 +1,4 @@
+
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -5,9 +6,11 @@ import { slideIn } from "../utils/motion";
 
 import { StarsCanvas } from "../components";
 
-const Triathon = () => {
+const Triathlon = () => {
   return (
     <div>
+
+
       <div
         className={
           "bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto"
@@ -27,11 +30,13 @@ const Triathon = () => {
       <div
         className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary relative w-full h-full relative z-0`}
       >
+
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
+
           className="flex-col text-center mb-5 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]"
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
@@ -153,6 +158,7 @@ const Triathon = () => {
           </button>
         </div>
       </div>
+
 
       <div
         className={

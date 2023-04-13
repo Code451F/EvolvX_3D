@@ -67,7 +67,7 @@ const Gallery = () => {
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>A few images of our department</p>
+          <p className={styles.sectionSubText}>A few images osdasdf our department</p>
           <h2 className={styles.sectionHeadText_exe}>Gallery</h2>
         </motion.div>
       </div>

@@ -25,7 +25,7 @@ const Evolvhack = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className='flex-col text-center mb-5 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]'
+          className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl xs:border-4 xs:border-[#ff8f00] xxs:border-transparent'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
           <h3 className={styles.sectionHeadText}>EVOLV<span className='text-[#ffffff]'>HACK '23</span></h3>

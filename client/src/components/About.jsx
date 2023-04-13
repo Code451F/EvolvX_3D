@@ -77,7 +77,7 @@ const ProjectCard = ({
 
 const About = () => {
   return (
-    <>
+    <div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText} >Introduction</p>
         <h2 className={styles.sectionHeadText}>What is EvolvX'23 ?</h2>
@@ -97,7 +97,7 @@ const About = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

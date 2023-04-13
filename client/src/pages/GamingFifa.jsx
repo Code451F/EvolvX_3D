@@ -34,8 +34,8 @@ const GamingFifa = () => {
 
 
 
-          <div className="flex flex-row pt-[35px] xxs:flex-col items-center">
-            <div className="w-[00px] xxs:w-[270px]">
+          <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
+            <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={fifa} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
                 <button
             type='submit'
@@ -43,7 +43,7 @@ const GamingFifa = () => {
           > REGISTER
           </button>
             </div>
-            <div className="pl-[50px] mt-4 pr-2 xxs:pl-0 ">
+            <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
             Confident in your FIFA skills? It’s time to put your hours of practice and playtime to the test. Prove your mettle in a series of 1v1 matches and outplay your opponents. Join us and compete to win money while having fun, and meet other likeminded individuals!

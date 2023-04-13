@@ -10,7 +10,7 @@ import { main, main_coords, coords, web_team } from "../constants";
 import { StarsCanvas } from "../components";
 
 const ServiceCard = ({ name, image, designation, index }) => (
-  <Tilt className="xs:w-[300px] w-full">
+  <Tilt className="xs:w-[280px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full orange-yellow-gradient p-[1px] rounded-[20px] shadow-card"
@@ -66,7 +66,7 @@ const Team = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="flex-col text-center mb-20 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]"
+          className="flex-col text-center mb-20 mt-10 w-10/12 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00] xxs:"
         >
           <h3 className={styles.sectionHeadText}>
             The <span className="text-[#ffffff]">Team</span>
@@ -86,6 +86,12 @@ const Team = () => {
 
           <div className="mt-20 flex flex-wrap justify-center gap-20">
             {coords.map((sponsor, index) => (
+              <ServiceCard key={sponsor.title} index={index} {...sponsor} />
+            ))}
+          </div>
+
+          <div className="mt-20 flex flex-wrap justify-center gap-20">
+            {web_team.map((sponsor, index) => (
               <ServiceCard key={sponsor.title} index={index} {...sponsor} />
             ))}
           </div>

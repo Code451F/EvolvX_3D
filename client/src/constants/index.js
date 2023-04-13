@@ -45,7 +45,10 @@ import {
   juby,
   klal,
   riya,
-  sharon
+  sharon,
+  asif,
+  chetan,
+  glen
 } from "../assets";
 
 export const navLinks = [
@@ -154,7 +157,7 @@ const main = [
   {
     name: "Mr. Krishnalal G",
     image: klal,
-    designation: "CSE Association In-charge"
+    designation: "FIC: CSEA"
   }
 ]
 
@@ -181,34 +184,34 @@ const coords = [
   {
     name: "Alan James",
     image: alan,
-    designation: "Coordinator",
+    designation: "EvolvX Coordinator",
   },
   {
     name: "Anandu Sunil",
     image: anandu,
-    designation: "Coordinator",
+    designation: "EvolvX Coordinator",
   },
   {
-    name: "Riya Maria Jose",
+    name: "Riya M Jose",
     image: riya,
-    designation: "Coordinator"
+    designation: "EvolvX Coordinator"
   }
 ]
 
 const web_team = [
   {
     name: "Asif Shereef",
-    image: "",
-    designation: "Frontend Master"
+    image: asif,
+    designation: "Master Frontend"
   },
   {
     name: "Chetan Manoj",
-    image: "",
-    designation: "CSS King",
+    image: chetan,
+    designation: "Darth CSS",
   },
   {
     name: "Glen Pereira",
-    image: "",
+    image: glen,
     designation: "Lord Fullstack"
   }
 ]

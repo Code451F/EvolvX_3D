@@ -1,5 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion } from "framer-motion";
+import { SectionWrapper } from "../hoc";
+import { styles } from '../styles';
 
 import data from './data.json';
 
@@ -51,11 +53,15 @@ const Carousel = () => {
 
   return (
     
-    <div className="carousel my-12 mx-auto w-10/12">
-      <p className='text-[18px] uppercase pb-[20px]'>Our recent events</p>
+    <div className="carousel my-12 mx-auto w-full">
+      <p className='text-[18px] uppercase pb-[20px]'>A few Images from our past events</p>
+      {/* <p className={styles.sectionSubText}>A few Images from our past events</p> */}
       <h2 className="text-[60px] leading-8 font-bold mb-12 text-[#ff8f00] tracking-wider]">
         Gallery
       </h2>
+      {/* <h2 className={styles.sectionHeadText}>
+        Gallery
+      </h2> */}
       <div className="relative overflow-hidden border-2 border-solid border-[#ff8f00] rounded-md">
         <div className="flex justify-between absolute top left w-full h-full">
           <button
@@ -140,4 +146,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default SectionWrapper(Carousel, "gallery");

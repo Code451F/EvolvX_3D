@@ -80,10 +80,6 @@ const sponsors = [
     event: "EvolvHack 1st Prize Sponsor",
     people: ["Mr. Anil P Jose", "Mr. Jose Zacharias", "Mrs. Nayana Lal"],
   },
-  {
-    title: "JB Labs",
-    
-  }
 ];
 
 const technologies = [

@@ -89,7 +89,7 @@ const About = () => {
       >
         EvolvX is an exciting hackathon that brings together some of the brightest minds in the tech industry to solve real-world problems. 
         The event is designed to foster collaboration and creativity, 
-        as participants work together to develop innovative solutions that can help change the world.
+        as participants work together to develop innovative solutions that can help change the world..
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-7 justify-center items-center'>

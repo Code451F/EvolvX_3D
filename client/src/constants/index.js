@@ -135,6 +135,41 @@ const other_sponsors = [
     name: ["Mrs. Rintu mol Joseph"],
     batch: "Batch of 2011"
   }
+];
+
+const HOD = [
+  {
+    name: "Dr. Juby Mathew",
+    image: "",
+    designation: "HOD"
+  }
+]
+
+const klal = [
+  {
+    name: "Mr. Krishnalal G",
+    image: "",
+    designation: "Associate Coordinator"
+  }
+]
+
+const main_coords = [
+  {
+    name: "Sharon Thomas",
+    image: "",
+    designation: "President"
+  },
+  {
+    name: "Anson Benny",
+    image: "",
+    designation: "Secretary",
+  },
+  {
+    name: "Joyal Joby",
+    image: "",
+    designation: "Treasurer"
+  }
+
 ]
 
 const technologies = [

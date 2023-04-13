@@ -38,10 +38,14 @@ import fifa from "./fifa.jpg";
 import controller from "./controller.png";
 import flag from "./flag.png";
 import triathon from "./triathon.png";
-import trail from "./trail.png"
-import hack from "./hack.png"
+import trail from "./trail.png";
+import hack from "./hack.png";
 
-import digiora from "./Digiora.png"
+import digiora from "./Digiora.png";
+import empty from "./empty.png";
+import tiara from "./tiara.png";
+import eatkochieat from "./eatkochieat.png";
+import waytonikah from "./waytonikah.png";
 
 export {
   logo_nbg,
@@ -81,5 +85,9 @@ export {
   triathon,
   trail,
   hack,
-  digiora
+  digiora,
+  empty,
+  tiara,
+  eatkochieat,
+  waytonikah,
 };

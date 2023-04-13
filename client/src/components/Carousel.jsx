@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
-import { styles } from '../styles';
 
 import data from './data.json';
 
@@ -145,5 +144,6 @@ const Carousel = () => {
     
   );
 };
+
 
 export default SectionWrapper(Carousel, "gallery");

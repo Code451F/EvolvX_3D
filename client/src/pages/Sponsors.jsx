@@ -1,24 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
-import { useRef, useState } from "react";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
-import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import { sponsors } from "../constants";
+import { sponsors, other_sponsors } from "../constants";
 
 import { StarsCanvas } from "../components";
 
-const ServiceCard = ({
-  index,
-  title,
-  icon,
-  people,
-  event,
-  source_code_link,
-}) => (
+const ServiceCard = ({ index, title, icon, people, batch}) => (
   <Tilt className="xs:w-[270px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -36,7 +27,7 @@ const ServiceCard = ({
         <img
           src={icon}
           alt="web-development"
-          className="w-100 h-100 object-contain"
+          className="w-90 h-100 object-contain"
         />
 
         <h3 className="text-white text-[24px] font-bold text-center">
@@ -49,7 +40,36 @@ const ServiceCard = ({
           ))}
         </h5>
 
-        <h4 className="text-white text-[20px] font-bold text-center">{event}</h4>
+        <h4 className="text-white text-[20px] font-bold text-center">
+          {batch}
+        </h4>
+      </div>
+    </motion.div>
+  </Tilt>
+);
+
+const ServiceCardOther = ({ index, name, batch }) => (
+  <Tilt className="xs:w-[300px] w-full">
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className="w-full orange-yellow-gradient p-[1px] rounded-[20px] shadow-card"
+    >
+      <div
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        // onClick={() => window.open(source_code_link, "_self")}
+        className="bg-primary rounded-[20px] py-5 px-12 min-h-[180px] flex justify-evenly items-center flex-col cursor-pointer"
+      >
+        <h3 className="text-white text-[20px] text-center">{name.map((person) => (
+            <ul>{person}</ul>
+          ))}</h3>
+
+        <h4 className="text-white text-[20px] font-bold text-center">
+          {batch}
+        </h4>
       </div>
     </motion.div>
   </Tilt>
@@ -75,7 +95,7 @@ const Sponsors = () => {
       </div>
 
       <div
-        className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary relative w-full h-screen relative z-0`}
+        className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary relative w-full h-full relative z-0`}
       >
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
@@ -91,6 +111,15 @@ const Sponsors = () => {
           <div className="mt-20 flex flex-wrap justify-center gap-20">
             {sponsors.map((sponsor, index) => (
               <ServiceCard key={sponsor.title} index={index} {...sponsor} />
+            ))}
+          </div>
+          <div className="mt-20 flex flex-wrap justify-center gap-20">
+            {other_sponsors.map((sponsor, index) => (
+              <ServiceCardOther
+                key={sponsor.title}
+                index={index}
+                {...sponsor}
+              />
             ))}
           </div>
         </motion.div>

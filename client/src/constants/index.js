@@ -34,6 +34,10 @@ import {
   hack,
   trail,
   digiora,
+  empty,
+  tiara,
+  eatkochieat,
+  waytonikah,
 } from "../assets";
 
 export const navLinks = [
@@ -77,10 +81,61 @@ const sponsors = [
   {
     title: "Digiora",
     icon: digiora,
-    event: "EvolvHack 1st Prize Sponsor",
     people: ["Mr. Anil P Jose", "Mr. Jose Zacharias", "Mrs. Nayana Lal"],
+    batch: "Batch of 2008",
+  },
+  {
+    title: "JB Labs",
+    icon: empty,
+    people: ["Mr. Ajo John"],
+    batch: "Batch of 2017",
+  },
+  {
+    title: "Eat Kochi Eat",
+    icon: eatkochieat,
+    people: ["Mr. Karthik M: Batch of 2012", "Mr. Bobin Shaji: Batch of 2017"],
+    batch: ""
+  },
+  {
+    title: "Way to Nikah",
+    icon: waytonikah,
+    people: ["Mrs. Tasleem T P"],
+    batch: "Batch of 2005"
+  },
+  {
+    title: "Tiara",
+    icon: tiara,
+    people: ["Mrs. Ninu Mary Joseph"],
+    batch: "Batch of 2005"
   },
 ];
+
+const other_sponsors = [
+  {
+    name: ["Mr. Joseph Jose", "Mr. Prince Kuriakose"],
+    batch: "Batch of 2009"
+  },
+  {
+    name: ["Mrs. Anju Mathew"],
+    batch: "Batch of 2017",
+  },
+  {
+    name: ["Mr. Rex Jovikom"],
+    batch: "Batch of 2021",
+  },
+  {
+    name: ["Mr. Jithu K"],
+    batch: "Batch of 2009",
+  },
+  {
+    name: ["Mrs. Liyan Grace Joseph"],
+    batch: "Batch of 2018 MTech",
+  },
+  {
+    name: ["Mrs. Rintu mol Joseph"],
+    batch: "Batch of 2011"
+  }
+]
 
 const technologies = [
   {
@@ -330,7 +385,7 @@ const projects = [
         },
       ],
       image: csgo,
-      source_code_link: "/gaming",
+      source_code_link: "/gaming/csgo",
     },
     {
       name: "FIFA23",
@@ -351,9 +406,10 @@ const projects = [
         },
       ],
       image: fifa,
-      source_code_link: "/gaming",
+      source_code_link: "/gaming/fifa",
     },
   ];
+
 
 const guidelines_EH = [
   {
@@ -407,4 +463,5 @@ export {
   projects,
   guidelines_EH,
   sponsors,
+  other_sponsors
 };

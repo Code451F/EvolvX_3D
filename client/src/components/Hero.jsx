@@ -25,7 +25,7 @@ const Hero = () => {
 
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Azure<span className="text-[#fe8e00]">'23</span>
+              AZURE<span className="text-[#fe8e00]">'23</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               The Tech Fest of the Century <br className="sm:block hidden" />

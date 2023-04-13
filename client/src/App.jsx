@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Compile from "./Compile";
-import { Evolvhack,Ctf, Gaming, Triathon, Codingcomp, Sponsors, Team, CSEA, GamingFifa  } from "./pages";
+import { Evolvhack,Ctf, Gaming, Triathlon, Codingcomp, Sponsors, Team, CSEA, GamingFifa  } from "./pages";
 import { EvolvhackReg, CtfReg, GamingReg, TriathonReg, CodingcompReg } from "./pages/registration";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
             <Route path='/codingcompetition' element={<Codingcomp/>}/>
             <Route path='/gaming/csgo' element={<Gaming/>}/>
             <Route path='/gaming/fifa' element={<GamingFifa/>}/>
-            <Route path='/triathon' element={<Triathon/>}/>
+            <Route path='/triathlon' element={<Triathlon/>}/>
           // Event registration
             <Route path='/evolvhack/registration' element={<EvolvhackReg/>}/>
             <Route path='/ctf/registration' element={<CtfReg/>}/>

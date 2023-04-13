@@ -346,7 +346,7 @@ const projects = [
       source_code_link: "/codingcompetition",
     },
     {
-      name: "TIRATHLON",
+      name: "TRIATHLON",
       description:
         "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
       tags: [
@@ -364,7 +364,7 @@ const projects = [
         },
       ],
       image: triathlon,
-      source_code_link: "/triathon",
+      source_code_link: "/triathlon",
     },
     {
       name: "CSGO",

@@ -6,6 +6,8 @@ import Triathon from "./Triathon";
 import Sponsors from "./Sponsors";
 import Team from "./Team";
 import CSEA from "./CSEA";
+import GamingFifa from "./GamingFifa";
+
 
 export {
   Evolvhack,
@@ -16,4 +18,5 @@ export {
   Sponsors,
   Team,
   CSEA,
+  GamingFifa
 }

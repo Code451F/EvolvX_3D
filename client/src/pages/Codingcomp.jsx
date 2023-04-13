@@ -6,6 +6,7 @@ import { slideIn } from "../utils/motion";
 import { StarsCanvas } from "../components";
 import { guidelines_EH } from "../constants";
 
+
 const Codingcomp = () => {
   return (
     <div>

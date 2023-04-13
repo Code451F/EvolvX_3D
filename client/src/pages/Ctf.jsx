@@ -10,16 +10,16 @@ const CTF = () => {
   return (
     <div>
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center content-center items-center mb-20`}>
+        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
           <div className="justify-center content-center items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
-              EVOLV<span className='text-[#fe8e00]'>X</span>
+              ARCHON<span className='text-[#fe8e00]'>CTF</span> '23
             </h1>
           </div>
         </div>
       </div> 
 
-      <div className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary relative w-full h-full relative z-0`}>
+      <div className={`xl:mt-0 flex xl:flex-col flex-col items-center overflow-hidden bg-primary w-full h-full relative z-0`}>
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
           initial={{ x: "-100%" }}
@@ -28,7 +28,7 @@ const CTF = () => {
           className='flex-col text-center mb-5 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
-          <h3 className={styles.sectionHeadText}>ARCHON<span className='text-[#ffffff]'>CTF '23</span></h3>
+          <h3 className={styles.sectionHeadText}>ARCHON<span className='text-[#ffffff]'>CTF</span></h3>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               This CTF event aims is to develop and bring out the skills among young students in the field of cybersecurity, and find interested and capable students who can excel in this field. We aim to provide these young talented students an opportunity to realize the full potential of their skills and take them to higher levels.
@@ -50,7 +50,7 @@ const CTF = () => {
               Interested teams can register on our website by providing details such as team name, member names, and email addresses. We are expecting to get around 50-60 Team Registrations for this event and the registration fee would be Rs 200 per team.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
-          <ol className="text-left list-decimal pl-8 pr-4 text-justify">
+          <ol className="list-decimal pl-8 pr-4 text-justify">
             <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. The registration process may involve providing personal details, such as name, email address, and phone number.</li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must follow a code of conduct that outlines expected behavior during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>
             <li><span className="font-bold text-[#ffba61]">Challenge format:</span> The challenges may be presented in a specific format, such as a list of questions, puzzles, or tasks that need to be completed in a specific order. Each challenge may have a point value based on its level of difficulty.</li>
@@ -86,10 +86,10 @@ const CTF = () => {
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 justify-center content-center items-center mb-20`}>
+        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
           <div className="justify-center content-center items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
-              ARCHON<span className='text-[#fe8e00]'>CTF</span>
+              EVOLV<span className='text-[#fe8e00]'>X</span>
             </h1>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -11,6 +11,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -56,7 +57,19 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
+// const PopUp = () => {
+//   return(
+//     <div>
+//       hello
+//     </div>
+//   )
+// }
+
 const Experience = () => {
+  // const [Showpopup, setShowpopup] = useState("");
+  // const handleClick = () => {
+  //   setShowpopup(true);
+  // }
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -75,8 +88,12 @@ const Experience = () => {
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
+              // onClick = {handleClick}
+              
             />
+              
           ))}
+          {/* {Showpopup && <PopUp />} */}
         </VerticalTimeline>
       </div>
     </>

@@ -28,12 +28,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import triathlon from "./Triathlon.png";
-import csgo from "./csgo.png";
-import fifa from "./fifa.png";
+import hackathon from "./hackathon.jpg";
+import ctf from "./ctf.jpg";
+import treasurehunt from "./treasurehunt.jpg";
+import triathlon from "./triathlon.jpg";
+import csgo from "./csgo.jpg";
+import fifa from "./fifa.jpg";
 
 import controller from "./controller.png";
 import flag from "./flag.png";
@@ -70,9 +70,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  hackathon,
+  ctf,
+  treasurehunt,
   triathlon,
   csgo,
   fifa,

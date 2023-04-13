@@ -28,7 +28,7 @@ const CTF = () => {
           className='flex-col text-center mb-5 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
-          <h3 className={styles.sectionHeadText}>What is <span className='text-[#ffffff]'>Evolv</span>Hack 2023?</h3>
+          <h3 className={styles.sectionHeadText}>What is <span className='text-[#ffffff]'>Archon</span>CTF 2023?</h3>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               This CTF event aims is to develop and bring out the skills among young students in the field of cybersecurity, and find interested and capable students who can excel in this field. We aim to provide these young talented students an opportunity to realize the full potential of their skills and take them to higher levels.

@@ -56,6 +56,10 @@ import klal from "./klal.jpg"
 import riya from "./riya.jpg"
 import sharon from "./sharon.jpg"
 
+import asif from "./asif.jpg"
+import chetan from "./chetan.jpg"
+import glen from "./glen.jpg"
+
 export {
   logo_nbg,
   logo,
@@ -106,5 +110,8 @@ export {
   juby,
   klal,
   riya,
-  sharon
+  sharon,
+  asif,
+  chetan,
+  glen
 };

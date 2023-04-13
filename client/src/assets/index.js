@@ -41,6 +41,8 @@ import triathon from "./triathon.png";
 import trail from "./trail.png"
 import hack from "./hack.png"
 
+import digiora from "./Digiora.png"
+
 export {
   logo_nbg,
   logo,
@@ -79,4 +81,5 @@ export {
   triathon,
   trail,
   hack,
+  digiora
 };

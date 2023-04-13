@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { motion } from "framer-motion";
 
 import data from './data.json';
 
@@ -49,15 +50,17 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="carousel my-12 mx-auto">
-      <h2 className="text-4xl leading-8 font-semibold mb-12 text-slate-700">
+    
+    <div className="carousel my-12 mx-auto w-10/12">
+      <p className='text-[18px] uppercase pb-[20px]'>Our recent events</p>
+      <h2 className="text-[60px] leading-8 font-bold mb-12 text-[#ff8f00] tracking-wider]">
         Gallery
       </h2>
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden border-2 border-solid border-[#ff8f00] rounded-md">
         <div className="flex justify-between absolute top left w-full h-full">
           <button
             onClick={movePrev}
-            className="hover:bg-blue-900/75 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+            className="hover:bg-[#ff8f00]/60 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
             disabled={isDisabled('prev')}
           >
             <svg
@@ -78,7 +81,7 @@ const Carousel = () => {
           </button>
           <button
             onClick={moveNext}
-            className="hover:bg-blue-900/75 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+            className="hover:bg-[#ff8f00]/60 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
             disabled={isDisabled('next')}
           >
             <svg
@@ -133,6 +136,7 @@ const Carousel = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

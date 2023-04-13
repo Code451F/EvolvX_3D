@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import { sponsors, other_sponsors } from "../constants";
+import { main, main_coords, coords, web_team } from "../constants";
 
 import { StarsCanvas } from "../components";
 
-const ServiceCard = ({ index, title, icon, people, batch}) => (
-  <Tilt className="xs:w-[270px] w-full">
+const ServiceCard = ({ name, image, designation, index }) => (
+  <Tilt className="xs:w-[300px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full orange-yellow-gradient p-[1px] rounded-[20px] shadow-card"
@@ -25,23 +25,15 @@ const ServiceCard = ({ index, title, icon, people, batch}) => (
         className="bg-primary rounded-[20px] py-5 px-12 min-h-[320px] flex justify-evenly items-center flex-col cursor-pointer"
       >
         <img
-          src={icon}
+          src={image}
           alt="web-development"
-          className="w-100 h-100 object-contain"
+          className="w-100 h-100 object-contain rounded-[100px]"
         />
 
-        <h3 className="text-white text-[24px] font-bold text-center">
-          {title}
-        </h3>
+        <h3 className="text-white text-[24px] font-bold text-center">{name}</h3>
 
-        <h5 className="text-white text-[18px] text-center">
-          {people.map((person) => (
-            <ul>{person}</ul>
-          ))}
-        </h5>
-
-        <h4 className="text-white text-[20px] font-bold text-center">
-          {batch}
+        <h4 className="text-white text-[20px] text-center">
+          {designation}
         </h4>
       </div>
     </motion.div>
@@ -82,16 +74,27 @@ const Team = () => {
           </h3>
 
           <div className="mt-20 flex flex-wrap justify-center gap-20">
-            {sponsors.map((sponsor, index) => (
+            {main.map((sponsor, index) => (
               <ServiceCard key={sponsor.title} index={index} {...sponsor} />
             ))}
           </div>
 
+          <div className="mt-20 flex flex-wrap justify-center gap-20">
+            {main_coords.map((sponsor, index) => (
+              <ServiceCard key={sponsor.title} index={index} {...sponsor} />
+            ))}
+          </div>
+
+          <div className="mt-20 flex flex-wrap justify-center gap-20">
+            {coords.map((sponsor, index) => (
+              <ServiceCard key={sponsor.title} index={index} {...sponsor} />
+            ))}
+          </div>
         </motion.div>
         <StarsCanvas />
       </div>
     </div>
   );
-}
+};
 
-export default Team
+export default Team;

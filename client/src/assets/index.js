@@ -47,6 +47,15 @@ import tiara from "./tiara.png";
 import eatkochieat from "./eatkochieat.png";
 import waytonikah from "./waytonikah.png";
 
+import alan from "./alan.jpg"
+import anandu from "./anandu.jpg"
+import anson from './anson.jpg'
+import joyal from "./joyal.jpg"
+import juby from "./juby.jpg"
+import klal from "./klal.jpg"
+import riya from "./riya.jpg"
+import sharon from "./sharon.jpg"
+
 export {
   logo_nbg,
   logo,
@@ -90,4 +99,12 @@ export {
   tiara,
   eatkochieat,
   waytonikah,
+  alan,
+  anandu,
+  anson,
+  joyal,
+  juby,
+  klal,
+  riya,
+  sharon
 };

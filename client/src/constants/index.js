@@ -228,112 +228,133 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "EVOLVHACK",
-    description:
-      "EvolveHack '23 is a 24-hour open hackathon for university students. Teams of 2-4 members can participate in this hackathon where the participants are expected to identify any problem of their liking and come up with practical solutions of their own.",
-    tags: [
-      {
-        name: "Hack-a-thon",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "24HRS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Hack4AJCE",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "/evolvhack",
-  },
-  {
-    name: "CAPTURE THE FLAG",
-    description:
-      "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
-    tags: [
-      {
-        name: "CTF",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CEH",
-        color: "green-text-gradient",
-      },
-      {
-        name: "capturetheflag",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "/ctf",
-  },
-  {
-    name: "CODE QUEST",
-    description:
-      "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
-    tags: [
-      {
-        name: "coding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "programming",
-        color: "green-text-gradient",
-      },
-      {
-        name: "problems",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "/codingcompetition",
-  },
-  {
-    name: "TIRATHLON",
-    description:
-      "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
-    tags: [
-      {
-        name: "triathlon",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "coding",
-        color: "green-text-gradient",
-      },
-      {
-        name: "programming",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "/triathon",
-  },
-  {
-    name: "GAMING",
-    description:
-      "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
-    tags: [
-      {
-        name: "VideoGames",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSGO",
-        color: "green-text-gradient",
-      },
-      {
-        name: "FIFA 23",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "/gaming",
-  },
-];
+    {
+      name: "EVOLVHACK",
+      description:
+        "EvolveHack '23 is a 24-hour open hackathon for university students. Teams of 2-4 members can participate in this hackathon where the participants are expected to identify any problem of their liking and come up with practical solutions of their own.",
+      tags: [
+        {
+          name: "Hack-a-thon",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "24HRS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Hack4AJCE",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "/evolvhack",
+    },
+    {
+      name: "ARCHON CTF",
+      description:
+        "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
+      tags: [
+        {
+          name: "CTF",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CEH",
+          color: "green-text-gradient",
+        },
+        {
+          name: "capturetheflag",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "/ctf",
+    },
+    {
+      name: "CODE QUEST",
+      description:
+        "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
+      tags: [
+        {
+          name: "coding",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "programming",
+          color: "green-text-gradient",
+        },
+        {
+          name: "problems",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "/codingcompetition",
+    },
+    {
+      name: "TIRATHLON",
+      description:
+        "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
+      tags: [
+        {
+          name: "triathlon",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "coding",
+          color: "green-text-gradient",
+        },
+        {
+          name: "programming",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: triathlon,
+      source_code_link: "/triathon",
+    },
+    {
+      name: "CSGO",
+      description:
+        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+      tags: [
+        {
+          name: "VideoGames",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSGO",
+          color: "green-text-gradient",
+        },
+        {
+          name: "FIFA 23",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: csgo,
+      source_code_link: "/gaming",
+    },
+    {
+      name: "FIFA23",
+      description:
+        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+      tags: [
+        {
+          name: "VideoGames",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSGO",
+          color: "green-text-gradient",
+        },
+        {
+          name: "FIFA 23",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fifa,
+      source_code_link: "/gaming",
+    },
+  ];
 
 const guidelines_EH = [
   {

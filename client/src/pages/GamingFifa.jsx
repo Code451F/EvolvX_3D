@@ -27,20 +27,23 @@ const GamingFifa = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className='flex-col text-center mb-5 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]'
+          className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl xs:border-4 xs:border-[#ff8f00] xxs:border-transparent'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
           <h3 className={styles.sectionHeadText}>FIFA23 <span className='text-[#ffffff]'>TOURNAMENT</span></h3>
-          <div className="flex flex-row pt-[35px] ">
-            <div className="w-[700px]">
-                <img src={fifa} className="border-4 border-[#ff8f00] rounded-xl mt-[15px]"></img>
+
+
+
+          <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
+            <div className="xl:w-[600px] xxs:w-[270px]">
+                <img src={fifa} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
                 <button
             type='submit'
             className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
           > REGISTER
           </button>
             </div>
-            <div className="pl-[50px] mt-4 pr-2 ">
+            <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
             Confident in your FIFA skills? It’s time to put your hours of practice and playtime to the test. Prove your mettle in a series of 1v1 matches and outplay your opponents. Join us and compete to win money while having fun, and meet other likeminded individuals!

@@ -53,7 +53,7 @@ const Carousel = () => {
   return (
     
     <div className="carousel my-12 mx-auto w-full">
-      <p className='text-[18px] uppercase pb-[20px]'>A few Images from our past events</p>
+      <p className='text-[18px] uppercase pb-[20px]'>A few moments and memories from our past events</p>
       {/* <p className={styles.sectionSubText}>A few Images from our past events</p> */}
       <h2 className="text-[60px] leading-8 font-bold mb-12 text-[#ff8f00] tracking-wider]">
         Gallery
@@ -114,19 +114,22 @@ const Carousel = () => {
             return (
               <div
                 key={index}
-                className="carousel-item text-center relative w-64 h-64 snap-start"
+                className="carousel-item relative w-72 h-[200px] py-2 snap-start"
               >
+                {/* <div className='bg-red-100 object-contain'> */}
                 <a
                   // href={resource.link}
-                  className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
+                  className="h-full w-full flex aspect-video  bg-left-top bg-contain bg-no-repeat"
+                  // className='flex justify-center aspect-square object-contain'
                   style={{ backgroundImage: `url(${resource.imageUrl || ''})` }}
                 >
-                  <img
+                  {/* <img
                     src={resource.imageUrl || ''}
                     alt={resource.title}
-                    className="w-full aspect-square hidden"
-                  />
+                    className="hidden"
+                  /> */}
                 </a>
+                {/* </div> */}
                 {/* <a
                   // href={resource.link}
                   className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-blue-800/75 z-10"

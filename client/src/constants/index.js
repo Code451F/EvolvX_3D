@@ -376,11 +376,11 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
-          name: "CSGO",
+          name: "FPS",
           color: "green-text-gradient",
         },
         {
-          name: "FIFA 23",
+          name: "shooter",
           color: "pink-text-gradient",
         },
       ],
@@ -397,7 +397,7 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
-          name: "CSGO",
+          name: "Football",
           color: "green-text-gradient",
         },
         {

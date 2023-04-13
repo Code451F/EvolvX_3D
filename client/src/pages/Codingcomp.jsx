@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import React, { useRef, useState } from "react";
+import React from "react";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 
 import { StarsCanvas } from "../components";
-import { guidelines_EH } from "../constants";
+import codequest from '../assets/treasurehunt.jpg';
 
 
 const Codingcomp = () => {
@@ -26,10 +26,20 @@ const Codingcomp = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className='flex-col text-center mb-5 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]'
+          className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl border-4 xs:border-[#ff8f00] xxs:border-transparent'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
           <h3 className={styles.sectionHeadText}>CODE<span className='text-[#ffffff]'>QUEST</span></h3>
+          <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
+            <div className="xl:w-[600px] xxs:w-[270px]">
+                <img src={codequest} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
+                <button
+            type='submit'
+            className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
+          > REGISTER
+          </button>
+            </div>
+          <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Looking to put your knowledge of Amal Jyothi campus to the ultimate test? Join us for CODE QUEST - EvolveX's very own scavenger hunt! This exhilarating event offers the perfect platform to showcase your intelligence and puzzle-solving skills.
@@ -49,6 +59,8 @@ const Codingcomp = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The first team to solve all the puzzles and complete the trail will be awarded a grand prize of 15,000 rupees! So rally your friends and embrace your adventurous spirit at EvolveX. Let's see what you're made of!
             </p>
+            </div>
+            </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Interested teams can register through the event website. We're expecting around 10-15 teams to participate, each team to consist of 2-4 members. The registration fee is 200 rupees for each team. Registration is based on a first come, first serve basis. Registration may involve giving away personal details, such as name, mobile no, and email-address.
@@ -80,13 +92,7 @@ const Codingcomp = () => {
             </p>
         </motion.div>
         <StarsCanvas/>
-        <div>
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mb-5'
-          > Registerations Will Open Soon...
-          </button>
-        </div>
+        
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>

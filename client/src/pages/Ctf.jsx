@@ -41,19 +41,19 @@ const CTF = () => {
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              This CTF event aims is to develop and bring out the skills among young students in the field of cybersecurity, and find interested and capable students who can excel in this field. We aim to provide these young talented students an opportunity to realize the full potential of their skills and take them to higher levels.
+              This CTF event aims to cultivate cybersecurity skills in young students and identify those who can excel in this field. It offers an opportunity for talented individuals to realize their potential and advance to higher levels.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The CTF will be a two-phase competition with 24 hours online CTF as the first round and 7 hours Offline CTF as the final round where the students can participate in teams of 2-4 members. The contestants will be provided with a series of cybersecurity challenges, which they have to solve in a given time. The challenges could be related to cryptography, steganography, web application security, network security, digital forensics, and other related domains.
+              The CTF has two phases: an online 24-hour CTF as round one and a 7-hour offline CTF as the final round for teams of 2-4. Participants will solve cybersecurity challenges in areas like cryptography, steganography, and more.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORSHIP & COLLABORATION</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              We are expecting to conduct this event in collaboration with Security BSides Community and Mystiko as they have agreed to provide us with technical support throughout the event.
+              The event will be conducted in collaboration with Security BSides Community and Mystiko for technical support and other amenities.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Total prize worth Rs 22000, in addition we are also looking for partnerships from Swiggy and QuickHeal
+              Total prize worth Rs 22000, cash prizes will be awarded to the top 2 performing teams, depending on the competition rules
             </p>
             </div>
             </div>
@@ -63,12 +63,13 @@ const CTF = () => {
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="list-decimal pl-8 pr-4 text-justify">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. The registration process may involve providing personal details, such as name, email address, and phone number.</li>
-            <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must follow a code of conduct that outlines expected behavior during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>
-            <li><span className="font-bold text-[#ffba61]">Challenge format:</span> The challenges may be presented in a specific format, such as a list of questions, puzzles, or tasks that need to be completed in a specific order. Each challenge may have a point value based on its level of difficulty.</li>
-            <li><span className="font-bold text-[#ffba61]">Time limit:</span> The event may have a specific start and end time, and participants must complete the challenges within that time frame.</li>
-            <li><span className="font-bold text-[#ffba61]">Communication:</span> Participants may be allowed to communicate with organizers and other participants through specific channels, such as a chat platform or email. However, communication related to the challenges should not be shared with anyone outside of the team.</li>
-            <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices, such as hacking the competition platform or plagiarizing answers, may be disqualified from the event.</li>
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> Participants must register for the event and pay in advance , registration fee of Rs 300, and are required to provide personal information such as name , mobile number , college name and team member details.</li>
+            <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must conduct themselves in a professional and ethical manner at all times. Cheating, flag sharing or any other inappropriate behavior will result in disqualification.</li>
+            <li><span className="font-bold text-[#ffba61]">Collaboration:</span> Collaboration with other teams is strictly prohibited. Make sure you understand the collaboration policy before starting the event.</li>
+            <li><span className="font-bold text-[#ffba61]">Scoring:</span> Points are awarded for solving challenges and obtaining flags. </li>
+            <li><span className="font-bold text-[#ffba61]">Resources:</span> Brute forcing or overloading the CTF platform will lead to disqualification of the entire team.</li>
+            <li><span className="font-bold text-[#ffba61]">Disputes:</span> Any disputes , issues or  complaints must be raised in a  promptly manner and the organizer's decision is final.</li>
+            <li><span className="font-bold text-[#ffba61]">Prizes:</span> Cash Prizes will be awarded to the top 2 performing teams, depending on the competition rules</li>
           </ol>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Initial Screening</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 

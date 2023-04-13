@@ -42,39 +42,33 @@ const Codingcomp = () => {
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Looking to put your knowledge of Amal Jyothi campus to the ultimate test? Join us for CODE QUEST - EvolveX's very own scavenger hunt! This exhilarating event offers the perfect platform to showcase your intelligence and puzzle-solving skills.
-              As a participant, you'll embark on a thrilling adventure through the campus, following a trail of clues and working closely with your team to tackle a variety of challenging puzzles that will put your mind to the test.
-              But that's not all! The first team to solve all the puzzles and complete the trail will be awarded a grand prize of 15,000 rupees! So rally your friends and embrace your adventurous spirit at EvolveX. Let's see what you're made of!   
+              Join EvolveX's CODE QUEST, a thrilling campus scavenger hunt that will challenge your puzzle-solving skills. Follow clues and solve puzzles with friends for an unforgettable adventure! 
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              CODE QUEST is an exciting and challenging treasure hunt competition that will put participants' skills to the test. The duration of the competition may range from 2 to 4 hours, depending on the participants' skill level. To participate, teams must assemble at the designated venue at the scheduled time.
-              During the competition, teams will be tasked with solving a series of clues that are strategically placed around the campus. These clues will require a range of skills, including logical reasoning, problem-solving, and coding, making the competition both engaging and interactive. It's a great opportunity for teams to showcase their creativity, ingenuity, and teamwork while having fun exploring the campus.
+              This exciting and challenging CODE QUEST treasure hunt competition is to test your skills! Teams must assemble at the designated venue and solve a series of clues strategically placed around the campus, requiring skills in logical reasoning, problem-solving, and coding. The competition lasts 2-4 hours and is a great opportunity to showcase creativity, ingenuity, and teamwork while having fun exploring the campus.
             </p>
-          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORSHIP & COLLABORATION</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              We are expecting to conduct this event in collaboration with Security BSides Community and Mystiko as they have agreed to provide us with technical support throughout the event.
-            </p> */}
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The first team to solve all the puzzles and complete the trail will be awarded a grand prize of 15,000 rupees! So rally your friends and embrace your adventurous spirit at EvolveX. Let's see what you're made of!
+              The total prize money is ₹ 15,000, with the first prize worth ₹ 10,000 and the second prize worth ₹ 5,000.
             </p>
             </div>
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Interested teams can register through the event website. We're expecting around 10-15 teams to participate, each team to consist of 2-4 members. The registration fee is 200 rupees for each team. Registration is based on a first come, first serve basis. Registration may involve giving away personal details, such as name, mobile no, and email-address.
+              Interested teams can register through the event website, Each team to consist of 2-4 members. The registration fee is 200 rupees for each team. Registration is based on a first come, first serve basis.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> Interested teams can register through the event website. We're expecting around 10-15 teams to participate, each team to consist of 2-4 members. The registration fee is 200 rupees for each team. Registration is based on a first come, first serve basis. Registration may involve giving away personal details, such as name, mobile no, and email-address.</li>            
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> Interested teams can register through the event website, Each team to consist of 2-4 members. The registration fee is 200 rupees for each team. Registration is based on a first come, first serve basis.</li>            
+            <li><span className="font-bold text-[#ffba61]">Prerequisite:</span> To participate, each team must bring at least one smartphone with Telegram installed and have a valid account. Participants must arrive at the venue at the designated time.</li>            
             <li><span className="font-bold text-[#ffba61]">Code of Conduct:</span> Participants must follow a code of conduct that outlines expected behaviour during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>            
             <li><span className="font-bold text-[#ffba61]">Challenge format:</span> The challenges may be presented in a specific format, such as a list of questions, puzzles, or tasks that need to be completed in a specific order.</li>
-            <li><span className="font-bold text-[#ffba61]">Time limit:</span> The event may have a specific start and end time, and the event is an all day event.</li>
+            <li><span className="font-bold text-[#ffba61]">Time limit:</span>  The event may have a specific start and end time, and the event is an all day event.</li>
             <li><span className="font-bold text-[#ffba61]">Communication:</span> Participants may be allowed to communicate with organizers and other participants through specific channels, such as a chat platform or email. However, communication related to the challenges should not be shared with anyone outside of the team.</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices, such as hacking the competition platform or plagiarizing answers, may be disqualified from the event.</li>
           </ol>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Initial Screening</h4>
+          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>Initial Screening</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Once the registration process is complete, we will be conducting a 24-hour online CTF prior to Tech Fest with a series of challenges that they have to solve within a given time. The top 10 teams will be shortlisted based on their performance in these challenges, and the top-performing teams will be selected for the main event.
             </p>
@@ -89,7 +83,7 @@ const Codingcomp = () => {
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Post-CTF</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The winners are announced and the winning teams will be provided with certificates, swags and the prize money. 
-            </p>
+            </p> */}
         </motion.div>
         <StarsCanvas/>
         
@@ -110,3 +104,5 @@ const Codingcomp = () => {
 };
 
 export default Codingcomp;
+
+//Join the exciting and challenging CODE QUEST treasure hunt competition to test your skills! Teams must assemble at the designated venue and solve a series of clues strategically placed around the campus, requiring skills in logical reasoning, problem-solving, and coding. The competition lasts 2-4 hours and is a great opportunity to showcase creativity, ingenuity, and teamwork while having fun exploring the campus.

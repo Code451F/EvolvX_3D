@@ -55,7 +55,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Sponsors",
+    title: "People",
   },
   {
     id: "gallery",
@@ -361,7 +361,7 @@ const projects = [
     {
       name: "EVOLVHACK",
       description:
-        "EvolveHack '23 is a 24-hour open hackathon for university students. Teams of 2-4 members can participate in this hackathon where the participants are expected to identify any problem of their liking and come up with practical solutions of their own.",
+        "EvolveHack '23 is the perfect opportunity for university students to showcase their creativity and problem-solving skills. With a 24-hour timeframe and the freedom to identify and solve any problem, teams of 2-4 can create innovative and practical solutions",
       tags: [
         {
           name: "Hack-a-thon",

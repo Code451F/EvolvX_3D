@@ -44,11 +44,11 @@ const Evolvhack = () => {
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              EvolvHack'23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering, Kanjirappally, Kerala, India during April 23-24. EvolvHack intends to find open-source solutions to relevant problems by bringing together passionate teams of developers and innovators together. This event will be open to all university students across the country without any restrictions. This is an exciting opportunity for students and innovators to network with their peers and industry experts as well as brainstorm new solutions to problems at an accelerated pace.
+              EvolvHack'23 is a 24-hour hackathon in Kerala on April 23-24 for university students to find open-source solutions to problems. It brings developers and innovators together to network and brainstorm new solutions.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              EvolvHack'23 is an open hackathon. The participants are free to choose a problem statement and come up with solutions to that problem statement. The hackathon will have two rounds. The first round is a 24 hour hackathon round where the teams are asked to develop a working prototype of their solution. A team can consist of 2-4 members. The team may use any tool or technology at their disposal to build an innovative solution. 
+            EvolvHack'23 is an open 24-hour hackathon with two rounds where teams of 2-4 members can choose a problem statement and create a prototype using any tool or technology. The first round is dedicated to developing a working solution. 
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORSHIP & COLLABORATION</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
@@ -79,7 +79,7 @@ const Evolvhack = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Once the registration process is complete, the teams will be shortlisted based on the uniqueness and relevance of the problem statement, and the top 10 teams will be selected for the main event.
             </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Round 1t</h4>
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>Round 1</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The main event will be held offline as a 24-hour hackathon from 2:00 PM on Sunday, 23rd April till 2:00 PM on Monday, 24th April at Amal Jyothi College of Engineering, where the selected teams will be asked to develop a prototype of their solution using any tool or technology. A mentor will be assigned for each team. The mentor will be available throughout the hackathon hours.
             </p>
@@ -91,7 +91,7 @@ const Evolvhack = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               There will be two rounds of evaluation in the main event. The evaluation will be based mainly on the presentation, relevance of the problem, feasibility, applicability of the solution, and usage of relevant technologies.
             </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Post-EvolvHack'23</h4>
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>Post-EvolvHack</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The winners will be announced during the Awards and Closure Ceremony at 4:00 PM on Monday. The winning teams will be provided with certificates and prize money. 
             </p>

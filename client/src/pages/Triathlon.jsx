@@ -30,7 +30,7 @@ const Triathlon = () => {
           className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl border-4 xs:border-[#ff8f00] xxs:border-transparent'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
-          <h3 className={styles.sectionHeadText}>TRIAT<span className='text-[#ffffff]'>HLON</span></h3>
+          <h3 className={styles.sectionHeadText}>TRIAT<span className="text-[#ffffff]">HLON</span></h3>
           <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
             <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={triathlon} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
@@ -43,15 +43,15 @@ const Triathlon = () => {
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The Triple Challenge event is a multi-faceted coding competition that encompasses three distinct challenges: code golfing, instant coding, and reverse engineering. In code golfing, participants strive to write the shortest possible code to solve a given problem. The instant coding challenge tests participants' ability to quickly solve coding problems within a tight timeframe using a custom programming language. Lastly, the reverse engineering challenge requires participants to analyze compiled or encoded software to understand its inner workings. 
+              The Triple Challenge event features three coding challenges: code golfing, instant coding, and reverse engineering. Code golfing aims to write the shortest code, while instant coding tests problem-solving under time pressure. Reverse engineering requires analyzing encoded software.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The Triple Challenge event offers a diverse range of coding challenges that assess participants' coding skills, creativity, problem-solving abilities, and ability to perform under pressure.  The event is an offline coding competition that consists of three levels: code golfing,  instant coding and reverse engineering. Both the code golfing and the instant coding levels have 60 minutes duration. The reverse engineering level, on the other hand, spans 120 minutes. It's an exciting and intense competition that challenges coding enthusiasts and professionals to excel in different coding dimensions.
+              The Triple Challenge event tests coding skills, creativity, problem-solving, and ability to perform under pressure. It consists of three levels: code golfing, instant coding, and reverse engineering. With 60-120 minute durations, it's an intense competition that challenges coding enthusiasts to excel in different dimensions.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Prize pool is of  ₹20,000
+              The Prize pool is ₹20,000, where the first prize is worth ₹15,000 and the second prize is worth ₹5000.
             </p>
             </div>
             </div>
@@ -61,38 +61,34 @@ const Triathlon = () => {
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> Interested teams can register through the event website. We're expecting around 10-15 teams to participate, each team to consist of 2-4 members. The registration fee is 200 rupees for each team. Registration is based on a first come, first serve basis. Registration may involve giving away personal details, such as name, mobile no, and email-address.</li>            
-            <li><span className="font-bold text-[#ffba61]">Code of Conduct:</span> Participants must follow a code of conduct that outlines expected behaviour during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>            
-            <li><span className="font-bold text-[#ffba61]">Challenge format:</span> The challenges may be presented in a specific format, such as a list of questions, puzzles, or tasks that need to be completed in a specific order.</li>
-            <li><span className="font-bold text-[#ffba61]">Time limit:</span> The event may have a specific start and end time, and the event is an all day event.</li>
-            <li><span className="font-bold text-[#ffba61]">Communication:</span> Participants may be allowed to communicate with organizers and other participants through specific channels, such as a chat platform or email. However, communication related to the challenges should not be shared with anyone outside of the team.</li>
-            <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices, such as hacking the competition platform or plagiarizing answers, may be disqualified from the event.</li>
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> All the participants who are interested must register online before the deadline. A team should not exceed 2 members. You will be asked to provide details such as the team name, participant names, contact numbers, email id etc. The registration is set at ₹200 per team.</li>            
+            <li><span className="font-bold text-[#ffba61]">Code of Conduct:</span> Participants are expected to follow a code of conduct which describes the expected behaviour from the participants. The code of conduct for the triple challenge event should emphasize respect, fair play, sportsmanship and safety. Any violation of the code of conduct would lead to consequences that might even include disqualification.</li>            
+            <li><span className="font-bold text-[#ffba61]">Challenge format:</span> There would be three rounds as mentioned. After each round, teams failing to score above the cut-off would be eliminated and would not be allowed to move forward.</li>
+            <li><span className="font-bold text-[#ffba61]">Equipment:</span> Participants are expected to bring their own laptops or any equipment they require. However, for the first two challenges, they will not be permitted to use their laptops and instead would have to use the computers provided by us.</li>
+            <li><span className="font-bold text-[#ffba61]">Time limit:</span> The event will start on April 24th at 9:30 AM. Participants should arrive at least 30 minutes before the start time in order to avoid any delays.</li>
+            <li><span className="font-bold text-[#ffba61]">Communication:</span> The team members are not expected to communicate with other teams during the challenge. They may communicate with the organizers if they face any difficulty.</li>
+            <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate the rules or engage in any malpractice would be disqualified from the event.</li>
           </ol>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Initial Screening</h4>
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>Code Golfing</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Once the registration process is complete, we will be conducting a 24-hour online CTF prior to Tech Fest with a series of challenges that they have to solve within a given time. The top 10 teams will be shortlisted based on their performance in these challenges, and the top-performing teams will be selected for the main event.
+              In this challenge, participants have 60 minutes to solve 5-10 questions using Python or C only, with the shortest correct solution earning the highest score. Using the internet or external resources during the challenge and personal laptops are not allowed. Computers will be provided.
             </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Main Event</h4>
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>Instant Coding</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The main event will be held offline as a 7-hour CTF from 9 am to 4 pm at the college, where the selected teams will compete against each other to solve a series of challenges. The challenges are designed to test their skills in various domains such as cryptography, steganography, web application security, network security, digital forensics, and other related fields.
+              Participants have 60 minutes to solve 5-10 programming questions using a custom language provided on the spot, with reference documentation available. They are not allowed to use personal laptops, the internet or any advanced tools. Computers will be provided.
+            </p>
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>Reverse Engineering</h4>
+            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
+              This 3-round software reverse engineering challenge requires participants to analyze and modify provided software binaries using their own laptops, with 3-5 tasks per round, 120 minutes allotted, and the expected knowledge of reverse engineering frameworks, Python, and Linux commands.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Evaluation</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The winners are required to provide the writeup for the challenges. The teams will be evaluated based on the number of challenges they solve, the scores achieved, and the quality of their solutions.
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Post-CTF</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The winners are announced and the winning teams will be provided with certificates, swags and the prize money. 
-            </p>
+          <ol className="text-left list-decimal pl-8 pr-4">
+            <li><span className="font-bold text-[#ffba61]">Code Golfing:</span> Participants will be scored based on the shortest length of code that solves the problem statement correctly.</li>            
+            <li><span className="font-bold text-[#ffba61]">Instant coding:</span> Participants will be scored based on the correctness of the solution.</li>            
+            <li><span className="font-bold text-[#ffba61]">Reverse Engineering:</span> The winner will be determined based on the number of questions solved in the smallest time frame.</li>
+          </ol>
         </motion.div>
         <StarsCanvas/>
-        <div>
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mb-5'
-          > Registerations Will Open Soon...
-          </button>
-        </div>
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>

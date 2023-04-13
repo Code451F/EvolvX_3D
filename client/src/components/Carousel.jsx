@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion } from "framer-motion";
+import { SectionWrapper } from "../hoc";
 
 import data from './data.json';
 
@@ -140,4 +141,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default SectionWrapper(Carousel, "gallery");

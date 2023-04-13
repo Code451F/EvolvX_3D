@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import React, { useRef, useState } from "react";
+import React from "react";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 
 import { StarsCanvas } from "../components";
-import { guidelines_EH } from "../constants";
+import ctf from '../assets/ctf.jpg'
 
 const CTF = () => {
   return (
@@ -25,10 +25,20 @@ const CTF = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className='flex-col text-center mb-5 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]'
+          className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl border-4 xs:border-[#ff8f00] xxs:border-transparent'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
           <h3 className={styles.sectionHeadText}>ARCHON<span className='text-[#ffffff]'>CTF</span></h3>
+          <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
+            <div className="xl:w-[600px] xxs:w-[270px]">
+                <img src={ctf} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
+                <button
+            type='submit'
+            className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
+          > REGISTER
+          </button>
+          </div>
+          <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               This CTF event aims is to develop and bring out the skills among young students in the field of cybersecurity, and find interested and capable students who can excel in this field. We aim to provide these young talented students an opportunity to realize the full potential of their skills and take them to higher levels.
@@ -45,6 +55,8 @@ const CTF = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Total prize worth Rs 22000, in addition we are also looking for partnerships from Swiggy and QuickHeal
             </p>
+            </div>
+            </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Interested teams can register on our website by providing details such as team name, member names, and email addresses. We are expecting to get around 50-60 Team Registrations for this event and the registration fee would be Rs 200 per team.
@@ -76,13 +88,7 @@ const CTF = () => {
             </p>
         </motion.div>
         <StarsCanvas/>
-        <div>
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mb-5'
-          > Registerations Will Open Soon...
-          </button>
-        </div>
+        
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
@@ -100,21 +106,5 @@ const CTF = () => {
 };
 
 export default CTF;
-
-{/* <button
-type='submit'
-className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
->
-{loading ? "Sending..." : "Send"}
-</button> */}
-
-{/* <div className='relative z-0'>
-<Contact />
-<StarsCanvas />
-</div> */}
-
-// xl:bg-transparent
-// className={'flex flex-col bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00] text-center mb-20 mt-10 w-3/4'}
-
 
 

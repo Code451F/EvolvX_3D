@@ -5,6 +5,8 @@ import { slideIn } from "../utils/motion";
 
 import { StarsCanvas } from "../components";
 import { guidelines_EH } from "../constants";
+import hackathon from '../assets/hackathon.jpg'
+import { hack } from "../assets";
 
 const Evolvhack = () => {
   return (
@@ -25,10 +27,21 @@ const Evolvhack = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl xs:border-4 xs:border-[#ff8f00] xxs:border-transparent'
+          className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl border-4 xs:border-[#ff8f00] xxs:border-transparent'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
           <h3 className={styles.sectionHeadText}>EVOLV<span className='text-[#ffffff]'>HACK</span></h3>
+          
+          <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
+            <div className="xl:w-[600px] xxs:w-[270px]">
+                <img src={hackathon} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
+                <button
+            type='submit'
+            className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
+          > REGISTER
+          </button>
+            </div>
+          <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               EvolvHack'23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering, Kanjirappally, Kerala, India during April 23-24. EvolvHack intends to find open-source solutions to relevant problems by bringing together passionate teams of developers and innovators together. This event will be open to all university students across the country without any restrictions. This is an exciting opportunity for students and innovators to network with their peers and industry experts as well as brainstorm new solutions to problems at an accelerated pace.
@@ -45,6 +58,8 @@ const Evolvhack = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The total prize money is ₹ 45,000, with the first prize worth ₹30,000 and the second prize worth ₹15,000.
             </p>
+            </div>
+            </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Interested teams can register on our website by providing details such as team name, member names and email addresses. During registration, each team should come up with a unique solution to a problem statement of their choice. A screening will be conducted on these problem statements, and 10 teams will be invited to develop their solutions at our event. Only the selected teams are required to pay Rs 250 for each member of the team as registration fees.
@@ -82,13 +97,7 @@ const Evolvhack = () => {
             </p>
         </motion.div>
         <StarsCanvas/>
-        <div>
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mb-5'
-          > Registrations Will Open Soon...
-          </button>
-        </div>
+        
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>

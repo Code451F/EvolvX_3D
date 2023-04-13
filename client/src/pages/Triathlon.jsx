@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
-import React, { useRef, useState } from "react";
+import React from "react";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 
 import { StarsCanvas } from "../components";
-import { guidelines_EH } from "../constants";
+import triathlon from "../assets/triathlon.jpg"
+
 
 
 const Triathlon = () => {
@@ -26,10 +27,20 @@ const Triathlon = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className='flex-col text-center mb-5 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]'
+          className='flex-col text-center mb-5 mt-10 xs:w-3/4 bg-transparent p-8 rounded-2xl border-4 xs:border-[#ff8f00] xxs:border-transparent'
         >
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
           <h3 className={styles.sectionHeadText}>TRIAT<span className='text-[#ffffff]'>HLON</span></h3>
+          <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
+            <div className="xl:w-[600px] xxs:w-[270px]">
+                <img src={triathlon} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
+                <button
+            type='submit'
+            className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
+          > REGISTER
+          </button>
+          </div>
+          <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The Triple Challenge event is a multi-faceted coding competition that encompasses three distinct challenges: code golfing, instant coding, and reverse engineering. In code golfing, participants strive to write the shortest possible code to solve a given problem. The instant coding challenge tests participants' ability to quickly solve coding problems within a tight timeframe using a custom programming language. Lastly, the reverse engineering challenge requires participants to analyze compiled or encoded software to understand its inner workings. 
@@ -38,14 +49,12 @@ const Triathlon = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The Triple Challenge event offers a diverse range of coding challenges that assess participants' coding skills, creativity, problem-solving abilities, and ability to perform under pressure.  The event is an offline coding competition that consists of three levels: code golfing,  instant coding and reverse engineering. Both the code golfing and the instant coding levels have 60 minutes duration. The reverse engineering level, on the other hand, spans 120 minutes. It's an exciting and intense competition that challenges coding enthusiasts and professionals to excel in different coding dimensions.
             </p>
-          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORSHIP & COLLABORATION</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              We are expecting to conduct this event in collaboration with Security BSides Community and Mystiko as they have agreed to provide us with technical support throughout the event.
-            </p> */}
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Prize pool is of  ₹20,000
             </p>
+            </div>
+            </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Interested teams can register on our website by providing details such as team name, member names, and email addresses. We are expecting to get around 15-20 Team Registrations for this event and the registration fee would be Rs 300 per team.

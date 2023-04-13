@@ -1,12 +1,10 @@
 import { motion } from "framer-motion";
-import React, { useRef, useState } from "react";
+import React from "react";
 import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 
 import { StarsCanvas } from "../components";
-import { guidelines_EH } from "../constants";
-import fifa from '../assets/fifa.jpg'
-// import { GamingFifa } from ".";
+import fifa from '../assets/fifa.jpg';
 
 const GamingFifa = () => {
   return (
@@ -70,20 +68,9 @@ const GamingFifa = () => {
             <li><span className="font-bold text-[#ffba61]">Controllers:</span> Controllers will be provided by the college. Controller settings can be tweaked with the approval of the co-ordinators. </li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices will be disqualified and not allowed to compete. Communications between players must be civil and respectful.</li>
             <li><span className="font-bold text-[#ffba61]">Celebrations:</span> No disrespectful celebrations allowed. The griddy, frog dance, and baby crawl will invoke an instant termination.</li>
-            {/* <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices, such as hacking the competition platform or plagiarizing answers, may be disqualified from the event.</li> */}
           </ol>
-          
-          
-         
         </motion.div>
         <StarsCanvas/>
-        {/* <div>
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mb-5'
-          > Registerations Will Open Soon...
-          </button>
-        </div> */}
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>

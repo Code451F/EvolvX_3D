@@ -9,7 +9,7 @@ import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
+const ServiceCard = ({ index, title, icon, source_code_link }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -21,7 +21,8 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-primary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        onClick={() => window.open(source_code_link, "_blank")}
+        className='bg-primary rounded-[20px] py-5 px-12 min-h-[320px] flex justify-evenly items-center flex-col cursor-pointer'
       >
         <img
           src={icon}
@@ -41,8 +42,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Our partners</p>
-        <h2 className={`${styles.sectionHeadText}`}>Sponsors and Collaborators</h2>
+        <p className={`${styles.sectionSubText} `}>Our Team</p>
+        <h2 className={`${styles.sectionHeadText}`}>Team and Sponsors</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -57,7 +58,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap justify-center gap-20'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

@@ -37,11 +37,13 @@ const CTF = () => {
             <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={ctf} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
                 
-                <button
-            type='submit'
-            className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
-          > REGISTER
-          </button>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNbmP9CvSmLVPjncrtzA-6gK3sxeee3Lfu-mnvI-LftzG8Jw/viewform'>
+                  <button
+                    type='submit'
+                    className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
+                  > REGISTER
+                  </button>
+                </a>
           
           
           </div>
@@ -99,26 +101,22 @@ const CTF = () => {
               The winners are announced and the winning teams will be provided with certificates, swags and the prize money. 
             </p> */}
         </motion.div>
-        <StarsCanvas/>
+        <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
+        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+           <img src={csea} alt='logo' className='object-contain mt-6'/>
+          </div>
+          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+           <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
+          </div>          
+          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
+           <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
+          </div>
+        </div>
+      </div> 
+      <StarsCanvas/>
         
         </div>
-
-<div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-  <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
-    
-    <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
-     <img src={csea} alt='logo' className='object-contain mt-6'/>
-    </div>
-    <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
-     <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
-    </div>          
-    <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
-     <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
-    </div>
-    
-  </div>
-</div> 
-
 </div> 
   );
 };

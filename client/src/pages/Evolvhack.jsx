@@ -39,11 +39,15 @@ const Evolvhack = () => {
           <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
             <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={hackathon} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
-                <button
-            type='submit'
-            className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
-          > REGISTER
-          </button>
+                
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLScs-7cw578sJFMQvQhH2kriMZ72GckAB4U59OUHQuWccnMoig/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link'>
+                  <button
+                    type='submit'
+                    className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
+                  > REGISTER
+                  </button>
+                </a>
+
           <a href="https://drive.google.com/file/d/19M3FC7V7vY9aiV7MJpbNRwEIgVNXFdAJ/view?usp=share_link" >
           <button
             type='submit'
@@ -109,14 +113,10 @@ const Evolvhack = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The winners will be announced during the Awards and Closure Ceremony at 4:00 PM on Monday. The winning teams will be provided with certificates and prize money. 
             </p> */}
-        </motion.div>
-        <StarsCanvas/>
-        
-      </div>
 
-      <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
+        </motion.div>
+        <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
         <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
-          
           <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
            <img src={csea} alt='logo' className='object-contain mt-6'/>
           </div>
@@ -126,15 +126,18 @@ const Evolvhack = () => {
           <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
            <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
           </div>
-          
         </div>
       </div> 
+      <StarsCanvas/>
+        
+      </div>
 
     </div> 
   );
 };
 
 export default Evolvhack;
+
 
 
 

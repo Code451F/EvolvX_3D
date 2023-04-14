@@ -45,11 +45,11 @@ const Gaming = () => {
             <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Are you an avid first-person shooter enthusiast? Do you find yourself playing competitive shooters in your free time? The Computer Science Department is proudly hosting a tournament for CS:GO consisting of 8 teams, and teams will be allowed to prove their skills in a series of knock-out short matches.
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              A CS:GO Tournament conducted by the Computer Science Department where participants can prove their skills in a 5v5 match. Teams must register through the event website beforehand. Every match is a knockout match, and each match will be approximately 20-30 minutes each.
+              Are you an avid first-person shooter enthusiast? Do you find yourself playing competitive shooters in your free time? Sign up today and join us for the most thrilling CSGO tournament of the year 
+              where participants can prove their skills in a 5v5 match. Teams who are interested may register here. Every match is a knockout match, and each match will be approximately 20-30 minutes each.
+            {/* </p> */}
+          
+           
             </p>
           
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
@@ -60,11 +60,11 @@ const Gaming = () => {
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Teams who are interested may register through the event website. A total of 8 teams can register. Entry fee is 500 per team. Registration is based on a first come, first serve basis. Registration may involve giving away personal details, such as name, mobile no, and email-address.
+               Teams with 5 members can register. Entry fee is 500 per team. Registration is based on a first come, first serve basis. Registration may involve giving away personal details, such as name, mobile no, and email-address.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4"> 
-            <li><span className="font-bold text-[#ffba61]">Rules:</span> General CS:GO fair play rules must be followed. The match format is casual (short match) and friendly fire is turned on. Players will not be allowed to access the console. Admission to the game room will only be granted to the team players. Laptops will be provided, but external keyboards and mouse must be brought by the participants. Care must be taken in order to not damage the equipment provided by the college. Time will be allotted before each match for players to adjust their sensitivity and calibrate their settings.</li>
+            <li><span className="font-bold text-[#ffba61]">Rules:</span> General CS:GO fair play rules must be followed. The match format is casual (short match) and friendly fire is turned on. Players will not be allowed to access the console. Admission to the game room will only be granted to the team players. <span className="text-[#ffba61]">Laptops will be provided, but external keyboards and mouse must be brought by the participants.</span>  Care must be taken in order to not damage the equipment provided by the college. Time will be allotted before each match for players to adjust their sensitivity and calibrate their settings.</li>
             <li><span className="font-bold text-[#ffba61]">Time Limit:</span> The time for each match can approximately be around 20 minutes</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices will be disqualified and not allowed to compete. Communications between players must be civil and respectful.</li>
           </ol>

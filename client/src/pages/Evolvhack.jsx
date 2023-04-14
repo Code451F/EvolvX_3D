@@ -7,9 +7,9 @@ import { StarsCanvas } from "../components";
 import { guidelines_EH } from "../constants";
 import hackathon from '../assets/hackathon.jpg'
 import { hack } from "../assets";
+import digiora from '../assets/Digiora.png'
 import { logo, logo_nbg, menu, close, csea } from "../assets";
 import azure from '../assets/azurelogo.png'
-
 
 const Evolvhack = () => {
   return (
@@ -43,7 +43,7 @@ const Evolvhack = () => {
             className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
           > REGISTER
           </button>
-          <a href="https://i.ibb.co/n1PfGTQ/lol.jpg" download>
+          <a href="https://drive.google.com/file/d/19M3FC7V7vY9aiV7MJpbNRwEIgVNXFdAJ/view?usp=share_link" >
           <button
             type='submit'
             className='bg-blue-500 py-3 mt-[8px] px-2 rounded-xl outline-none w-[180px] h-[] text-[16px]  text-white font-bold shadow-md shadow-primary mb-5'
@@ -56,29 +56,29 @@ const Evolvhack = () => {
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              EvolvHack'23 is a 24-hour hackathon in Kerala on April 23-24 for university students to find open-source solutions to problems. It brings developers and innovators together to network and brainstorm new solutions.
+              EvolvHack'23 is a 24-hour hackathon on April 23-24 where teams of 2-4 members can participate. This is an open hackathon where no problem statements are provided. The teams can choose any problem statement
+              relevant to society and develop a practical solution for it. Teams can choose any technology or tool to develop their solution. Both hardware and software solutions are welcome.
             </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            EvolvHack'23 is an open 24-hour hackathon with two rounds where teams of 2-4 members can choose a problem statement and create a prototype using any tool or technology. The first round is dedicated to developing a working solution. 
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORSHIP & COLLABORATION</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              We have partnered with Digiora Technologies to provide us with the prize money for the winners and JB Labs to sponsor the prize money for the runner-ups.
-            </p>
+            <div className="xl:flex xl:flex-row xl:items-center xxs:flex-col">
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORED BY</h4>
+            {/* <p className={`${styles.descriptionText} mt-2 mb-5`}> 
+              We have partnered with Digiora Technologies to provide us with the prize money for the winners and JB Labs to sponsor the prize money for the runner-ups. */}
+            {/* </p> */}
+            <img src={digiora} className="w-[300px] pl-8 pt-4"></img>
+            </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The total prize money is ₹ 45,000, with the first prize worth ₹30,000 and the second prize worth ₹15,000.
             </p>
             </div>
             </div>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
+          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Interested teams can register on our website by providing details such as team name, member names and email addresses. During registration, each team should come up with a unique solution to a problem statement of their choice. A screening will be conducted on these problem statements, and 10 teams will be invited to develop their solutions at our event. Only the selected teams are required to pay Rs 250 for each member of the team as registration fees.
-            </p>
+            </p> */}
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="list-decimal pl-8 pr-4 text-justify">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. The registration process may involve providing personal details, such as name, email address, and phone number. Participants are required to form a team of minimum two members and a maximum of four members. Each member of the team will be required to pay ₹250 as the registration fees.</li>
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. Participants are required to form a team of minimum two members and a maximum of four members. Each member of the team will be required to pay ₹250 as the registration fees.</li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must follow a code of conduct that outlines expected behavior during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>
             <li><span className="font-bold text-[#ffba61]">Problem Statement and Solution:</span> Teams are required to choose any relevant problem statement and come up with solutions to these problems. The problem should be a valid issue faced by the society and the solution must be realistic and practical. Both hardware and software solutions are welcome.</li>
             <li><span className="font-bold text-[#ffba61]">Timing:</span> The event will start at 2:00 PM on Sunday, 23rd April and end by 5:30 PM on Monday, 24th April.</li>
@@ -87,7 +87,7 @@ const Evolvhack = () => {
             <li><span className="font-bold text-[#ffba61]">Intellectual Property Rights:</span> All solutions presented at the hackathon must be original and not infringe any third-party intellectual property rights. Participants should not use any copyrighted material without the owner's consent. We also require all solutions to be open-source and be freely available to all.</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices, such as sabotaging others' work, may be disqualified from the event.</li>
           </ol>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Initial Screening</h4>
+          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>Initial Screening</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Once the registration process is complete, the teams will be shortlisted based on the uniqueness and relevance of the problem statement, and the top 10 teams will be selected for the main event.
             </p>
@@ -106,7 +106,7 @@ const Evolvhack = () => {
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Post-EvolvHack</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The winners will be announced during the Awards and Closure Ceremony at 4:00 PM on Monday. The winning teams will be provided with certificates and prize money. 
-            </p>
+            </p> */}
         </motion.div>
         <StarsCanvas/>
         

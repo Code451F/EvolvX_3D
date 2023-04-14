@@ -45,10 +45,11 @@ const Codingcomp = () => {
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               Join EvolveX's CODE QUEST, a thrilling campus scavenger hunt that will challenge your puzzle-solving skills. Follow clues and solve puzzles with friends for an unforgettable adventure! 
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               This exciting and challenging CODE QUEST treasure hunt competition is to test your skills! Teams must assemble at the designated venue and solve a series of clues strategically placed around the campus, requiring skills in logical reasoning, problem-solving, and coding. The competition lasts 2-4 hours and is a great opportunity to showcase creativity, ingenuity, and teamwork while having fun exploring the campus.
+            {/* </p>
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
+            <p className={`${styles.descriptionText} mt-2 mb-5`}>  */}
+             
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
@@ -58,7 +59,8 @@ const Codingcomp = () => {
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Interested teams can register through the event website, Each team to consist of 2-4 members. The registration fee is 200 rupees for each team. Registration is based on a first come, first serve basis.
+             Each team to consist of 2-4 members. The registration fee is 200 rupees for each team. Registration is based on a first come, first serve basis.
+             <span className="text-[#ffba61]"> REGISTRATION IS OPEN ONLY TO AJCE STUDENTS.</span>
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">

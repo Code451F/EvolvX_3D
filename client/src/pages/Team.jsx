@@ -21,7 +21,8 @@ const ServiceCard = ({ name, image, designation, index }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-primary rounded-[20px] py-5 px-5 min-h-[320px] flex justify-evenly items-center flex-col cursor-pointer"
+
+        className="bg-primary rounded-[20px] py-5 px-12 min-h-[320px] flex justify-evenly items-center flex-col"
       >
         <img
           src={image}

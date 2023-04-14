@@ -32,11 +32,14 @@ const CTF = () => {
           <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
             <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={ctf} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
+                
                 <button
             type='submit'
             className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
           > REGISTER
           </button>
+          
+          
           </div>
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>

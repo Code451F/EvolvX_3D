@@ -81,11 +81,11 @@ const services = [
     icon: mobile,
     source_code_link: "/team",
   },
-  {
-    title: "CSEA",
-    icon: backend,
-    source_code_link: "/csea",
-  },
+  // {
+  //   title: "CSEA",
+  //   icon: backend,
+  //   source_code_link: "/csea",
+  // },
 ];
 
 const sponsors = [
@@ -343,36 +343,37 @@ const technologies = [
 const experiences = [
   {
     title: "EvolvHack '23",
-    company_name: "Event Coordinators",
+    company_name: "Venue - TBI, Research Square",
     icon: hack,
     iconBg: "#fff",
     date: "24 April 2023",
     points: [
       "Anandu Sunil - 8590159583",
       "Febin K Dominic - 9495505782",
-      // "Participants are expected to identify problems and come up with practical solutions.",
+      
       // "Participants are then expected to build a working prototype of their solutions by the end of the event.",
     ],
   },
   {
     title: "Capture The Flag",
-    company_name: "Event Coordinators",
+    company_name: "Venue - Advanced Systems Lab, CS Dept.",
     icon: flag,
     iconBg: "#fff",
-    date: "24 April 2023, 9 AM",
+    date: "24 April 2023, 9:00 AM",
     points: [
       "Jonat J - 9654352870",
       "Meghana S - 8547427115",
+      
       // "Contestants will be tasked with solving a series of cybersecurity challenges in a given amount of time ",
       // "The challenges could be related to cryptography, steganography, web application security, network security, digital forensics, and other related domains.",
     ],
   },
   {
     title: "Code Quest",
-    company_name: "Event Coordinators",
+    company_name: "Venue - Network Lab, CS Dept.",
     icon: trail,
     iconBg: "#fff",
-    date: "24 April 2023, 9 AM",
+    date: "24 April 2023, 9:00 AM",
     points: [
       "Nikhil Prakash - 6282409303",
       "Joel C Raju - 8750940057",
@@ -382,7 +383,7 @@ const experiences = [
   },
   {
     title: "Triathlon",
-    company_name: "Event Coordinators",
+    company_name: "Venue - Project Lab, CS Dept.",
     icon: triathon,
     iconBg: "#fff",
     date: "24 April 2023, 9:30 AM",
@@ -394,10 +395,10 @@ const experiences = [
   },
   {
     title: "Gaming",
-    company_name: "Event Coordinators",
+    company_name: "Venue - Laptop Lab, CS Dept.",
     icon: controller,
     iconBg: "#fff",
-    date: "24 April 2023, 9 AM",
+    date: "24 April 2023, 9:00 AM",
     points: ["Joel Abraham - 9544357926", "Hari K - 9633234578"],
   },
 ];
@@ -430,133 +431,135 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "EVOLVHACK",
-    description:
-      "EvolveHack '23 is the perfect opportunity for university students to showcase their creativity and problem-solving skills. With a 24-hour timeframe and the freedom to identify and solve any problem, teams of 2-4 can create innovative and practical solutions",
-    tags: [
-      {
-        name: "Hack-a-thon",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "24HRS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Hack4AJCE",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: hackathon,
-    source_code_link: "/evolvhack",
-  },
-  {
-    name: "ARCHON CTF",
-    description:
-      "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
-    tags: [
-      {
-        name: "CTF",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CEH",
-        color: "green-text-gradient",
-      },
-      {
-        name: "capturetheflag",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ctf,
-    source_code_link: "/ctf",
-  },
-  {
-    name: "CODE QUEST",
-    description:
-      "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
-    tags: [
-      {
-        name: "coding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "programming",
-        color: "green-text-gradient",
-      },
-      {
-        name: "problems",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: treasurehunt,
-    source_code_link: "/codingcompetition",
-  },
-  {
-    name: "TRIATHLON",
-    description:
-      "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
-    tags: [
-      {
-        name: "triathlon",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "coding",
-        color: "green-text-gradient",
-      },
-      {
-        name: "programming",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: triathlon,
-    source_code_link: "/triathlon",
-  },
-  {
-    name: "CSGO",
-    description:
-      "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
-    tags: [
-      {
-        name: "VideoGames",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "FPS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "shooter",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: csgo,
-    source_code_link: "/gaming/csgo",
-  },
-  {
-    name: "FIFA23",
-    description:
-      "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
-    tags: [
-      {
-        name: "VideoGames",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Football",
-        color: "green-text-gradient",
-      },
-      {
-        name: "FIFA 23",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: fifa,
-    source_code_link: "/gaming/fifa",
-  },
-];
+
+    {
+      name: "EVOLVHACK",
+      description:
+        "EvolveHack '23 is the perfect opportunity for university students to showcase their creativity and problem-solving skills. With a 24-hour timeframe to identify and solve any problem, teams of 2-4 can create innovative and practical solutions",
+      tags: [
+        {
+          name: "Hack-a-thon",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "24HRS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Hack4AJCE",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hackathon,
+      source_code_link: "/evolvhack",
+    },
+    {
+      name: "ARCHON CTF",
+      description:
+        "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
+      tags: [
+        {
+          name: "CTF",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CEH",
+          color: "green-text-gradient",
+        },
+        {
+          name: "capturetheflag",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ctf,
+      source_code_link: "/ctf",
+    },
+    {
+      name: "CODE QUEST",
+      description:
+        "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
+      tags: [
+        {
+          name: "coding",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "programming",
+          color: "green-text-gradient",
+        },
+        {
+          name: "problems",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: treasurehunt,
+      source_code_link: "/codingcompetition",
+    },
+    {
+      name: "TRIATHLON",
+      description:
+        "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
+      tags: [
+        {
+          name: "triathlon",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "coding",
+          color: "green-text-gradient",
+        },
+        {
+          name: "programming",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: triathlon,
+      source_code_link: "/triathlon",
+    },
+    {
+      name: "CSGO",
+      description:
+        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+      tags: [
+        {
+          name: "VideoGames",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "FPS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "shooter",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: csgo,
+      source_code_link: "/gaming/csgo",
+    },
+    {
+      name: "FIFA23",
+      description:
+        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+      tags: [
+        {
+          name: "VideoGames",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Football",
+          color: "green-text-gradient",
+        },
+        {
+          name: "FIFA 23",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fifa,
+      source_code_link: "/gaming/fifa",
+    },
+  ];
+
 
 const guidelines_EH = [
   {

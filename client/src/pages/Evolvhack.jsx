@@ -40,6 +40,15 @@ const Evolvhack = () => {
             className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
           > REGISTER
           </button>
+          <a href="https://i.ibb.co/n1PfGTQ/lol.jpg" download>
+          <button
+            type='submit'
+            className='bg-blue-500 py-3 mt-[8px] px-2 rounded-xl outline-none w-[180px] h-[] text-[16px]  text-white font-bold shadow-md shadow-primary mb-5'
+          > CODE OF CONDUCT
+          </button>
+          </a>
+
+
             </div>
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>

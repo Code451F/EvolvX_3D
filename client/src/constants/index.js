@@ -81,11 +81,11 @@ const services = [
     icon: mobile,
     source_code_link: "/team",
   },
-  {
-    title: "CSEA",
-    icon: backend,
-    source_code_link: "/csea",
-  },
+  // {
+  //   title: "CSEA",
+  //   icon: backend,
+  //   source_code_link: "/csea",
+  // },
 ];
 
 const sponsors = [
@@ -274,36 +274,37 @@ const technologies = [
 const experiences = [
   {
     title: "EvolvHack '23",
-    company_name: "Event Coordinators",
+    company_name: "Venue - TBI, Research Square",
     icon: hack,
     iconBg: "#fff",
     date: "24 April 2023",
     points: [
       "Anandu Sunil - 8590159583",
       "Febin K Dominic - 9495505782",
-      // "Participants are expected to identify problems and come up with practical solutions.",
+      
       // "Participants are then expected to build a working prototype of their solutions by the end of the event.",
     ],
   },
   {
     title: "Capture The Flag",
-    company_name: "Event Coordinators",
+    company_name: "Venue - Advanced Systems Lab, CS Dept.",
     icon: flag,
     iconBg: "#fff",
-    date: "24 April 2023, 9 AM",
+    date: "24 April 2023, 9:00 AM",
     points: [
       "Jonat J - 9654352870",
       "Meghana S - 8547427115",
+      
       // "Contestants will be tasked with solving a series of cybersecurity challenges in a given amount of time ",
       // "The challenges could be related to cryptography, steganography, web application security, network security, digital forensics, and other related domains.",
     ],
   },
   {
     title: "Code Quest",
-    company_name: "Event Coordinators",
+    company_name: "Venue - Network Lab, CS Dept.",
     icon: trail,
     iconBg: "#fff",
-    date: "24 April 2023, 9 AM",
+    date: "24 April 2023, 9:00 AM",
     points: [
       "Nikhil Prakash - 6282409303",
       "Joel C Raju - 8750940057",
@@ -313,7 +314,7 @@ const experiences = [
   },
   {
     title: "Triathlon",
-    company_name: "Event Coordinators",
+    company_name: "Venue - Project Lab, CS Dept.",
     icon: triathon,
     iconBg: "#fff",
     date: "24 April 2023, 9:30 AM",
@@ -325,10 +326,10 @@ const experiences = [
   },
   {
     title: "Gaming",
-    company_name: "Event Coordinators",
+    company_name: "Venue - Laptop Lab, CS Dept.",
     icon: controller,
     iconBg: "#fff",
-    date: "24 April 2023, 9 AM",
+    date: "24 April 2023, 9:00 AM",
     points: ["Joel Abraham - 9544357926", "Hari K - 9633234578"],
   },
 ];
@@ -364,7 +365,7 @@ const projects = [
     {
       name: "EVOLVHACK",
       description:
-        "EvolveHack '23 is the perfect opportunity for university students to showcase their creativity and problem-solving skills. With a 24-hour timeframe and the freedom to identify and solve any problem, teams of 2-4 can create innovative and practical solutions",
+        "EvolveHack '23 is the perfect opportunity for university students to showcase their creativity and problem-solving skills. With a 24-hour timeframe to identify and solve any problem, teams of 2-4 can create innovative and practical solutions",
       tags: [
         {
           name: "Hack-a-thon",

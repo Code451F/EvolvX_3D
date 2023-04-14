@@ -52,7 +52,7 @@ const Carousel = () => {
 
   return (
     
-    <div className="carousel my-12 mx-auto w-full">
+    <div className="carousel my-8mx-auto w-full">
       <p className='text-[18px] uppercase pb-[20px]'>A few moments and memories from our past events</p>
       {/* <p className={styles.sectionSubText}>A few Images from our past events</p> */}
       <h2 className="text-[60px] leading-8 font-bold mb-12 text-[#ff8f00] tracking-wider]">
@@ -119,7 +119,7 @@ const Carousel = () => {
                 {/* <div className='bg-red-100 object-contain'> */}
                 <a
                   // href={resource.link}
-                  className="h-full w-full flex aspect-video  bg-left-top bg-contain bg-no-repeat"
+                  className="h-full w-full flex aspect-video  bg-left-top bg-contain bg-no-repeat xxs:ml-[10px]"
                   // className='flex justify-center aspect-square object-contain'
                   style={{ backgroundImage: `url(${resource.imageUrl || ''})` }}
                 >

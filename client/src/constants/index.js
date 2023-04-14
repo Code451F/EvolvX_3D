@@ -48,7 +48,7 @@ import {
   sharon,
   asif,
   chetan,
-  glen
+  glen,
 } from "../assets";
 
 export const navLinks = [
@@ -105,26 +105,26 @@ const sponsors = [
     title: "Eat Kochi Eat",
     icon: eatkochieat,
     people: ["Mr. Karthik M: Batch of 2012", "Mr. Bobin Shaji: Batch of 2017"],
-    batch: ""
+    batch: "",
   },
   {
     title: "Way to Nikah",
     icon: waytonikah,
     people: ["Mrs. Tasleem T P"],
-    batch: "Batch of 2005"
+    batch: "Batch of 2005",
   },
   {
     title: "Tiara",
     icon: tiara,
     people: ["Mrs. Ninu Mary Joseph"],
-    batch: "Batch of 2005"
+    batch: "Batch of 2005",
   },
 ];
 
 const other_sponsors = [
   {
     name: ["Mr. Joseph Jose", "Mr. Prince Kuriakose"],
-    batch: "Batch of 2009"
+    batch: "Batch of 2009",
   },
   {
     name: ["Mrs. Anju Mathew"],
@@ -144,28 +144,28 @@ const other_sponsors = [
   },
   {
     name: ["Mrs. Rintu mol Joseph"],
-    batch: "Batch of 2011"
-  }
+    batch: "Batch of 2011",
+  },
 ];
 
 const main = [
   {
     name: "Dr. Juby Mathew",
     image: juby,
-    designation: "HoD"
+    designation: "HoD",
   },
   {
     name: "Mr. Krishnalal G",
     image: klal,
-    designation: "FIC: CSEA"
-  }
-]
+    designation: "FIC: CSEA",
+  },
+];
 
 const main_coords = [
   {
     name: "Sharon Thomas",
     image: sharon,
-    designation: "President"
+    designation: "President",
   },
   {
     name: "Anson Benny",
@@ -175,10 +175,9 @@ const main_coords = [
   {
     name: "Joyal Joby",
     image: joyal,
-    designation: "Treasurer"
-  }
-
-]
+    designation: "Treasurer",
+  },
+];
 
 const coords = [
   {
@@ -194,15 +193,15 @@ const coords = [
   {
     name: "Riya M Jose",
     image: riya,
-    designation: "EvolvX Coordinator"
-  }
-]
+    designation: "EvolvX Coordinator",
+  },
+];
 
 const web_team = [
   {
     name: "Asif Shereef",
     image: asif,
-    designation: "Master Frontend"
+    designation: "Master Frontend",
   },
   {
     name: "Chetan Manoj",
@@ -212,9 +211,79 @@ const web_team = [
   {
     name: "Glen Pereira",
     image: glen,
-    designation: "Lord Fullstack"
-  }
-]
+    designation: "Lord Fullstack",
+  },
+];
+
+const event_teams = [
+  {
+    event: "EvolvHack Team",
+    names: [
+      "Anandu Sunil",
+      "Febin K Dominic",
+      "Glen Pereira",
+      "Emal George",
+      "Grace Maria Binu",
+      "Anna Tennyson",
+      "Gauthami S",
+      "Josin P C",
+      "Francis Tom",
+      "Justin V George",
+    ],
+  },
+  {
+    event: "Gaming",
+    names: [
+      "Asif Shereef",
+      "Joel Abraham Orethu",
+      "Ryan Savio Shibu",
+      "Harikrishnan S",
+      "Tibin Abraham",
+      "Subin K S",
+      "Nivedh Mohan",
+      "Chetan Manoj",
+      "Ben Jacob Bobby",
+    ],
+  },
+  {
+    event: "Code Quest",
+    names: [
+      "Nikhil Prakash",
+      "Meleena Ann Philip",
+      "Neethu Liz",
+      "Joel C Raju",
+      "Jibu Samuel",
+      "Elena Maria Varghese",
+      "Joyal John Chacko",
+      "Joyal Joseph",
+    ],
+  },
+  {
+    event: "Triathlon",
+    names: [
+      "Akhil P Dominic",
+      "Antony Thomas",
+      "Alen Scaria",
+      "Aarsha V S",
+      "Arya Shinod",
+      "Lino Shaji",
+      "Sreyas (MTech)",
+      "Gopika S",
+      "Athulya Anilkumar",
+    ],
+  },
+  
+  {
+    event: "Capture the Flag",
+    names: [
+      "Sharon KJ",
+      "Jonat J Mathew",
+      "Reejo Kuriakose",
+      "Marshel C Mathews",
+      "Meghana Suresh",
+    ],
+  },
+];
 
 const technologies = [
   {
@@ -362,6 +431,7 @@ const testimonials = [
 ];
 
 const projects = [
+
     {
       name: "EVOLVHACK",
       description:
@@ -547,5 +617,6 @@ export {
   main,
   main_coords,
   coords,
-  web_team
+  web_team,
+  event_teams,
 };

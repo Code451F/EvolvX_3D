@@ -10,7 +10,7 @@ import { sponsors, other_sponsors } from "../constants";
 import { StarsCanvas } from "../components";
 
 const ServiceCard = ({ index, title, icon, people, batch}) => (
-  <Tilt className="xs:w-[270px] w-full">
+  <Tilt className="xs:w-[300px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full orange-yellow-gradient p-[1px] rounded-[20px] shadow-card"
@@ -22,7 +22,7 @@ const ServiceCard = ({ index, title, icon, people, batch}) => (
           speed: 450,
         }}
         // onClick={() => window.open(source_code_link, "_self")}
-        className="bg-primary rounded-[20px] py-5 px-12 min-h-[320px] flex justify-evenly items-center flex-col "
+        className="bg-primary rounded-[20px] py-5 px-5 min-h-[320px] flex justify-evenly items-center flex-col "
       >
         <img
           src={icon}
@@ -61,7 +61,7 @@ const ServiceCardOther = ({ index, name, batch }) => (
           speed: 450,
         }}
         // onClick={() => window.open(source_code_link, "_self")}
-        className="bg-primary rounded-[20px] py-5 px-12 min-h-[180px] flex justify-evenly items-center flex-col"
+        className="bg-primary rounded-[20px] py-5 px-5 min-h-[180px] flex justify-evenly items-center flex-col"
       >
         <h3 className="text-white text-[20px] text-center">{name.map((person) => (
             <ul>{person}</ul>
@@ -102,7 +102,7 @@ const Sponsors = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="flex-col text-center mb-20 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 xs:border-[#ff8f00] xxs:border-transparent"
+          className="flex-col text-center mb-20 mt-10 xs:w-10/12 bg-transparent p-8 rounded-2xl xs:border-4 xs:border-[#ff8f00] xxs:border-transparent"
         >
           <h3 className={styles.sectionHeadText}>
             Our <span className="text-[#ffffff]">Sponsors</span>

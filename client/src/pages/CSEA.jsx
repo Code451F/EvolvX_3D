@@ -15,7 +15,7 @@ const ServiceCard = ({ index, title, icon, people, batch }) => (
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full orange-yellow-gradient p-[1px] rounded-[20px] shadow-card"
     >
-      <div
+      {/* <div
         options={{
           max: 45,
           scale: 1,
@@ -43,7 +43,7 @@ const ServiceCard = ({ index, title, icon, people, batch }) => (
         <h4 className="text-white text-[20px] font-bold text-center">
           {batch}
         </h4>
-      </div>
+      </div> */}
     </motion.div>
   </Tilt>
 );
@@ -78,13 +78,18 @@ const CSEA = () => {
           className="flex-col text-center mb-20 mt-10 w-3/4 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00]"
         >
           <h3 className={styles.sectionHeadText}>
-            CSE <span className="text-[#ffffff]">Associaton Members</span>
+            Computer Science <span className="text-[#ffffff]">Department</span>
           </h3>
 
           <div className="mt-20 flex flex-wrap justify-center gap-20">
-            {sponsors.map((sponsor, index) => (
+            {/* {sponsors.map((sponsor, index) => (
               <ServiceCard key={sponsor.title} index={index} {...sponsor} />
-            ))}
+            ))} */}
+            <div>
+              <li>
+              <span>The Department moulds young outstanding engineers who are academically strong in both theory and practicals. It organizes supplementary programs, which include Paper Presentations, Technical seminars and Mock Interviews to prepare the student for a career in the computing field or for graduate study. Special orientation is provided to the staff periodically for updating their acumen and to imbibe the latest technological changes. The staff and students are members of the Computer Society of India.</span>
+              </li>
+            </div>
           </div>
         </motion.div>
         <StarsCanvas />

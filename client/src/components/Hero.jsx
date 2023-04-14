@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import Computer from "./Computer";
+import azure from '../assets/azurelogo.png'
 
 import useWindowDimensions from "./CheckWidth";
 
@@ -23,14 +24,15 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 orange-line-gradient" />
           </div>
 
-          <div>
-            <h1 className={`${styles.heroHeadText} text-white`}>
+          <div className="flex object-fill w-[300px] ">
+            {/* <h1 className={`${styles.heroHeadText} text-white`}>
               AZURE<span className="text-[#fe8e00]">'23</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               The Tech Fest of the Century <br className="sm:block hidden" />
               Come join us @Amal Jyothi
-            </p>
+            </p> */}
+            <img src={azure}></img>
           </div>
         </div>
 
@@ -67,14 +69,15 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 orange-line-gradient" />
           </div>
 
-          <div>
-            <h1 className={`${styles.heroHeadText} text-white`}>
+          <div className="flex object-fill w-[180px]">
+          <img src={azure}></img>
+            {/* <h1 className={`${styles.heroHeadText} text-white`}>
               Azure<span className="text-[#fe8e00]">'23</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               The Tech Fest of the Century. <br className="sm:block hidden" />
               Come join us @Amal Jyothi
-            </p>
+            </p> */}
           </div>
         </div>
 

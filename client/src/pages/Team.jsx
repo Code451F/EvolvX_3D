@@ -5,12 +5,12 @@ import { styles } from "../styles";
 import { slideIn } from "../utils/motion";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import { main, main_coords, coords, web_team } from "../constants";
+import { main, main_coords, coords, web_team, event_teams } from "../constants";
 
 import { StarsCanvas } from "../components";
 
 const ServiceCard = ({ name, image, designation, index }) => (
-  <Tilt className="xs:w-[280px] w-full">
+  <Tilt className="xs:w-[290px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full orange-yellow-gradient p-[1px] rounded-[20px] shadow-card"
@@ -21,18 +21,44 @@ const ServiceCard = ({ name, image, designation, index }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-primary rounded-[20px] py-5 px-12 min-h-[320px] flex justify-evenly items-center flex-col cursor-pointer"
+        className="bg-primary rounded-[20px] py-5 px-5 min-h-[320px] flex justify-evenly items-center flex-col cursor-pointer"
       >
         <img
           src={image}
           alt="web-development"
-          className="w-100 h-100 object-contain rounded-[100px]"
+          className="w-32 h-32 object-contain rounded-[100px]"
         />
 
         <h3 className="text-white text-[24px] font-bold text-center">{name}</h3>
 
         <h4 className="text-white text-[20px] text-center">
           {designation}
+        </h4>
+      </div>
+    </motion.div>
+  </Tilt>
+);
+
+const ServiceCardTeam = ({ names, event, index }) => (
+  <Tilt className="xs:w-[320px] w-full">
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className="w-full orange-yellow-gradient p-[1px] rounded-[20px] shadow-card"
+    >
+      <div
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className="bg-primary rounded-[20px] py-5 px-12 min-h-[200px] flex justify-evenly items-center flex-col cursor-pointer"
+      >
+        <h3 className={`${styles.descriptionHeadText}text-white text-[24px] font-bold text-center`}>{event}</h3>
+
+        <h4 className="text-white text-[20px] text-center mt-5">
+        {names.map((person) => (
+            <ul>{person}</ul>
+          ))}
         </h4>
       </div>
     </motion.div>
@@ -52,7 +78,7 @@ const Team = () => {
         >
           <div className="justify-center content-center items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
-              Evolv<span className="text-[#fe8e00]">Hack</span>
+              CSE <span className="text-[#fe8e00]"> Association</span>
             </h1>
           </div>
         </div>
@@ -66,10 +92,10 @@ const Team = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="flex-col text-center mb-20 mt-10 w-10/12 bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00] xxs:"
+          className="flex-col text-center mb-20 mt-10 xs:w-10/12 bg-transparent p-8 rounded-2xl xs:border-4 xs:border-[#ff8f00] xxs:border-transparent"
         >
           <h3 className={styles.sectionHeadText}>
-            The <span className="text-[#ffffff]">Team</span>
+            Core <span className="text-[#ffffff]">Team</span>
           </h3>
 
           <div className="mt-20 flex flex-wrap justify-center gap-20">
@@ -90,9 +116,23 @@ const Team = () => {
             ))}
           </div>
 
+          <div className={`${styles.sectionHeadText} mt-20`}>
+            <h1>Web Team</h1>
+          </div>
+
           <div className="mt-20 flex flex-wrap justify-center gap-20">
             {web_team.map((sponsor, index) => (
               <ServiceCard key={sponsor.title} index={index} {...sponsor} />
+            ))}
+          </div>
+
+          <div className={`${styles.sectionHeadText} mt-20`}>
+            <h1>Event Coordinators</h1>
+          </div>
+
+          <div className="mt-20 flex flex-wrap justify-center gap-20">
+            {event_teams.map((sponsor, index) => (
+              <ServiceCardTeam key={sponsor.title} index={index} {...sponsor} />
             ))}
           </div>
         </motion.div>

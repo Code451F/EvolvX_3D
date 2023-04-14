@@ -48,7 +48,7 @@ import {
   sharon,
   asif,
   chetan,
-  glen
+  glen,
 } from "../assets";
 
 export const navLinks = [
@@ -105,26 +105,26 @@ const sponsors = [
     title: "Eat Kochi Eat",
     icon: eatkochieat,
     people: ["Mr. Karthik M: Batch of 2012", "Mr. Bobin Shaji: Batch of 2017"],
-    batch: ""
+    batch: "",
   },
   {
     title: "Way to Nikah",
     icon: waytonikah,
     people: ["Mrs. Tasleem T P"],
-    batch: "Batch of 2005"
+    batch: "Batch of 2005",
   },
   {
     title: "Tiara",
     icon: tiara,
     people: ["Mrs. Ninu Mary Joseph"],
-    batch: "Batch of 2005"
+    batch: "Batch of 2005",
   },
 ];
 
 const other_sponsors = [
   {
     name: ["Mr. Joseph Jose", "Mr. Prince Kuriakose"],
-    batch: "Batch of 2009"
+    batch: "Batch of 2009",
   },
   {
     name: ["Mrs. Anju Mathew"],
@@ -144,28 +144,28 @@ const other_sponsors = [
   },
   {
     name: ["Mrs. Rintu mol Joseph"],
-    batch: "Batch of 2011"
-  }
+    batch: "Batch of 2011",
+  },
 ];
 
 const main = [
   {
     name: "Dr. Juby Mathew",
     image: juby,
-    designation: "HoD"
+    designation: "HoD",
   },
   {
     name: "Mr. Krishnalal G",
     image: klal,
-    designation: "FIC: CSEA"
-  }
-]
+    designation: "FIC: CSEA",
+  },
+];
 
 const main_coords = [
   {
     name: "Sharon Thomas",
     image: sharon,
-    designation: "President"
+    designation: "President",
   },
   {
     name: "Anson Benny",
@@ -175,10 +175,9 @@ const main_coords = [
   {
     name: "Joyal Joby",
     image: joyal,
-    designation: "Treasurer"
-  }
-
-]
+    designation: "Treasurer",
+  },
+];
 
 const coords = [
   {
@@ -194,15 +193,15 @@ const coords = [
   {
     name: "Riya M Jose",
     image: riya,
-    designation: "EvolvX Coordinator"
-  }
-]
+    designation: "EvolvX Coordinator",
+  },
+];
 
 const web_team = [
   {
     name: "Asif Shereef",
     image: asif,
-    designation: "Master Frontend"
+    designation: "Master Frontend",
   },
   {
     name: "Chetan Manoj",
@@ -212,9 +211,79 @@ const web_team = [
   {
     name: "Glen Pereira",
     image: glen,
-    designation: "Lord Fullstack"
-  }
-]
+    designation: "Lord Fullstack",
+  },
+];
+
+const event_teams = [
+  {
+    event: "EvolvHack Team",
+    names: [
+      "Anandu Sunil",
+      "Febin K Dominic",
+      "Glen Pereira",
+      "Emal George",
+      "Grace Maria Binu",
+      "Anna Tennyson",
+      "Gauthami S",
+      "Josin P C",
+      "Francis Tom",
+      "Justin V George",
+    ],
+  },
+  {
+    event: "Gaming",
+    names: [
+      "Asif Shereef",
+      "Joel Abraham Orethu",
+      "Ryan Savio Shibu",
+      "Harikrishnan S",
+      "Tibin Abraham",
+      "Subin K S",
+      "Nivedh Mohan",
+      "Chetan Manoj",
+      "Ben Jacob Bobby",
+    ],
+  },
+  {
+    event: "Code Quest",
+    names: [
+      "Nikhil Prakash",
+      "Meleena Ann Philip",
+      "Neethu Liz",
+      "Joel C Raju",
+      "Jibu Samuel",
+      "Elena Maria Varghese",
+      "Joyal John Chacko",
+      "Joyal Joseph",
+    ],
+  },
+  {
+    event: "Triathlon",
+    names: [
+      "Akhil P Dominic",
+      "Antony Thomas",
+      "Alen Scaria",
+      "Aarsha V S",
+      "Arya Shinod",
+      "Lino Shaji",
+      "Sreyas (MTech)",
+      "Gopika S",
+      "Athulya Anilkumar",
+    ],
+  },
+  
+  {
+    event: "Capture the Flag",
+    names: [
+      "Sharon KJ",
+      "Jonat J Mathew",
+      "Reejo Kuriakose",
+      "Marshel C Mathews",
+      "Meghana Suresh",
+    ],
+  },
+];
 
 const technologies = [
   {
@@ -361,134 +430,133 @@ const testimonials = [
 ];
 
 const projects = [
-    {
-      name: "EVOLVHACK",
-      description:
-        "EvolveHack '23 is the perfect opportunity for university students to showcase their creativity and problem-solving skills. With a 24-hour timeframe and the freedom to identify and solve any problem, teams of 2-4 can create innovative and practical solutions",
-      tags: [
-        {
-          name: "Hack-a-thon",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "24HRS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Hack4AJCE",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: hackathon,
-      source_code_link: "/evolvhack",
-    },
-    {
-      name: "ARCHON CTF",
-      description:
-        "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
-      tags: [
-        {
-          name: "CTF",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CEH",
-          color: "green-text-gradient",
-        },
-        {
-          name: "capturetheflag",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: ctf,
-      source_code_link: "/ctf",
-    },
-    {
-      name: "CODE QUEST",
-      description:
-        "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
-      tags: [
-        {
-          name: "coding",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "programming",
-          color: "green-text-gradient",
-        },
-        {
-          name: "problems",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: treasurehunt,
-      source_code_link: "/codingcompetition",
-    },
-    {
-      name: "TRIATHLON",
-      description:
-        "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
-      tags: [
-        {
-          name: "triathlon",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "coding",
-          color: "green-text-gradient",
-        },
-        {
-          name: "programming",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: triathlon,
-      source_code_link: "/triathlon",
-    },
-    {
-      name: "CSGO",
-      description:
-        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
-      tags: [
-        {
-          name: "VideoGames",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "FPS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "shooter",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: csgo,
-      source_code_link: "/gaming/csgo",
-    },
-    {
-      name: "FIFA23",
-      description:
-        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
-      tags: [
-        {
-          name: "VideoGames",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Football",
-          color: "green-text-gradient",
-        },
-        {
-          name: "FIFA 23",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: fifa,
-      source_code_link: "/gaming/fifa",
-    },
-  ];
-
+  {
+    name: "EVOLVHACK",
+    description:
+      "EvolveHack '23 is the perfect opportunity for university students to showcase their creativity and problem-solving skills. With a 24-hour timeframe and the freedom to identify and solve any problem, teams of 2-4 can create innovative and practical solutions",
+    tags: [
+      {
+        name: "Hack-a-thon",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "24HRS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hack4AJCE",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hackathon,
+    source_code_link: "/evolvhack",
+  },
+  {
+    name: "ARCHON CTF",
+    description:
+      "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
+    tags: [
+      {
+        name: "CTF",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CEH",
+        color: "green-text-gradient",
+      },
+      {
+        name: "capturetheflag",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ctf,
+    source_code_link: "/ctf",
+  },
+  {
+    name: "CODE QUEST",
+    description:
+      "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
+    tags: [
+      {
+        name: "coding",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "programming",
+        color: "green-text-gradient",
+      },
+      {
+        name: "problems",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: treasurehunt,
+    source_code_link: "/codingcompetition",
+  },
+  {
+    name: "TRIATHLON",
+    description:
+      "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
+    tags: [
+      {
+        name: "triathlon",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "coding",
+        color: "green-text-gradient",
+      },
+      {
+        name: "programming",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: triathlon,
+    source_code_link: "/triathlon",
+  },
+  {
+    name: "CSGO",
+    description:
+      "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+    tags: [
+      {
+        name: "VideoGames",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FPS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shooter",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: csgo,
+    source_code_link: "/gaming/csgo",
+  },
+  {
+    name: "FIFA23",
+    description:
+      "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+    tags: [
+      {
+        name: "VideoGames",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Football",
+        color: "green-text-gradient",
+      },
+      {
+        name: "FIFA 23",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fifa,
+    source_code_link: "/gaming/fifa",
+  },
+];
 
 const guidelines_EH = [
   {
@@ -546,5 +614,6 @@ export {
   main,
   main_coords,
   coords,
-  web_team
+  web_team,
+  event_teams,
 };

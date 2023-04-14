@@ -361,7 +361,7 @@ const experiences = [
     ],
   },
   {
-    title: "Capture The Flag",
+    title: "Archon CTF",
     company_name: "Venue - Advanced Systems Lab, CS Dept.",
     icon: flag,
     iconBg: "#fff",
@@ -372,7 +372,7 @@ const experiences = [
     ],
   },
   {
-    title: "Code Quest",
+    title: "CodeQuest",
     company_name: "Venue - Network Lab, CS Dept.",
     icon: trail,
     iconBg: "#fff",
@@ -394,7 +394,7 @@ const experiences = [
     ],
   },
   {
-    title: "Gaming",
+    title: "Gaming - CSGO/FIFA23",
     company_name: "Venue - Laptop Lab, CS Dept.",
     icon: controller,
     iconBg: "#fff",

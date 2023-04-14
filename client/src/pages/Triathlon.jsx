@@ -7,6 +7,7 @@ import { StarsCanvas } from "../components";
 import triathlon from "../assets/triathlon.jpg"
 import { logo, logo_nbg, menu, close, csea } from "../assets";
 import azure from '../assets/azurelogo.png'
+import { waytonikah } from "../assets";
 
 
 const Triathlon = () => {
@@ -51,6 +52,15 @@ const Triathlon = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}>  */}
              
             </p>
+
+            <div className="xl:flex xl:flex-row xl:items-center mb-8 xxs:flex-col">
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORED BY</h4>
+            {/* <p className={`${styles.descriptionText} mt-2 mb-5`}> 
+              We have partnered with Digiora Technologies to provide us with the prize money for the winners and JB Labs to sponsor the prize money for the runner-ups. */}
+            {/* </p> */}
+            <img src={waytonikah} className="w-[300px] pl-8 pt-4"></img>
+            </div>
+
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The Prize pool is ₹20,000, where the first prize is worth ₹15,000 and the second prize is worth ₹5000.
@@ -91,23 +101,25 @@ const Triathlon = () => {
           </ol>
         </motion.div>
         <StarsCanvas/>
-      </div>
-
-      <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
-          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
-           <img src={csea} alt='logo' className='object-contain mt-6'/>
-          </div>
-          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
-           <img src={logo} alt='logo' className='object-contain mt-16 ml-4'/>
-          </div>          
-          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5"}>
-           <img src={azure} alt='logo' className='object-contain mt-12'/>
-          </div>
         </div>
-      </div> 
 
-    </div> 
+<div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
+  <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+    
+    <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+     <img src={csea} alt='logo' className='object-contain mt-6'/>
+    </div>
+    <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+     <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
+    </div>          
+    <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
+     <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
+    </div>
+    
+  </div>
+</div> 
+
+</div> 
   );
 };
 

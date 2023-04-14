@@ -16,7 +16,7 @@ const Gaming = () => {
         <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
           <div className="justify-center content-center items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
-              CS<span className='text-[#fe8e00]'>GO</span> '23
+              CSGO<span className='text-[#fe8e00]'>23</span>
             </h1>
           </div>
         </div>
@@ -36,11 +36,15 @@ const Gaming = () => {
           <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
             <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={csgo} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
-                <button
-            type='submit'
-            className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
-          > REGISTER
-          </button>
+
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSeczl_w9bZckZ2UD1-Ec7U4uf9LfwQqrK-KY3SGxUpskbS8Ww/viewform?usp=sf_link'>
+                  <button
+                    type='submit'
+                    className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
+                  > REGISTER
+                  </button>
+                </a>
+
             </div>
             <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
@@ -69,25 +73,23 @@ const Gaming = () => {
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices will be disqualified and not allowed to compete. Communications between players must be civil and respectful.</li>
           </ol>
         </motion.div>
-        <StarsCanvas/>
+
+        <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
+        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+           <img src={csea} alt='logo' className='object-contain mt-6'/>
+          </div>
+          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+           <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
+          </div>          
+          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
+           <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
+          </div>
         </div>
+      </div> 
+      <StarsCanvas/>
 
-<div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-  <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
-    
-    <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
-     <img src={csea} alt='logo' className='object-contain mt-6'/>
-    </div>
-    <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
-     <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
-    </div>          
-    <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
-     <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
-    </div>
-    
-  </div>
-</div> 
-
+        </div>
 </div> 
   );
 };

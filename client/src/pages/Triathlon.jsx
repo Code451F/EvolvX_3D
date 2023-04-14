@@ -36,11 +36,14 @@ const Triathlon = () => {
           <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
             <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={triathlon} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
-                <button
-            type='submit'
-            className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
-          > REGISTER
-          </button>
+
+                <a href='https://forms.gle/zCZ2J1wnoUvdm7qN6'>
+                  <button
+                    type='submit'
+                    className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
+                  > REGISTER
+                  </button>
+                </a>
           </div>
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
@@ -100,25 +103,21 @@ const Triathlon = () => {
             <li><span className="font-bold text-[#ffba61]">Reverse Engineering:</span> The winner will be determined based on the number of questions solved in the smallest time frame.</li>
           </ol>
         </motion.div>
-        <StarsCanvas/>
+        <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
+        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+           <img src={csea} alt='logo' className='object-contain mt-6'/>
+          </div>
+          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+           <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
+          </div>          
+          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
+           <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
+          </div>
         </div>
-
-<div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-  <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
-    
-    <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
-     <img src={csea} alt='logo' className='object-contain mt-6'/>
-    </div>
-    <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
-     <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
-    </div>          
-    <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
-     <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
-    </div>
-    
-  </div>
-</div> 
-
+      </div> 
+      <StarsCanvas/>
+        </div>
 </div> 
   );
 };

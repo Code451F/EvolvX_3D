@@ -104,7 +104,7 @@ const Sponsors = () => {
           initial={{ x: "-100%" }}
           animate={{ x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="flex-col text-center mb-20 mt-10 xs:w-10/12 bg-transparent p-8 rounded-2xl xs:border-4 xs:border-[#ff8f00] xxs:border-transparent"
+          className="flex-col text-center mb-10 mt-10 xs:w-10/12 bg-transparent p-8 rounded-2xl xs:border-4 xs:border-[#ff8f00] xxs:border-transparent"
         >
           <h3 className={styles.sectionHeadText}>
             Our <span className="text-[#ffffff]">Sponsors</span>
@@ -125,24 +125,21 @@ const Sponsors = () => {
             ))}
           </div>
         </motion.div>
-        <StarsCanvas />
+        <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
+        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+           <img src={csea} alt='logo' className='object-contain mt-6'/>
+          </div>
+          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+           <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
+          </div>          
+          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
+           <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
+          </div>
+        </div>
+      </div> 
+      <StarsCanvas/>
       </div>
-
-      <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-  <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
-    
-    <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
-     <img src={csea} alt='logo' className='object-contain mt-6'/>
-    </div>
-    <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
-     <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
-    </div>          
-    <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
-     <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
-    </div>
-    
-  </div>
-</div> 
 
 </div> 
   );

@@ -9,6 +9,9 @@ import { slideIn } from "../utils/motion";
 import Globe from "./Globe";
 import useWindowDimensions from "./CheckWidth";
 
+import { logo, logo_nbg, menu, close, csea } from "../assets";
+import azure from '../assets/azurelogo.png'
+
 const Contact = () => {
   const { height, width } = useWindowDimensions();
   const breakpoint = 700;
@@ -56,6 +59,7 @@ const Contact = () => {
 
   if (width > breakpoint) {
     return (
+      <div className="flex-col">
       <div
         className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
       >
@@ -120,7 +124,24 @@ const Contact = () => {
         >
           <EarthCanvas />
         </motion.div>
+        </div>
+
+        <div className={'bg-cover bg-no-repeat bg-center relative w-full h-[200px] mt-[35px]'}>
+        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+           <img src={csea} alt='logo' className='object-contain mt-6'/>
+          </div>
+          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+           <img src={logo} alt='logo' className='object-contain mt-16 ml-4'/>
+          </div>          
+          <div className={" flex-row justify-center align-center w-[200px] h-[100px]"}>
+           <img src={azure} alt='logo' className='object-contain mt-12'/>
+          </div>
+        </div>
+      </div> 
+
       </div>
+
     );
   } else {
     return (
@@ -189,6 +210,7 @@ const Contact = () => {
           {/* <EarthCanvas /> */}
           <Globe />
         </motion.div>
+
       </div>
     );
   }

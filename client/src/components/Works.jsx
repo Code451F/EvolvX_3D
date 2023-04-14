@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon, source_code_link }) => (
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-48 h-48 object-contain'
         />
 
         <h3 className='text-white text-[30px] font-bold text-center'>
@@ -42,7 +42,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Our Team</p>
+        <p className={`${styles.sectionSubText} `}>Individuals who have provided us with their support</p>
         <h2 className={`${styles.sectionHeadText}`}>Team and Sponsors</h2>
       </motion.div>
 

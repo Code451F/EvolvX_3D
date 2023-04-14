@@ -7,6 +7,9 @@ import { StarsCanvas } from "../components";
 import { guidelines_EH } from "../constants";
 import hackathon from '../assets/hackathon.jpg'
 import { hack } from "../assets";
+import { logo, logo_nbg, menu, close, csea } from "../assets";
+import azure from '../assets/azurelogo.png'
+
 
 const Evolvhack = () => {
   return (
@@ -110,11 +113,15 @@ const Evolvhack = () => {
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
-          <div className="justify-center content-center items-center">
-            <h1 className={`${styles.heroHeadText} text-white text-center`}>
-              EVOLV<span className='text-[#fe8e00]'>X</span>
-            </h1>
+        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+           <img src={csea} alt='logo' className='object-contain mt-6'/>
+          </div>
+          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+           <img src={logo} alt='logo' className='object-contain mt-16 ml-4'/>
+          </div>          
+          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5"}>
+           <img src={azure} alt='logo' className='object-contain mt-12'/>
           </div>
         </div>
       </div> 
@@ -125,20 +132,6 @@ const Evolvhack = () => {
 
 export default Evolvhack;
 
-{/* <button
-type='submit'
-className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
->
-{loading ? "Sending..." : "Send"}
-</button> */}
-
-{/* <div className='relative z-0'>
-<Contact />
-<StarsCanvas />
-</div> */}
-
-// xl:bg-transparent
-// className={'flex flex-col bg-transparent p-8 rounded-2xl border-4 border-[#ff8f00] text-center mb-20 mt-10 w-3/4'}
 
 
 

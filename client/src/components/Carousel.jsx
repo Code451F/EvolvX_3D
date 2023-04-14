@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+
 
 import data from './data.json';
 
@@ -53,11 +55,8 @@ const Carousel = () => {
   return (
     
     <div className="carousel my-8mx-auto w-full">
-      <p className='text-[18px] uppercase pb-[20px]'>A few moments and memories from our past</p>
-      {/* <p className={styles.sectionSubText}>A few Images from our past events</p> */}
-      <h2 className="text-[60px] leading-8 font-bold mb-12 text-[#ff8f00] tracking-wider]">
-        Our Gallery
-      </h2>
+          <p className={styles.sectionSubText}>a few moments and memories from our past</p>
+          <h2 className={styles.sectionHeadText}>Our Gallery</h2>
       {/* <h2 className={styles.sectionHeadText}>
         Gallery
       </h2> */}

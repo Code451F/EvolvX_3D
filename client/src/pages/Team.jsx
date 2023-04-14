@@ -120,7 +120,7 @@ const Team = () => {
           </div>
 
           <div className={`${styles.sectionHeadText} mt-20`}>
-            <h1>Web Team</h1>
+            Web <span className="text-[#ffffff]">Team</span>
           </div>
 
           <div className="mt-20 flex flex-wrap justify-center gap-20">
@@ -130,7 +130,7 @@ const Team = () => {
           </div>
 
           <div className={`${styles.sectionHeadText} mt-20`}>
-            <h1>Event Coordinators</h1>
+            Event <span className="text-[#ffffff]">Coordinators</span>
           </div>
 
           <div className="mt-20 flex flex-wrap justify-center gap-20">

@@ -34,10 +34,11 @@ import {
   hack,
   trail,
   digiora,
-  empty,
+  jlb,
   tiara,
   eatkochieat,
   waytonikah,
+  mystiko,
   alan,
   anandu,
   anson,
@@ -97,7 +98,7 @@ const sponsors = [
   },
   {
     title: "JB Labs",
-    icon: empty,
+    icon: jlb,
     people: ["Mr. Ajo John"],
     batch: "Batch of 2017",
   },
@@ -118,6 +119,12 @@ const sponsors = [
     icon: tiara,
     people: ["Mrs. Ninu Mary Joseph"],
     batch: "Batch of 2005",
+  },
+  {
+    title: "Mystiko",
+    icon: mystiko,
+    people: ["CTF platform providers"],
+    batch: "",
   },
 ];
 
@@ -201,17 +208,17 @@ const web_team = [
   {
     name: "Asif Shereef",
     image: asif,
-    designation: "Master Frontend",
+    designation: "Web Developer",
   },
   {
     name: "Chetan Manoj",
     image: chetan,
-    designation: "Darth CSS",
+    designation: "Web Developer",
   },
   {
     name: "Glen Pereira",
     image: glen,
-    designation: "Lord Fullstack",
+    designation: "Web Developer",
   },
 ];
 
@@ -243,6 +250,7 @@ const event_teams = [
       "Nivedh Mohan",
       "Chetan Manoj",
       "Ben Jacob Bobby",
+      "Alan Biju George"
     ],
   },
   {
@@ -348,10 +356,8 @@ const experiences = [
     iconBg: "#fff",
     date: "24 April 2023",
     points: [
-      "Anandu Sunil - 8590159583",
-      "Febin K Dominic - 9495505782",
-      
-      // "Participants are then expected to build a working prototype of their solutions by the end of the event.",
+      "Anandu Sunil: +91 85901 59583",
+      "Febin K Dominic: +91 94955 05782",
     ],
   },
   {
@@ -361,11 +367,8 @@ const experiences = [
     iconBg: "#fff",
     date: "24 April 2023, 9:00 AM",
     points: [
-      "Jonat J - 9654352870",
-      "Meghana S - 8547427115",
-      
-      // "Contestants will be tasked with solving a series of cybersecurity challenges in a given amount of time ",
-      // "The challenges could be related to cryptography, steganography, web application security, network security, digital forensics, and other related domains.",
+      "Jonat J: +91 96543 52870",
+      "Meghana S: +91 85474 27115",
     ],
   },
   {
@@ -375,10 +378,8 @@ const experiences = [
     iconBg: "#fff",
     date: "24 April 2023, 9:00 AM",
     points: [
-      "Nikhil Prakash - 6282409303",
-      "Joel C Raju - 8750940057",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
+      "Nikhil Prakash: +91 62824 09303",
+      "Joel C Raju: +91 87509 40057",
     ],
   },
   {
@@ -388,9 +389,8 @@ const experiences = [
     iconBg: "#fff",
     date: "24 April 2023, 9:30 AM",
     points: [
-      "Antony Thomas - 9496615892",
-      "Akhil P Dominic - 6235136689",
-      // "Teams scoring above the cutoff in each challenge will move on to the subsequent challenge",
+      "Antony Thomas: +91 94966 15892",
+      "Akhil P Dominic: +91 62351 36689",
     ],
   },
   {
@@ -399,7 +399,10 @@ const experiences = [
     icon: controller,
     iconBg: "#fff",
     date: "24 April 2023, 9:00 AM",
-    points: ["Joel Abraham - 9544357926", "Hari K - 9633234578"],
+    points: [
+      "Joel Abraham: +91 95443 57926", 
+      "Hari K: +91 96332 34578"
+    ],
   },
 ];
 
@@ -435,7 +438,7 @@ const projects = [
     {
       name: "EVOLVHACK",
       description:
-        "EvolveHack '23 is the perfect opportunity for university students to showcase their creativity and problem-solving skills. With a 24-hour timeframe to identify and solve any problem, teams of 2-4 can create innovative and practical solutions",
+        "Unleash your creativity and problem-solving skills at EvolveHack '23! This 24-hour event is the ultimate opportunity for university students to create innovative and practical solutions to any problem. Join us and showcase your ingenuity to the world!",
       tags: [
         {
           name: "Hack-a-thon",
@@ -456,7 +459,7 @@ const projects = [
     {
       name: "ARCHON CTF",
       description:
-        "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains.",
+        "Are you a cybersecurity enthusiast looking for a challenge? This event includes a series of cybersecurity challenges that will test your skills in cryptography, steganography, web application security, network security, and related domains!",
       tags: [
         {
           name: "CTF",
@@ -477,7 +480,7 @@ const projects = [
     {
       name: "CODE QUEST",
       description:
-        "A team coding competition where the contestants will be tasked with solving complex coding problems in a limited time frame, requiring them to write efficient, clean, and scalable code in various programming languages.",
+        "Ready to put your coding skills to the test? Join us for coding competition and solve complex problems under pressure! Write efficient, clean, and scalable code in various languages to win big. Don't miss out on this ultimate coding challenge!",
       tags: [
         {
           name: "coding",
@@ -498,7 +501,7 @@ const projects = [
     {
       name: "TRIATHLON",
       description:
-        "Participate in a contest that will challenge your problem-solving skills in a series of three fun and engaging challenges. Test your abilities under time pressure and compete with other contestants to see who can solve the challenges the fastest.",
+        "Are you ready to put your problem-solving skills to the test? Join us for a thrilling contest featuring three engaging challenges and compete with others under time pressure. See if you have what it takes to be the fastest problem-solver and win big!",
       tags: [
         {
           name: "triathlon",
@@ -519,7 +522,7 @@ const projects = [
     {
       name: "CSGO",
       description:
-        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+        "Get ready to join the ultimate gaming showdown with CSGO! Prove your skills, battle other skilled players, and win amazing prizes. Don't miss your chance to showcase your gaming prowess in this intense competition!",
       tags: [
         {
           name: "VideoGames",
@@ -540,7 +543,7 @@ const projects = [
     {
       name: "FIFA23",
       description:
-        "Join the ultimate gaming showdown featuring two of the most popular competitive titles - CSGO and FIFA 23. Battle it out with other skilled players and showcase your gaming prowess to win amazing prizes.",
+        "Join the ultimate FIFA 23 tournament and show off your skills against top players from around the world. Compete to become the champion and win amazing prizes. Sign up now to make a name for yourself on the virtual pitch!",
       tags: [
         {
           name: "VideoGames",
@@ -551,7 +554,7 @@ const projects = [
           color: "green-text-gradient",
         },
         {
-          name: "FIFA 23",
+          name: "FIFA23",
           color: "pink-text-gradient",
         },
       ],

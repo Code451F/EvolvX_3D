@@ -53,10 +53,10 @@ const Carousel = () => {
   return (
     
     <div className="carousel my-8mx-auto w-full">
-      <p className='text-[18px] uppercase pb-[20px]'>A few moments and memories from our past events</p>
+      <p className='text-[18px] uppercase pb-[20px]'>A few moments and memories from our past</p>
       {/* <p className={styles.sectionSubText}>A few Images from our past events</p> */}
       <h2 className="text-[60px] leading-8 font-bold mb-12 text-[#ff8f00] tracking-wider]">
-        Gallery
+        Our Gallery
       </h2>
       {/* <h2 className={styles.sectionHeadText}>
         Gallery

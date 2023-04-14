@@ -5,6 +5,8 @@ import { slideIn } from "../utils/motion";
 
 import { StarsCanvas } from "../components";
 import codequest from '../assets/treasurehunt.jpg';
+import { logo, logo_nbg, menu, close, csea } from "../assets";
+import azure from '../assets/azurelogo.png'
 
 
 const Codingcomp = () => {
@@ -92,11 +94,15 @@ const Codingcomp = () => {
       </div>
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative top-[50px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 justify-center content-center items-center mb-20`}>
-          <div className="justify-center content-center items-center">
-            <h1 className={`${styles.heroHeadText} text-white text-center`}>
-              EVOLV<span className='text-[#fe8e00]'>X</span>
-            </h1>
+        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+           <img src={csea} alt='logo' className='object-contain mt-6'/>
+          </div>
+          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+           <img src={logo} alt='logo' className='object-contain mt-16 ml-4'/>
+          </div>          
+          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5"}>
+           <img src={azure} alt='logo' className='object-contain mt-12'/>
           </div>
         </div>
       </div> 

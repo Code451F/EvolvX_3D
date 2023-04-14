@@ -8,6 +8,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import csea from "./CSEA.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -41,11 +42,13 @@ import triathon from "./triathon.png";
 import trail from "./trail.png";
 import hack from "./hack.png";
 
+import jlb from "./jlb.svg"
 import digiora from "./Digiora.png";
 import empty from "./empty.png";
 import tiara from "./tiara.png";
 import eatkochieat from "./eatkochieat.png";
 import waytonikah from "./waytonikah.png";
+import mystiko from "./mystiko.jpg"
 
 import alan from "./alan.jpg"
 import anandu from "./anandu.jpg"
@@ -70,6 +73,7 @@ export {
   github,
   menu,
   close,
+  csea,
   css,
   docker,
   figma,
@@ -98,11 +102,13 @@ export {
   triathon,
   trail,
   hack,
+  jlb,
   digiora,
   empty,
   tiara,
   eatkochieat,
   waytonikah,
+  mystiko,
   alan,
   anandu,
   anson,

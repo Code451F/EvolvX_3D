@@ -40,28 +40,28 @@ const Evolvhack = () => {
             <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={hackathon} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
                 
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLScs-7cw578sJFMQvQhH2kriMZ72GckAB4U59OUHQuWccnMoig/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link'>
+                {/* <a href='https://docs.google.com/forms/d/e/1FAIpQLScs-7cw578sJFMQvQhH2kriMZ72GckAB4U59OUHQuWccnMoig/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link'> */}
                   <button
                     type='submit'
                     className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
-                  > REGISTER
+                  > COMING SOON
                   </button>
-                </a>
+                {/* </a> */}
 
-          <a href="https://drive.google.com/file/d/19M3FC7V7vY9aiV7MJpbNRwEIgVNXFdAJ/view?usp=share_link" >
+          {/* <a href="https://drive.google.com/file/d/19M3FC7V7vY9aiV7MJpbNRwEIgVNXFdAJ/view?usp=share_link" > */}
           <button
             type='submit'
             className='bg-blue-500 py-3 mt-[8px] px-2 rounded-xl outline-none w-[180px] h-[] text-[16px]  text-white font-bold shadow-md shadow-primary mb-5'
           > CODE OF CONDUCT
           </button>
-          </a>
+          {/* </a> */}
 
 
             </div>
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              EvolvHack'23 is a 24-hour hackathon on April 23-24 where teams of 2-4 members can participate. This is an open hackathon where no problem statements are provided. The teams can choose any problem statement
+              EvolvHack'23 is a 24-hour hackathon on April where teams of 2-4 members can participate. This is an open hackathon where no problem statements are provided. The teams can choose any problem statement
               relevant to society and develop a practical solution for it. Teams can choose any technology or tool to develop their solution. Both hardware and software solutions are welcome.
             </p>
             <div className="xl:flex xl:flex-row xl:items-center xxs:flex-col">
@@ -87,7 +87,7 @@ const Evolvhack = () => {
             <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. Participants are required to form a team of minimum two members and a maximum of four members. Each member of the team will be required to pay ₹250 as the registration fees.</li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must follow a code of conduct that outlines expected behavior during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>
             <li><span className="font-bold text-[#ffba61]">Problem Statement and Solution:</span> Teams are required to choose any relevant problem statement and come up with solutions to these problems. The problem should be a valid issue faced by the society and the solution must be realistic and practical. Both hardware and software solutions are welcome.</li>
-            <li><span className="font-bold text-[#ffba61]">Timing:</span> The event will start at 2:00 PM on Sunday, 23rd April and end by 5:30 PM on Monday, 24th April.</li>
+            {/* <li><span className="font-bold text-[#ffba61]">Timing:</span> The event will start at 2:00 PM on Sunday, 23rd April and end by 5:30 PM on Monday, 24th April.</li> */}
             <li><span className="font-bold text-[#ffba61]">Mentors:</span> Mentors will be available to all teams for any assistance during the hackathon hours</li>
             <li><span className="font-bold text-[#ffba61]">Collaboration between Teams:</span> Participants are encouraged to collaborate with other teams during the event. However, they should not sabotage or plagiarize other teams' work. Any unethical behavior will result in disqualification.</li>
             <li><span className="font-bold text-[#ffba61]">Intellectual Property Rights:</span> All solutions presented at the hackathon must be original and not infringe any third-party intellectual property rights. Participants should not use any copyrighted material without the owner's consent. We also require all solutions to be open-source and be freely available to all.</li>

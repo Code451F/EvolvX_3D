@@ -139,7 +139,22 @@ const Contact = () => {
           </div>
         </div>
       </div> 
+        <div className="flex text-gray-400 justify-center text-[16px] flex-row gap-5">
+       
+          <div className="flex flex-col  text-right ">
+          <span>evolvx2023@gmail.com</span>
+          <span>+91 81378 10073</span>
+          <a href="http://www.instagram.com/cseaajce/" className="underline text-tertiary"> Instagram</a>
 
+          </div>
+          <div className="flex flex-col text-left">
+          <span>Amal Jyothi College of Engineering</span>
+          <span>Kanjirappally, P.O Kottayam</span>
+          <a href="https://www.ajce.in/cse/index.html" className="underline text-tertiary">CSE AJCE</a>
+        </div>
+          
+        </div>
+        
       </div>
 
     );
@@ -148,10 +163,26 @@ const Contact = () => {
       <div
         className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
       >
+         <div className="flex text-gray-400 justify-center text-[12px] flex-row gap-10">
+       
+       <div className="flex flex-col  text-right ">
+       <span>evolvx2023@gmail.com</span>
+       <span>+91 81378 10073</span>
+       <a href="http://www.instagram.com/cseaajce/" className="underline text-tertiary"> Instagram</a>
+
+       </div>
+       <div className="flex flex-col text-left">
+       <span>Amal Jyothi College of Engineering</span>
+       <span>Kanjirappally, P.O Kottayam</span>
+     </div>
+       
+     </div>
+     
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
           className="flex-[0.75] bg-primary p-8 rounded-2xl border-4 border-[#ff8f00]"
         >
+          
           <p className={styles.sectionSubText}>How may we help you ?</p>
           <h3 className={styles.sectionHeadText}>Contact Us</h3>
 
@@ -201,14 +232,18 @@ const Contact = () => {
               {loading ? "Message sent" : "Send"}
             </button>
           </form>
+          
         </motion.div>
+        
 
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
           className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
         >
+          
           {/* <EarthCanvas /> */}
           <Globe />
+          
         </motion.div>
 
       </div>

@@ -70,22 +70,25 @@ const Gaming = () => {
           </ol>
         </motion.div>
         <StarsCanvas/>
-      </div>
-      <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
-        <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
-          <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
-           <img src={csea} alt='logo' className='object-contain mt-6'/>
-          </div>
-          <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
-           <img src={logo} alt='logo' className='object-contain mt-16 ml-4'/>
-          </div>          
-          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5"}>
-           <img src={azure} alt='logo' className='object-contain mt-12'/>
-          </div>
         </div>
-      </div>
 
-    </div> 
+<div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
+  <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+    
+    <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
+     <img src={csea} alt='logo' className='object-contain mt-6'/>
+    </div>
+    <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
+     <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
+    </div>          
+    <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
+     <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
+    </div>
+    
+  </div>
+</div> 
+
+</div> 
   );
 };
 

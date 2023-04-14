@@ -10,6 +10,7 @@ import { hack } from "../assets";
 import digiora from '../assets/Digiora.png'
 import { logo, logo_nbg, menu, close, csea } from "../assets";
 import azure from '../assets/azurelogo.png'
+import { jlb } from "../assets";
 
 const Evolvhack = () => {
   return (
@@ -65,6 +66,7 @@ const Evolvhack = () => {
               We have partnered with Digiora Technologies to provide us with the prize money for the winners and JB Labs to sponsor the prize money for the runner-ups. */}
             {/* </p> */}
             <img src={digiora} className="w-[300px] pl-8 pt-4"></img>
+            <img src={jlb} className="w-[300px] pl-4  pt-4  mb-4"></img>
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
@@ -114,15 +116,17 @@ const Evolvhack = () => {
 
       <div className={'bg-hero-pattern bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
         <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>
+          
           <div className={" flex-row justify-center align-center w-[180px] h-[180px]"}>
            <img src={csea} alt='logo' className='object-contain mt-6'/>
           </div>
           <div className={" flex-row justify-center align-center w-[300px] h-[200px]"}>
-           <img src={logo} alt='logo' className='object-contain mt-16 ml-4'/>
+           <img src={logo} alt='logo' className='object-contain xl:mt-16 xl:ml-4 xxs:mt-8 '/>
           </div>          
-          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5"}>
-           <img src={azure} alt='logo' className='object-contain mt-12'/>
+          <div className={" flex-row justify-center align-center w-[200px] h-[100px] mb-5 "}>
+           <img src={azure} alt='logo' className='object-contain mt-12 xxs:mt-8'/>
           </div>
+          
         </div>
       </div> 
 

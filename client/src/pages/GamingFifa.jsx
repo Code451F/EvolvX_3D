@@ -46,20 +46,20 @@ const GamingFifa = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
             Confident in your FIFA skills? It's time to put your hours of practice and playtime to the test. Prove your mettle in a series of 1v1 matches and outplay your opponents. Join us and compete to win money while having fun, and meet other likeminded individuals!
             </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
+          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4> */}
+            {/* <p className={`${styles.descriptionText} mt-2 mb-5`}> 
             A FIFA Tournament conducted by the Computer Science Department where participants can prove their skills in a 1v1 match.  
-            </p>
+            </p> */}
           
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            The winner bags a cash price of 3000 rupees, while the runner up bags 2000 rupees. Teams must register through the event website beforehand. Every match is a knockout match, and each match will consist of 5 minutes per half. 
+            The winner bags a cash price of 3000 rupees, while the runner up bags 2000 rupees.  Every match is a knockout match, and each match will consist of 5 minutes per half. 
             </p>
             </div>
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            Individuals who are interested may register through the event website. A total of 16 people can register, and if demand allows it, 32 may be allowed to participate. Entry fee is 100 per person. Registration is based on a first come, first serve basis. Registration may involve giving away personal details, such as name, mobile no, and email-address.
+            Individuals who are interested may register through the event website. Entry fee is 100 per person. Registration is based on a first come, first serve basis. 
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">

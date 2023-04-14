@@ -44,10 +44,11 @@ const Triathlon = () => {
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The Triple Challenge event features three coding challenges: code golfing, instant coding, and reverse engineering. Code golfing aims to write the shortest code, while instant coding tests problem-solving under time pressure. Reverse engineering requires analyzing encoded software.
-            </p>
+              With 60-120 minute durations, it's an intense competition that challenges coding enthusiasts to excel in different dimensions.
+            {/* </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The Triple Challenge event tests coding skills, creativity, problem-solving, and ability to perform under pressure. It consists of three levels: code golfing, instant coding, and reverse engineering. With 60-120 minute durations, it's an intense competition that challenges coding enthusiasts to excel in different dimensions.
+            <p className={`${styles.descriptionText} mt-2 mb-5`}>  */}
+             
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
@@ -57,7 +58,7 @@ const Triathlon = () => {
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Interested teams can register on our website by providing details such as team name, member names, and email addresses. We are expecting to get around 15-20 Team Registrations for this event and the registration fee would be Rs 300 per team.
+            Each team can have 2-3 members. Interested teams can register. The registration fee of the event is Rs 300 per team.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">

@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import Computer from "./Computer";
-import azure from '../assets/azurelogo.png'
+import azure from "../assets/azurelogo.png";
+import azure_black from "../assets/azurelogo_black.png";
+
 
 import useWindowDimensions from "./CheckWidth";
 
@@ -32,9 +34,19 @@ const Hero = () => {
               The Tech Fest of the Century <br className="sm:block hidden" />
               Come join us @Amal Jyothi
             </p> */}
-            <img src={azure}></img>
+            <img src={azure_black}></img>
           </div>
+
+          <div className=" relative items-center justify-center left-[550px] top-[40px]">
+            <button className="relative text-xl">
+              <div className="absolute inset-x-0 h-full -bottom-2 bg-gray-100 border border-black rounded-lg"></div>
+              <div className="relative bg-gray-100 border border-gray-500 rounded-lg py-4 px-10 transition transform duration-200 hover:translate-y-2 text-black">Register Now!</div>
+            </button>
+          </div>
+
         </div>
+
+
 
         <ComputersCanvas />
 

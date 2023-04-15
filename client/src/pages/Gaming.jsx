@@ -7,6 +7,7 @@ import { StarsCanvas } from "../components";
 import csgo from "../assets/csgo.jpg"
 import { logo, logo_nbg, menu, close, csea } from "../assets";
 import azure from '../assets/azurelogo.png'
+import tiara from '../assets/tiara.png'
 
 
 const Gaming = () => {
@@ -55,6 +56,13 @@ const Gaming = () => {
           
            
             </p>
+            <div className="xl:flex xl:flex-row xl:items-center mb-8 xxs:flex-col">
+          <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORED BY</h4>
+            {/* <p className={`${styles.descriptionText} mt-2 mb-5`}> 
+              We have partnered with Digiora Technologies to provide us with the prize money for the winners and JB Labs to sponsor the prize money for the runner-ups. */}
+            {/* </p> */}
+            <img src={tiara} className="w-[140px] pl-8 pt-4"></img>
+            </div>
           
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 

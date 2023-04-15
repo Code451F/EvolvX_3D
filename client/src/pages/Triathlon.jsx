@@ -72,7 +72,7 @@ const Triathlon = () => {
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            Each team can have 2-3 members. Interested teams can register. The registration fee of the event is Rs 300 per team.
+            Each team can have 2-3 members. Interested teams can register. The registration fee of the event is Rs 100 per team.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
@@ -94,7 +94,7 @@ const Triathlon = () => {
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Reverse Engineering</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              This 3-round software reverse engineering challenge requires participants to analyze and modify provided software binaries using their own laptops, with 3-5 tasks per round, 120 minutes allotted, and the expected knowledge of reverse engineering frameworks, Python, and Linux commands.
+              This 3-round software reverse engineering challenge requires participants to analyze and modify provided software binaries with 3-5 tasks per round, 120 minutes allotted, and the expected knowledge of reverse engineering frameworks, Python, and Linux commands.
             </p>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Evaluation</h4>
           <ol className="text-left list-decimal pl-8 pr-4">

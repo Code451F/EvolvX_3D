@@ -11,12 +11,14 @@ import { StarsCanvas } from "../components";
 import { logo, logo_nbg, menu, close, csea } from "../assets";
 import azure from '../assets/azurelogo.png'
 
-const ServiceCard = ({ index, title, icon, people, batch}) => (
+const ServiceCard = ({ index, title, icon,tagline,link, people, batch}) => (
+  
   <Tilt className="xs:w-[300px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className="w-full orange-yellow-gradient p-[1px] rounded-[20px] shadow-card"
     >
+      <a href={link}>
       <div
         options={{
           max: 45,
@@ -35,6 +37,7 @@ const ServiceCard = ({ index, title, icon, people, batch}) => (
         <h3 className="text-white text-[24px] font-bold text-center">
           {title}
         </h3>
+        <span className="text-[12px] mb-2">{tagline}</span>
 
         <h5 className="text-white text-[18px] text-center">
           {people.map((person) => (
@@ -46,6 +49,7 @@ const ServiceCard = ({ index, title, icon, people, batch}) => (
           {batch}
         </h4>
       </div>
+      </a>
     </motion.div>
   </Tilt>
 );
@@ -73,6 +77,7 @@ const ServiceCardOther = ({ index, name, batch }) => (
           {batch}
         </h4>
       </div>
+      
     </motion.div>
   </Tilt>
 );

@@ -73,7 +73,7 @@ const GamingFifa = () => {
             <li><span className="font-bold text-[#ffba61]">Time Limit:</span> Each half consists of 5 minutes, and the participants are allowed a maximum of 3 pauses per match (only when the ball is out of bounds), in which 30 seconds are allowed for tactical changes. Time will be given for formation and configuration before the match and during half time.</li>
             <li><span className="font-bold text-[#ffba61]">Controllers:</span> Controllers will be provided by the college. Controller settings can be tweaked with the approval of the co-ordinators. </li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices will be disqualified and not allowed to compete. Communications between players must be civil and respectful.</li>
-            <li><span className="font-bold text-[#ffba61]">Celebrations:</span> No disrespectful celebrations allowed. The griddy, frog dance, and baby crawl will invoke an instant termination.</li>
+            
           </ol>
         </motion.div>
         <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>

@@ -93,38 +93,45 @@ const sponsors = [
   {
     title: "Digiora",
     icon: digiora,
-    people: ["Mr. Anil P Jose", "Mr. Jose Zacharias", "Mrs. Nayana Lal"],
-    batch: "Batch of 2008",
+    people: ["Mr. Anil P Jose: Batch of 2008", "Mr. Jose Zacharias", "Mrs. Nayana Lal"],
+    batch: "",
+    link:"https://www.digiora.com/",
   },
   {
-    title: "JB Labs",
+    title: "JB Labs  ",
+    tagline:"Better Place For Businesses And People",
     icon: jlb,
     people: ["Mr. Ajo John"],
     batch: "Batch of 2017",
+    link:"https://instagram.com/the_mallu_dev?igshid=YmMyMTA2M2Y=",
   },
   {
     title: "Eat Kochi Eat",
     icon: eatkochieat,
     people: ["Mr. Karthik M: Batch of 2012", "Mr. Bobin Shaji: Batch of 2017"],
     batch: "",
+    link:"https://instagram.com/eatkochieat?igshid=YmMyMTA2M2Y=",
   },
   {
     title: "Way to Nikah",
     icon: waytonikah,
     people: ["Mrs. Tasleem T P"],
     batch: "Batch of 2005",
+    link:"https://www.waytonikah.com/googleads?religion=126&region=1&gclid=Cj0KCQjwlumhBhClARIsABO6p-zzBbwtwXmvrxKDjnmCj3xityeazrztqRvVY-g_WcCd4_au33be1OgaAo2NEALw_wcB",
   },
   {
     title: "Tiara",
     icon: tiara,
     people: ["Mrs. Ninu Mary Joseph"],
     batch: "Batch of 2005",
+    link:"https://tiarabyninu.com/",
   },
   {
     title: "Mystiko",
     icon: mystiko,
-    people: ["CTF platform providers"],
+    people: ["CTF Technical Support"],
     batch: "",
+    link:"https://ctf-mystiko.com/",
   },
 ];
 
@@ -146,8 +153,8 @@ const other_sponsors = [
     batch: "Batch of 2009",
   },
   {
-    name: ["Mrs. Liyan Grace Joseph"],
-    batch: "Batch of 2018 MTech",
+    name: ["MTech","2018 Batch"],
+    batch:  "",
   },
   {
     name: ["Mrs. Rintu mol Joseph"],
@@ -164,7 +171,8 @@ const main = [
   {
     name: "Mr. Krishnalal G",
     image: klal,
-    designation: "FIC: CSEA",
+    designation: ["FIC & Mentor"],
+    area:'CSEA'
   },
 ];
 
@@ -173,16 +181,19 @@ const main_coords = [
     name: "Sharon Thomas",
     image: sharon,
     designation: "President",
+    area:'CSEA'
   },
   {
     name: "Anson Benny",
     image: anson,
     designation: "Secretary",
+    area:'CSEA'
   },
   {
     name: "Joyal Joby",
     image: joyal,
     designation: "Treasurer",
+    area:'CSEA'
   },
 ];
 
@@ -190,17 +201,20 @@ const coords = [
   {
     name: "Alan James",
     image: alan,
-    designation: "EvolvX Coordinator",
+    designation: " Coordinator",
+    area:"EvolvX"
   },
   {
     name: "Anandu Sunil",
     image: anandu,
-    designation: "EvolvX Coordinator",
+    designation: " Coordinator",
+    area:"EvolvX"
   },
   {
-    name: "Riya M Jose",
+    name: "Riya Maria",
     image: riya,
-    designation: "EvolvX Coordinator",
+    designation: " Coordinator",
+    area:"EvolvX"
   },
 ];
 
@@ -480,7 +494,7 @@ const projects = [
     {
       name: "CODE QUEST",
       description:
-        "Ready to put your coding skills to the test? Join us for coding competition and solve complex problems under pressure! Write efficient, clean, and scalable code in various languages to win big. Don't miss out on this ultimate coding challenge!",
+        "Looking to put your knowledge of Amal Jyothi campus to the ultimate test? Join us for CODE QUEST - EvolveX's very own scavenger hunt! This exhilarating event offers the perfect platform to showcase your intelligence and puzzle-solving skills. ",
       tags: [
         {
           name: "coding",
@@ -543,7 +557,7 @@ const projects = [
     {
       name: "FIFA23",
       description:
-        "Join the ultimate FIFA 23 tournament and show off your skills against top players from around the world. Compete to become the champion and win amazing prizes. Sign up now to make a name for yourself on the virtual pitch!",
+        "Join the ultimate FIFA 23 tournament and show off your skills against top players from around the region. Compete to become the champion and win amazing prizes. Sign up now to make a name for yourself on the virtual pitch!",
       tags: [
         {
           name: "VideoGames",

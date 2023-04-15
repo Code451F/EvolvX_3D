@@ -11,7 +11,7 @@ import { StarsCanvas } from "../components";
 import { logo, logo_nbg, menu, close, csea } from "../assets";
 import azure from '../assets/azurelogo.png'
 
-const ServiceCard = ({ name, image, designation, index }) => (
+const ServiceCard = ({ name, image, designation, area, index }) => (
   <Tilt className="xs:w-[290px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
@@ -32,10 +32,15 @@ const ServiceCard = ({ name, image, designation, index }) => (
           className="w-32 h-32 object-contain rounded-[100px]"
         />
 
-        <h3 className="text-white text-[24px] font-bold text-center">{name}</h3>
+        <h3 className="text-white text-[22.3px] font-bold text-center">{name}</h3>
 
         <h4 className="text-white text-[20px] text-center">
           {designation}
+          
+        </h4>
+        <h4 className="text-white text-[20px] text-center">
+          {area}
+          
         </h4>
       </div>
     </motion.div>

@@ -55,7 +55,7 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "Register",
+    title: "Events",
   },
   {
     id: "work",
@@ -223,16 +223,19 @@ const web_team = [
     name: "Asif Shereef",
     image: asif,
     designation: "Web Developer",
+    area:"EvolvX"
   },
   {
     name: "Chetan Manoj",
     image: chetan,
     designation: "Web Developer",
+    area:"EvolvX"
   },
   {
     name: "Glen Pereira",
     image: glen,
     designation: "Web Developer",
+    area:"EvolvX"
   },
 ];
 

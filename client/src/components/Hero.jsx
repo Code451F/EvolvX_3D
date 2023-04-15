@@ -7,6 +7,7 @@ import { ComputersCanvas } from "./canvas";
 import Computer from "./Computer";
 import azure from "../assets/azurelogo.png";
 import azure_black from "../assets/azurelogo_black.png";
+// import button from "../button"
 
 
 import useWindowDimensions from "./CheckWidth";
@@ -37,14 +38,16 @@ const Hero = () => {
             <img src={azure_black}></img>
           </div>
 
-          <div className=" relative items-center justify-center left-[550px] top-[40px]">
+        {/* <div className="relative items-center justify-center left-[550px] top-[50px] bg-blue-500">
+          <a href={`#about`}>
             <button className="relative text-xl">
-              <div className="absolute inset-x-0 h-full -bottom-2 bg-gray-100 border border-black rounded-lg"></div>
-              <div className="relative bg-gray-100 border border-gray-500 rounded-lg py-4 px-10 transition transform duration-200 hover:translate-y-2 text-black">Register Now!</div>
+              <div className="absolute inset-x-0 h-full -bottom-2 bg-[#ff6f00] border border-black rounded-lg"></div>
+              <div className="relative rounded-lg bg-[#fd9d3c] py-4 px-10 transition transform duration-200 hover:translate-y-2 outline-none text-white font-bold border border-black">Register Now!</div>
             </button>
-          </div>
-
-        </div>
+          </a>
+        </div> */}
+      
+      </div>
 
 
 

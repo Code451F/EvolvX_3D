@@ -53,14 +53,10 @@ const CTF = () => {
               Ready to hack your way into victory? Get ready for an adrenaline-fueled heart-pumping competiton that will put your hacking skills to the test. With a series of challenges ranging from  
                cryptography, steganography, and more. You will have the opportunity to flex your hacking muscles and show off your problem solving skills. So gather your team, sharpen your tools and get
               ready to prove your hacking prowess at ARCHON CTF '23.
-            
-              {/* The CTF has two phases: an online 24-hour CTF as round one and a 7-hour offline CTF as the final round for teams of 2-4. Participants will solve cybersecurity challenges in areas like cryptography, steganography, and more. */}
-            </p>
+           </p>
             <div className="xl:flex xl:flex-row xl:items-center mb-8 xxs:flex-col">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORED BY</h4>
-            {/* <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              We have partnered with Digiora Technologies to provide us with the prize money for the winners and JB Labs to sponsor the prize money for the runner-ups. */}
-            {/* </p> */}
+           
             <img src={mystiko} className="w-[170px] pl-12 pt-4 "></img>
             <img src={jlb} className="xl:w-[350px] xl:pl-20 pt-4 xxs:w-[250px]"></img>
             </div>
@@ -70,13 +66,9 @@ const CTF = () => {
             </p>
             </div>
             </div>
-          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Interested teams can register on our website by providing details such as team name, member names, and email addresses. We are expecting to get around 50-60 Team Registrations for this event and the registration fee would be Rs 200 per team.
-            </p> */}
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="list-decimal pl-8 pr-4 text-justify">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> Participants must register as teams of 2-4 members for the event. The registration fee is Rs 200. </li>
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> Participants must register as teams of 2-4 members for the event. The registration fee is <span className="text-[#ffba61]">₹300</span> per team. <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span> </li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must conduct themselves in a professional and ethical manner at all times. Cheating, flag sharing or any other inappropriate behavior will result in disqualification.</li>
             <li><span className="font-bold text-[#ffba61]">Collaboration:</span> Collaboration with other teams is strictly prohibited. Make sure you understand the collaboration policy before starting the event.</li>
             <li><span className="font-bold text-[#ffba61]">Scoring:</span> Points are awarded for solving challenges and obtaining flags. </li>
@@ -84,22 +76,6 @@ const CTF = () => {
             <li><span className="font-bold text-[#ffba61]">Disputes:</span> Any disputes , issues or  complaints must be raised in a  promptly manner and the organizer's decision is final.</li>
             <li><span className="font-bold text-[#ffba61]">Prizes:</span> Cash Prizes will be awarded to the top 2 performing teams, depending on the competition rules</li>
           </ol>
-          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>Initial Screening</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Once the registration process is complete, we will be conducting a 24-hour online CTF prior to Tech Fest with a series of challenges that they have to solve within a given time. The top 10 teams will be shortlisted based on their performance in these challenges, and the top-performing teams will be selected for the main event.
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Main Event</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The main event will be held offline as a 7-hour CTF from 9 am to 4 pm at the college, where the selected teams will compete against each other to solve a series of challenges. The challenges are designed to test their skills in various domains such as cryptography, steganography, web application security, network security, digital forensics, and other related fields.
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Evaluation</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The winners are required to provide the writeup for the challenges. The teams will be evaluated based on the number of challenges they solve, the scores achieved, and the quality of their solutions.
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Post-CTF</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The winners are announced and the winning teams will be provided with certificates, swags and the prize money. 
-            </p> */}
         </motion.div>
         <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
         <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>

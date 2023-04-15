@@ -52,10 +52,7 @@ const GamingFifa = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
             Confident in your FIFA skills? It's time to put your hours of practice and playtime to the test. Prove your mettle in a series of 1v1 matches and outplay your opponents. Join us and compete to win money while having fun, and meet other likeminded individuals!
             </p>
-          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4> */}
-            {/* <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            A FIFA Tournament conducted by the Computer Science Department where participants can prove their skills in a 1v1 match.  
-            </p> */}
+          
           
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
@@ -63,12 +60,10 @@ const GamingFifa = () => {
             </p>
             </div>
             </div>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Registration</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            Individuals who are interested may register through the event website. Entry fee is 100 per person. Registration is based on a first come, first serve basis. 
-            </p>
+          
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
+          <li><span className="font-bold text-[#ffba61]">Registration: </span>Entry fee is <span className="text-[#ffba61]">₹100</span> per person. Registration is based on a first come, first serve basis. <span className="text-[#ffba61]">REGISTRATION IS OPEN TO BOTH AJCE & NON-AJCE STUDENTS. A NUMBER OF SEATS WILL BE RESERVED FOR AJCE STUDENTS.</span></li>
             <li><span className="font-bold text-[#ffba61]">Rules:</span>The AI difficulty is set to legendary. Participants may choose any team, excluding International and Custom teams. Game mode is Champions League Final format. Participants must finish the tournament with the team they started off with. All team ratings are default. The FIFA version used is FIFA 23. All rule settings are default (Handballs are off.) In case of a draw, match result will be decided by penalties. </li>
             <li><span className="font-bold text-[#ffba61]">Time Limit:</span> Each half consists of 5 minutes, and the participants are allowed a maximum of 3 pauses per match (only when the ball is out of bounds), in which 30 seconds are allowed for tactical changes. Time will be given for formation and configuration before the match and during half time.</li>
             <li><span className="font-bold text-[#ffba61]">Controllers:</span> Controllers will be provided by the college. Controller settings can be tweaked with the approval of the co-ordinators. </li>

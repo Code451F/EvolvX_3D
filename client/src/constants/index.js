@@ -55,7 +55,7 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "Events",
+    title: "Register",
   },
   {
     id: "work",

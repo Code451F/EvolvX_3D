@@ -7,6 +7,7 @@ import { ComputersCanvas } from "./canvas";
 import Computer from "./Computer";
 import azure from "../assets/azurelogo.png";
 import azure_black from "../assets/azurelogo_black.png";
+import { Link } from "react-router-dom";
 // import button from "../button"
 
 
@@ -38,15 +39,17 @@ const Hero = () => {
             <img src={azure_black}></img>
           </div>
 
-        {/* <div className="relative items-center justify-center left-[550px] top-[50px] bg-blue-500">
-          <a href={`#about`}>
-            <button className="relative text-xl">
+        <div className="relative items-center justify-center left-[200px] top-[50px]  text-[46px] border-4 rounded-[12px] px-4 py-4 border-[#ff6f00] font-bold text-[#fd9d3c]">
+        PRIZES WORTH 1.2 LAKHS!
+        </div>
+      
+          {/* <Link  to='#about'> */}
+            {/* <button className="relative text-xl">
               <div className="absolute inset-x-0 h-full -bottom-2 bg-[#ff6f00] border border-black rounded-lg"></div>
               <div className="relative rounded-lg bg-[#fd9d3c] py-4 px-10 transition transform duration-200 hover:translate-y-2 outline-none text-white font-bold border border-black">Register Now!</div>
-            </button>
-          </a>
-        </div> */}
-      
+            </button> */}
+          {/* </Link> */}
+        
       </div>
 
 
@@ -94,9 +97,13 @@ const Hero = () => {
               Come join us @Amal Jyothi
             </p> */}
           </div>
+          <div className="items-center justify-center text-center w-[150px]   text-[18px] border-4 rounded-[12px] px-2 py-2 border-[#ff6f00] font-bold text-[#fd9d3c]">
+        PRIZES WORTH 1.2 LAKHS!
         </div>
-
-        {/* <ComputersCanvas /> */}
+        </div>
+        {/* left-[280px]  */}
+        {/* relative  */}
+        
         <div className="pt-[300px]">
           <Computer />
         </div>

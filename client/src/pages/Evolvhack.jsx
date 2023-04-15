@@ -78,42 +78,17 @@ const Evolvhack = () => {
             </p>
             </div>
             </div>
-          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Interested teams can register on our website by providing details such as team name, member names and email addresses. During registration, each team should come up with a unique solution to a problem statement of their choice. A screening will be conducted on these problem statements, and 10 teams will be invited to develop their solutions at our event. Only the selected teams are required to pay Rs 250 for each member of the team as registration fees.
-            </p> */}
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="list-decimal pl-8 pr-4 text-justify">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. Participants are required to form a team of minimum two members and a maximum of four members. Each member of the team will be required to pay ₹250 as the registration fees.</li>
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. Participants are required to form a team of minimum two members and a maximum of four members. Each member of the team will be required to pay<span className="text-[#ffba61]"> ₹250 </span>as the registration fees. <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span></li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must follow a code of conduct that outlines expected behavior during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>
             <li><span className="font-bold text-[#ffba61]">Problem Statement and Solution:</span> Teams are required to choose any relevant problem statement and come up with solutions to these problems. The problem should be a valid issue faced by the society and the solution must be realistic and practical. Both hardware and software solutions are welcome.</li>
-            {/* <li><span className="font-bold text-[#ffba61]">Timing:</span> The event will start at 2:00 PM on Sunday, 23rd April and end by 5:30 PM on Monday, 24th April.</li> */}
             <li><span className="font-bold text-[#ffba61]">Mentors:</span> Mentors will be available to all teams for any assistance during the hackathon hours</li>
             <li><span className="font-bold text-[#ffba61]">Collaboration between Teams:</span> Participants are encouraged to collaborate with other teams during the event. However, they should not sabotage or plagiarize other teams' work. Any unethical behavior will result in disqualification.</li>
             <li><span className="font-bold text-[#ffba61]">Intellectual Property Rights:</span> All solutions presented at the hackathon must be original and not infringe any third-party intellectual property rights. Participants should not use any copyrighted material without the owner's consent. We also require all solutions to be open-source and be freely available to all.</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices, such as sabotaging others' work, may be disqualified from the event.</li>
           </ol>
-          {/* <h4 className={`${styles.descriptionHeadText} mt-2`}>Initial Screening</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Once the registration process is complete, the teams will be shortlisted based on the uniqueness and relevance of the problem statement, and the top 10 teams will be selected for the main event.
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Round 1</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The main event will be held offline as a 24-hour hackathon from 2:00 PM on Sunday, 23rd April till 2:00 PM on Monday, 24th April at Amal Jyothi College of Engineering, where the selected teams will be asked to develop a prototype of their solution using any tool or technology. A mentor will be assigned for each team. The mentor will be available throughout the hackathon hours.
-            </p>
-            <h4 className={`${styles.descriptionHeadText} mt-2`}>Round 2</h4>
-              <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-                Eligible teams from round 1 will be qualify to the final round of the event. During the final round, the teams will be asked to present their solutions in-front of an expert judging panel and an audience. The teams will face questions from both the judges as well as the audience.
-              </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Evaluation</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              There will be two rounds of evaluation in the main event. The evaluation will be based mainly on the presentation, relevance of the problem, feasibility, applicability of the solution, and usage of relevant technologies.
-            </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Post-EvolvHack</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The winners will be announced during the Awards and Closure Ceremony at 4:00 PM on Monday. The winning teams will be provided with certificates and prize money. 
-            </p> */}
-
+          
         </motion.div>
         <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
         <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>

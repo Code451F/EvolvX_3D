@@ -176,11 +176,13 @@ const About = () => {
         </div>
 
         <div className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          EvolvX is an exciting hackathon that brings together some of the
-          brightest minds in the tech industry to solve real-world problems. The
-          event is designed to foster collaboration and creativity, as
-          participants work together to develop innovative solutions that can
-          help change the world.
+        <p>
+          EvolvX '23 is a highly anticipated technical fest organized by the Computer Science and Engineering Association of Amal Jyothi College of Engineering. This event is specially curated for technology enthusiasts, students, and professionals to come together and showcase their innovative ideas, technical skills, and creativity. 
+         </p>
+         <p>
+          This year, EvolvX '23 is scheduled to take place on the 24th of April 2023, and promises to be an exciting and engaging event.
+          The fest will feature a plethora of competitions covering a wide range of topics related to computer science and engineering.
+          </p>
         </div>
 
         <div>

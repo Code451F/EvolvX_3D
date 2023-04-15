@@ -50,17 +50,13 @@ const Triathlon = () => {
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               The Triple Challenge event features three coding challenges: code golfing, instant coding, and reverse engineering. Code golfing aims to write the shortest code, while instant coding tests problem-solving under time pressure. Reverse engineering requires analyzing encoded software.
               With 60-120 minute durations, it's an intense competition that challenges coding enthusiasts to excel in different dimensions.
-            {/* </p>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>SUMMARY</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}>  */}
-             
+            
             </p>
 
             <div className="xl:flex xl:flex-row xl:items-center mb-8 xxs:flex-col">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORED BY</h4>
-            {/* <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              We have partnered with Digiora Technologies to provide us with the prize money for the winners and JB Labs to sponsor the prize money for the runner-ups. */}
-            {/* </p> */}
+            
+            
             <img src={waytonikah} className="w-[300px] pl-8 pt-4"></img>
             </div>
 
@@ -70,13 +66,9 @@ const Triathlon = () => {
             </p>
             </div>
             </div>
-          <h4 className={`${styles.descriptionHeadText} mt-2`}>Team Registration</h4>
-            <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            Each team can have 2-3 members. Interested teams can register. The registration fee of the event is Rs 100 per team.
-            </p>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> All the participants who are interested must register online before the deadline. A team should not exceed 2 members. You will be asked to provide details such as the team name, participant names, contact numbers, email id etc. The registration is set at ₹200 per team.</li>            
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> All the participants who are interested must register online before the deadline. A team should not exceed 2 members. The registration is set <span className="text-[#ffba61]">₹200</span> per team.  <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span></li>            
             <li><span className="font-bold text-[#ffba61]">Code of Conduct:</span> Participants are expected to follow a code of conduct which describes the expected behaviour from the participants. The code of conduct for the triple challenge event should emphasize respect, fair play, sportsmanship and safety. Any violation of the code of conduct would lead to consequences that might even include disqualification.</li>            
             <li><span className="font-bold text-[#ffba61]">Challenge format:</span> There would be three rounds as mentioned. After each round, teams failing to score above the cut-off would be eliminated and would not be allowed to move forward.</li>
             <li><span className="font-bold text-[#ffba61]">Equipment:</span> Participants are expected to bring their own laptops or any equipment they require. However, for the first two challenges, they will not be permitted to use their laptops and instead would have to use the computers provided by us.</li>

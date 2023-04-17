@@ -75,7 +75,11 @@ const CTF = () => {
             <li><span className="font-bold text-[#ffba61]">Resources:</span> Brute forcing or overloading the CTF platform will lead to disqualification of the entire team.</li>
             <li><span className="font-bold text-[#ffba61]">Disputes:</span> Any disputes , issues or  complaints must be raised in a  promptly manner and the organizer's decision is final.</li>
             <li><span className="font-bold text-[#ffba61]">Prizes:</span> Cash Prizes will be awarded to the top 2 performing teams, depending on the competition rules</li>
-          </ol>
+            <li><span className="font-bold text-[#ffba61]">ID Card:</span> <span className="text-[#ffba61]"> All participants are required to bring their college ID card to the event.</span></li>
+            </ol>
+          
+           <span className="">In the case of the total number of event participants being less than 60 percent, the total cash prize will be reduced to half.</span>
+        
         </motion.div>
         <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
         <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>

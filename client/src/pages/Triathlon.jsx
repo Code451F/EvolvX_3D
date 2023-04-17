@@ -75,7 +75,11 @@ const Triathlon = () => {
             <li><span className="font-bold text-[#ffba61]">Time limit:</span> The event will start on April 24th at 9:30 AM. Participants should arrive at least 30 minutes before the start time in order to avoid any delays.</li>
             <li><span className="font-bold text-[#ffba61]">Communication:</span> The team members are not expected to communicate with other teams during the challenge. They may communicate with the organizers if they face any difficulty.</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate the rules or engage in any malpractice would be disqualified from the event.</li>
-          </ol>
+            <li><span className="font-bold text-[#ffba61]">ID Card:</span> <span className="text-[#ffba61]"> All participants are required to bring their college ID card to the event.</span></li>
+            </ol>
+          
+           <span className="">In the case of the total number of event participants being less than 60 percent, the total cash prize will be reduced to half.</span>
+        
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Code Golfing</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               In this challenge, participants have 60 minutes to solve 5-10 questions using Python or C only, with the shortest correct solution earning the highest score. Using the internet or external resources during the challenge and personal laptops are not allowed. Computers will be provided.

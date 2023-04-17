@@ -40,28 +40,28 @@ const Evolvhack = () => {
             <div className="xl:w-[600px] xxs:w-[270px]">
                 <img src={hackathon} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
                 
-                {/* <a href='https://docs.google.com/forms/d/e/1FAIpQLScs-7cw578sJFMQvQhH2kriMZ72GckAB4U59OUHQuWccnMoig/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link'> */}
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLScs-7cw578sJFMQvQhH2kriMZ72GckAB4U59OUHQuWccnMoig/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link'>
                   <button
                     type='submit'
                     className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
-                  > COMING SOON
+                  > REGISTER
                   </button>
-                {/* </a> */}
+                </a>
 
-          {/* <a href="https://drive.google.com/file/d/19M3FC7V7vY9aiV7MJpbNRwEIgVNXFdAJ/view?usp=share_link" > */}
+          <a href="https://drive.google.com/file/d/19M3FC7V7vY9aiV7MJpbNRwEIgVNXFdAJ/view?usp=share_link" >
           <button
             type='submit'
             className='bg-blue-500 py-3 mt-[8px] px-2 rounded-xl outline-none w-[180px] h-[] text-[16px]  text-white font-bold shadow-md shadow-primary mb-5'
           > CODE OF CONDUCT
           </button>
-          {/* </a> */}
+          </a>
 
 
             </div>
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              EvolvHack'23 is a 24-hour hackathon on April where teams of 2-4 members can participate. This is an open hackathon where no problem statements are provided. The teams can choose any problem statement
+              EvolvHack'23 is a 24-hour hackathon from 10:00 AM, 24 April - 12:00 PM, 25 April where teams of 2-4 members can participate. This is an open hackathon where no problem statements are provided. The teams can choose any problem statement
               relevant to society and develop a practical solution for it. Teams can choose any technology or tool to develop their solution. Both hardware and software solutions are welcome.
             </p>
             <div className="xl:flex xl:flex-row xl:items-center xxs:flex-col">
@@ -87,7 +87,11 @@ const Evolvhack = () => {
             <li><span className="font-bold text-[#ffba61]">Collaboration between Teams:</span> Participants are encouraged to collaborate with other teams during the event. However, they should not sabotage or plagiarize other teams' work. Any unethical behavior will result in disqualification.</li>
             <li><span className="font-bold text-[#ffba61]">Intellectual Property Rights:</span> All solutions presented at the hackathon must be original and not infringe any third-party intellectual property rights. Participants should not use any copyrighted material without the owner's consent. We also require all solutions to be open-source and be freely available to all.</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices, such as sabotaging others' work, may be disqualified from the event.</li>
-          </ol>
+            <li><span className="font-bold text-[#ffba61]">ID Card:</span> <span className="text-[#ffba61]"> All participants are required to bring their college ID card to the event.</span></li>
+            </ol>
+          
+           <span className="">In the case of the total number of event participants being less than 60 percent, the total cash prize will be reduced to half.</span>
+        
           
         </motion.div>
         <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>

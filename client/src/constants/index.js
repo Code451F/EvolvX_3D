@@ -92,6 +92,7 @@ const services = [
 const sponsors = [
   {
     title: "Digiora",
+    tagline:"Better Place For Businesses And People",
     icon: digiora,
     people: ["Mr. Anil P Jose: Batch of 2008", "Mr. Jose Zacharias", "Mrs. Nayana Lal"],
     batch: "",
@@ -99,7 +100,7 @@ const sponsors = [
   },
   {
     title: "JB Labs  ",
-    tagline:"Better Place For Businesses And People",
+    
     icon: jlb,
     people: ["Mr. Ajo John"],
     batch: "Batch of 2017",
@@ -211,7 +212,7 @@ const coords = [
     area:"EvolvX"
   },
   {
-    name: "Riya Maria",
+    name: "Riya Mariya",
     image: riya,
     designation: " Coordinator",
     area:"EvolvX"
@@ -371,7 +372,7 @@ const experiences = [
     company_name: "Venue - TBI, Research Square",
     icon: hack,
     iconBg: "#fff",
-    date: "24 April 2023",
+    date: "24-25 April 2023, 10:00 AM",
     points: [
       "Anandu Sunil: +91 85901 59583",
       "Febin K Dominic: +91 94955 05782",
@@ -455,7 +456,7 @@ const projects = [
     {
       name: "EVOLVHACK",
       description:
-        "Unleash your creativity and problem-solving skills at EvolveHack '23! This 24-hour event is the ultimate opportunity for university students to create innovative and practical solutions to any problem. Join us and showcase your ingenuity to the world!",
+        "Unleash your creativity and problem-solving skills at EvolvHack '23! This 24-hour event is the ultimate opportunity for university students to create innovative and practical solutions to any problem. Join us and showcase your ingenuity to the world!",
       tags: [
         {
           name: "Hack-a-thon",
@@ -497,7 +498,7 @@ const projects = [
     {
       name: "CODE QUEST",
       description:
-        "Looking to put your knowledge of Amal Jyothi campus to the ultimate test? Join us for CODE QUEST - EvolveX's very own scavenger hunt! This exhilarating event offers the perfect platform to showcase your intelligence and puzzle-solving skills. ",
+        "Looking to put your knowledge of Amal Jyothi campus to the ultimate test? Join us for CODE QUEST - EvolvX's very own scavenger hunt! This exhilarating event offers the perfect platform to showcase your intelligence and puzzle-solving skills. ",
       tags: [
         {
           name: "coding",
@@ -583,10 +584,10 @@ const projects = [
 
 const guidelines_EH = [
   {
-    description: `EvolveHack '23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering, 
-                        Kanjirappally, Kerala, India during April 23-24. EvolveHack intends to find open-source solutions to relevant 
+    description: `EvolvHack '23 is a 24-hour hackathon to be held at Amal Jyothi College of Engineering, 
+                        Kanjirappally, Kerala, India during April 23-24. EvolvHack intends to find open-source solutions to relevant 
                         problems by bringing together passionate teams of developers and innovators together.
-                        EvolveHack will be open to all university students across the country without any restrictions. This
+                        EvolvHack will be open to all university students across the country without any restrictions. This
                         is an exciting opportunity for students and innovators to network with their peers and industry
                         experts as well as brainstorm new solutions to problems at an accelerated pace.
                         This is an open hackathon. Problem statements will not be provided to the participants. Participants
@@ -601,7 +602,7 @@ const guidelines_EH = [
       "The hackathon will be from 2:00 PM on Sunday, 23rd April till 2:00 PM on Monday, 24th April. All teams are expected to report at the venue by 1:00 PM on 23rd April at the latest. Members that fail to comply will be deemed disqualified.",
       "Participants should carry their college ID card and another government-issued ID card while entering the hackathon premises.",
       "This is an open hackathon. Teams can choose any problem statement and work on any solution. Both hardware and software solutions are welcome.",
-      "Hack4AJCE is a special segment of EvolveHack '23. Participants will be asked to provide innovative solutions to problems faced by the college. Participants can refer to the problem statements on the website. Participants providing solutions to these problem statements will be give appropriate priority during valuation.",
+      "Hack4AJCE is a special segment of EvolvHack '23. Participants will be asked to provide innovative solutions to problems faced by the college. Participants can refer to the problem statements on the website. Participants providing solutions to these problem statements will be give appropriate priority during valuation.",
       "Participants are expected to bring any equipment that they require to complete the solution. Participants should inform the volunteers beforehand if they require any other facilities.",
       "Participants should not roam around the campus during the hackathon hours.",
       "All participants must wear their event ID card visibly at all times. All participants should also carry their college ID card and should reproduce the same when asked.",

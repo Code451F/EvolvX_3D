@@ -60,7 +60,7 @@ const Carousel = () => {
       {/* <h2 className={styles.sectionHeadText}>
         Gallery
       </h2> */}
-      <div className="relative overflow-hidden border-2 border-solid border-[#ff8f00] rounded-md">
+      <div className="relative overflow-hidden border-2 border-solid border-[#ff8f00] mt-[30px] rounded-md">
         <div className="flex justify-between absolute top left w-full h-full">
           <button
             onClick={movePrev}

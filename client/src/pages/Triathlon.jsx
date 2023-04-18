@@ -56,8 +56,9 @@ const Triathlon = () => {
             <div className="xl:flex xl:flex-row xl:items-center mb-8 xxs:flex-col">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORED BY</h4>
             
-            
+            <a href="https://www.waytonikah.com/googleads?religion=126&region=1&gclid=Cj0KCQjwlumhBhClARIsABO6p-zzBbwtwXmvrxKDjnmCj3xityeazrztqRvVY-g_WcCd4_au33be1OgaAo2NEALw_wcB">
             <img src={waytonikah} className="w-[300px] pl-8 pt-4"></img>
+            </a>
             </div>
 
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
@@ -66,20 +67,17 @@ const Triathlon = () => {
             </p>
             </div>
             </div>
+            <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> All the participants who are interested must register online before the deadline. A team should not exceed 2 members. The registration is set <span className="text-[#ffba61]">₹200</span> per team.  <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span></li>            
+          <li><span className="font-bold text-[#ffba61]">Registration:</span> Each team must consist of 2-3 members. The registration fee is set at <span className="text-[#ffba61]">₹100</span> per participant.  <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span></li>            
             <li><span className="font-bold text-[#ffba61]">Code of Conduct:</span> Participants are expected to follow a code of conduct which describes the expected behaviour from the participants. The code of conduct for the triple challenge event should emphasize respect, fair play, sportsmanship and safety. Any violation of the code of conduct would lead to consequences that might even include disqualification.</li>            
             <li><span className="font-bold text-[#ffba61]">Challenge format:</span> There would be three rounds as mentioned. After each round, teams failing to score above the cut-off would be eliminated and would not be allowed to move forward.</li>
             <li><span className="font-bold text-[#ffba61]">Equipment:</span> Participants are expected to bring their own laptops or any equipment they require. However, for the first two challenges, they will not be permitted to use their laptops and instead would have to use the computers provided by us.</li>
             <li><span className="font-bold text-[#ffba61]">Time limit:</span> The event will start on April 24th at 9:30 AM. Participants should arrive at least 30 minutes before the start time in order to avoid any delays.</li>
             <li><span className="font-bold text-[#ffba61]">Communication:</span> The team members are not expected to communicate with other teams during the challenge. They may communicate with the organizers if they face any difficulty.</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate the rules or engage in any malpractice would be disqualified from the event.</li>
-            <li><span className="font-bold text-[#ffba61]">ID Card:</span> <span className="text-[#ffba61]"> All participants are required to bring their college ID card to the event.</span></li>
-            </ol>
-          
-           <span className="">In the case of the total number of event participants being less than 60 percent, the total cash prize will be reduced to half.</span>
-        
+          </ol>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>Code Golfing</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               In this challenge, participants have 60 minutes to solve 5-10 questions using Python or C only, with the shortest correct solution earning the highest score. Using the internet or external resources during the challenge and personal laptops are not allowed. Computers will be provided.

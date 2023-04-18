@@ -56,9 +56,13 @@ const CTF = () => {
            </p>
             <div className="xl:flex xl:flex-row xl:items-center mb-8 xxs:flex-col">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORED BY</h4>
-           
+
+            <a href="https://ctf-mystiko.com/">
             <img src={mystiko} className="w-[170px] pl-12 pt-4 "></img>
+            </a>
+            < a href="https://instagram.com/the_mallu_dev?igshid=YmMyMTA2M2Y=">
             <img src={jlb} className="xl:w-[350px] xl:pl-20 pt-4 xxs:w-[250px]"></img>
+            </a>
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
@@ -66,6 +70,7 @@ const CTF = () => {
             </p>
             </div>
             </div>
+            <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="list-decimal pl-8 pr-4 text-justify">
             <li><span className="font-bold text-[#ffba61]">Registration:</span> Participants must register as teams of 2-4 members for the event. The registration fee is <span className="text-[#ffba61]">₹300</span> per team. <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span> </li>

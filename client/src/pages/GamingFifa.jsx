@@ -60,7 +60,7 @@ const GamingFifa = () => {
             </p>
             </div>
             </div>
-          
+            <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
           <li><span className="font-bold text-[#ffba61]">Registration: </span>Entry fee is <span className="text-[#ffba61]">₹100</span> per person. Registration is based on a first come, first serve basis. <span className="text-[#ffba61]">REGISTRATION IS OPEN TO BOTH AJCE & NON-AJCE STUDENTS. A NUMBER OF SEATS WILL BE RESERVED FOR AJCE STUDENTS.</span></li>

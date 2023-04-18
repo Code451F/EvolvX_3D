@@ -58,8 +58,9 @@ const Gaming = () => {
             </p>
             <div className="xl:flex xl:flex-row xl:items-center mb-8 xxs:flex-col">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>SPONSORED BY</h4>
-          
+            <a href="https://tiarabyninu.com/">
             <img src={tiara} className="w-[140px] pl-12 pt-4"></img>
+            </a>
             </div>
           
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
@@ -68,11 +69,12 @@ const Gaming = () => {
             </p>
             </div>
             </div>
+            <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4"> 
-          <li><span className="font-bold text-[#ffba61]">Registration:</span> Teams with 5 members can register. Entry fee is <span className="text-[#ffba61]">₹500</span> per team. Registration is based on a first come, first serve basis. <span className="text-[#ffba61]">REGISTRATION IS OPEN TO BOTH AJCE & NON-AJCE STUDENTS. A NUMBER OF SEATS WILL BE RESERVED FOR AJCE STUDENTS.</span></li>
+          <li><span className="font-bold text-[#ffba61]">Registration:</span> Teams with 5 members can register. Entry fee is <span className="text-[#ffba61]">₹100</span> per person. Registration is based on a first come, first serve basis. <span className="text-[#ffba61]">REGISTRATION IS OPEN TO BOTH AJCE & NON-AJCE STUDENTS. A NUMBER OF SEATS WILL BE RESERVED FOR AJCE STUDENTS.</span></li>
           <li><span className="font-bold text-[#ffba61]">Venue:</span>The tournament will be conducted in <span className="text-[#ffba61]">offline mode</span> at the CSE Department </li>
-            <li><span className="font-bold text-[#ffba61]">Rules:</span> General CS:GO fair play rules must be followed. The match format is casual (short match) and friendly fire is turned on. Players will not be allowed to access the console. Admission to the game room will only be granted to the team players. <span className="text-[#ffba61]">Laptops will be provided, but external keyboards and mouse must be brought by the participants.</span>  Care must be taken in order to not damage the equipment provided by the college. Time will be allotted before each match for players to adjust their sensitivity and calibrate their settings.</li>
+            <li><span className="font-bold text-[#ffba61]">Rules:</span> General CS:GO fair play rules must be followed. The match format is casual (short match) and friendly fire is turned on. Players will not be allowed to access the console. Admission to the game room will only be granted to the team players. <span className="text-[#ffba61]">Laptops will be provided, but external keyboard, mouse, headset and any other accessories must be brought by the participants.</span>  Care must be taken in order to not damage the equipment provided by the college. Time will be allotted before each match for players to adjust their sensitivity and calibrate their settings.</li>
             <li><span className="font-bold text-[#ffba61]">Time Limit:</span> The time for each match can approximately be around 20 minutes</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices will be disqualified and not allowed to compete. Communications between players must be civil and respectful.</li>
             <li><span className="font-bold text-[#ffba61]">ID Card:</span> <span className="text-[#ffba61]"> All participants are required to bring their college ID card to the event.</span></li>

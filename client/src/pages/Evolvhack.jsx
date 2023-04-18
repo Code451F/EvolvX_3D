@@ -69,8 +69,12 @@ const Evolvhack = () => {
             {/* <p className={`${styles.descriptionText} mt-2 mb-5`}> 
               We have partnered with Digiora Technologies to provide us with the prize money for the winners and JB Labs to sponsor the prize money for the runner-ups. */}
             {/* </p> */}
-            <img src={digiora} className="w-[300px] pl-8 pt-4"></img>
+            <a href='https://www.digiora.com/'>
+            <img src={digiora}  className="w-[300px] pl-8 pt-4"></img>
+            </a>
+            <a href="https://instagram.com/the_mallu_dev?igshid=YmMyMTA2M2Y=">
             <img src={jlb} className="w-[300px] pl-4  pt-4  mb-4"></img>
+            </a>
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
@@ -78,9 +82,10 @@ const Evolvhack = () => {
             </p>
             </div>
             </div>
+            <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="list-decimal pl-8 pr-4 text-justify">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. Participants are required to form a team of minimum two members and a maximum of four members. Each member of the team will be required to pay<span className="text-[#ffba61]"> ₹250 </span>as the registration fees. <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span></li>
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> All participants must register online before the event to confirm their participation. Participants are required to form a team of minimum two members and a maximum of four members. The registration fee will be <span className="text-[#ffba61]"> ₹250 </span>per participant. <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span></li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must follow a code of conduct that outlines expected behavior during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>
             <li><span className="font-bold text-[#ffba61]">Problem Statement and Solution:</span> Teams are required to choose any relevant problem statement and come up with solutions to these problems. The problem should be a valid issue faced by the society and the solution must be realistic and practical. Both hardware and software solutions are welcome.</li>
             <li><span className="font-bold text-[#ffba61]">Mentors:</span> Mentors will be available to all teams for any assistance during the hackathon hours</li>

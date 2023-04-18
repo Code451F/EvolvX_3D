@@ -50,6 +50,7 @@ import {
   asif,
   chetan,
   glen,
+  codequest,
 } from "../assets";
 
 export const navLinks = [
@@ -109,8 +110,8 @@ const sponsors = [
   {
     title: "Eat Kochi Eat",
     icon: eatkochieat,
-    people: ["Mr. Karthik M: Batch of 2012", "Mr. Bobin Shaji: Batch of 2017"],
-    batch: "",
+    people: ["Mr. Karthik M"],
+    batch: "Batch of 2012",
     link:"https://instagram.com/eatkochieat?igshid=YmMyMTA2M2Y=",
   },
   {
@@ -121,7 +122,7 @@ const sponsors = [
     link:"https://www.waytonikah.com/googleads?religion=126&region=1&gclid=Cj0KCQjwlumhBhClARIsABO6p-zzBbwtwXmvrxKDjnmCj3xityeazrztqRvVY-g_WcCd4_au33be1OgaAo2NEALw_wcB",
   },
   {
-    title: "Tiara",
+    title: "TiarabyNinu",
     icon: tiara,
     people: ["Mrs. Ninu Mary Joseph"],
     batch: "Batch of 2005",
@@ -142,7 +143,7 @@ const other_sponsors = [
     batch: "Batch of 2009",
   },
   {
-    name: ["Mrs. Anju Mathew"],
+    name: ["Mrs. Anju Mathew","Mr. Bobin Shaji"],
     batch: "Batch of 2017",
   },
   {
@@ -513,7 +514,7 @@ const projects = [
           color: "pink-text-gradient",
         },
       ],
-      image: treasurehunt,
+      image: codequest,
       source_code_link: "/codingcompetition",
     },
     {

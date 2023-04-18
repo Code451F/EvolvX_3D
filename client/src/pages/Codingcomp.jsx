@@ -57,6 +57,7 @@ const Codingcomp = () => {
             </p>
             </div>
             </div>
+            <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
             <li><span className="font-bold text-[#ffba61]">Registration:</span>  Each team to consist of 2-4 members. The registration fee is <span className="text-[#ffba61]">₹200</span>  for each team. Registration is based on a first come, first serve basis.
@@ -66,12 +67,8 @@ const Codingcomp = () => {
             <li><span className="font-bold text-[#ffba61]">Challenge format:</span> The challenges may be presented in a specific format, such as a list of questions, puzzles, or tasks that need to be completed in a specific order.</li>
             <li><span className="font-bold text-[#ffba61]">Time limit:</span>  The event may have a specific start and end time, and the event is an all day event.</li>
             <li><span className="font-bold text-[#ffba61]">Communication:</span> Participants may be allowed to communicate with organizers and other participants through specific channels, such as a chat platform or email. However, communication related to the challenges should not be shared with anyone outside of the team.</li>
-            <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate any of the rules or engage in unfair practices,  may be disqualified from the event.</li>
-            <li><span className="font-bold text-[#ffba61]">ID Card:</span> <span className="text-[#ffba61]"> All participants are required to bring their college ID card to the event.</span></li>
-            </ol>
-          
-           <span className="">In the case of the total number of event participants being less than 60 percent, the total cash prize will be reduced to half.</span>
-        
+            <li><span className="font-bold text-[#ffba61]">Disqualification:</span> </li>
+          </ol>
         </motion.div>
         <div className={'bg-transparent bg-cover bg-no-repeat bg-center relative w-full h-[200px] mx-auto'}>
         <div  className={`relative  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-20 justify-center`}>

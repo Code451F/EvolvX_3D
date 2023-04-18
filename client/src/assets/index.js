@@ -35,6 +35,7 @@ import treasurehunt from "./treasurehunt.jpg";
 import triathlon from "./triathlon.jpg";
 import csgo from "./csgo.jpg";
 import fifa from "./fifa.jpg";
+import codequest from "./codequest.jpg"
 
 import controller from "./controller.png";
 import flag from "./flag.png";
@@ -119,5 +120,6 @@ export {
   sharon,
   asif,
   chetan,
-  glen
+  glen,
+  codequest,
 };

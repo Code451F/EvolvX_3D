@@ -16,7 +16,7 @@ const App = () => {
             <Route path='/codingcompetition' element={<Codingcomp/>}/>
             <Route path='/gaming/csgo' element={<Gaming/>}/>
             <Route path='/gaming/fifa' element={<GamingFifa/>}/>
-            <Route path='/triathlon' element={<Triathlon/>}/>
+            <Route path='/escaperoom' element={<Triathlon/>}/>
           // Event registration
             <Route path='/evolvhack/registration' element={<EvolvhackReg/>}/>
             <Route path='/ctf/registration' element={<CtfReg/>}/>

@@ -518,12 +518,12 @@ const projects = [
       source_code_link: "/codingcompetition",
     },
     {
-      name: "TRIATHLON",
+      name: "ESCAPE ROOM",
       description:
-        "Are you ready to put your problem-solving skills to the test? Join us for a thrilling contest featuring three engaging challenges and compete with others under time pressure. See if you have what it takes to be the fastest problem-solver and win big!",
+        "Race against time in our tech-themed escape room! Use Python or C coding skills to solve puzzles and escape before the security team catches you. Challenge your problem-solving abilities and teamwork. Are you up for it?",
       tags: [
         {
-          name: "triathlon",
+          name: "escaperoom",
           color: "blue-text-gradient",
         },
         {
@@ -536,7 +536,7 @@ const projects = [
         },
       ],
       image: triathlon,
-      source_code_link: "/triathlon",
+      source_code_link: "/escaperoom",
     },
     {
       name: "CSGO",

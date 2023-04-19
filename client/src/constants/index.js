@@ -100,8 +100,8 @@ const sponsors = [
     link:"https://www.digiora.com/",
   },
   {
-    title: "JB Labs  ",
-    
+    title: "JS Labs  ",
+    tagline:"Customised Mentoring for Aspiring Developers",
     icon: jlb,
     people: ["Mr. Ajo John"],
     batch: "Batch of 2017",

@@ -147,7 +147,7 @@ const other_sponsors = [
     batch: "Batch of 2017",
   },
   {
-    name: ["Mr. Rex Jovikom"],
+    name: ["Mr. Rex Jovakim"],
     batch: "Batch of 2021",
   },
   {

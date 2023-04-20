@@ -60,7 +60,7 @@ const Codingcomp = () => {
             <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span>  Each team to consist of 2-4 members. The registration fee is <span className="text-[#ffba61]">₹200</span>  for each team. Registration is based on a first come, first serve basis.
+            <li><span className="font-bold text-[#ffba61]">Registration:</span>  Each team to consist of 2-4 members. The registration fee is <span className="text-[#ffba61]">₹50</span>  for each participant. Registration is based on a first come, first serve basis.
              <span className="text-[#ffba61]"> REGISTRATION IS OPEN ONLY TO AJCE STUDENTS.</span></li>            
             <li><span className="font-bold text-[#ffba61]">Prerequisite:</span> To participate, each team must bring at least one smartphone with Telegram installed and have a valid account. Participants must arrive at the venue at the designated time.</li>            
             <li><span className="font-bold text-[#ffba61]">Code of Conduct:</span> Participants must follow a code of conduct that outlines expected behaviour during the event. This may include guidelines on respect, honesty, and fair play, as well as consequences for violating the code.</li>            

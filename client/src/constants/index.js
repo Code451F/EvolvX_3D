@@ -402,11 +402,11 @@ const experiences = [
     ],
   },
   {
-    title: "Triathlon",
+    title: "Escape Room",
     company_name: "Venue - Project Lab, CS Dept.",
     icon: triathon,
     iconBg: "#fff",
-    date: "24 April 2023, 9:30 AM",
+    date: "24 April 2023",
     points: [
       "Antony Thomas: +91 94966 15892",
       "Akhil P Dominic: +91 62351 36689",
@@ -520,18 +520,19 @@ const projects = [
     {
       name: "ESCAPE ROOM",
       description:
-        "Race against time in our tech-themed escape room! Use Python or C coding skills to solve puzzles and escape before the security team catches you. Challenge your problem-solving abilities and teamwork. Are you up for it?",
+      "Put your problem-solving skills to the test as you solve puzzles, decipher clues, and unlock hidden secrets to escape from a series of rooms. This is a team-based activity that anyone can participate in, regardless of their tech expertise.",
+        // "Race against time in our tech-themed escape room! Use Python or C coding skills to solve puzzles and escape before the security team catches you. Challenge your problem-solving abilities and teamwork. Are you up for it?",
       tags: [
         {
           name: "escaperoom",
           color: "blue-text-gradient",
         },
         {
-          name: "coding",
+          name: "puzzles",
           color: "green-text-gradient",
         },
         {
-          name: "programming",
+          name: "clues",
           color: "pink-text-gradient",
         },
       ],

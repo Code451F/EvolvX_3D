@@ -66,14 +66,14 @@ const CTF = () => {
             </div>
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              Total prize worth Rs 20000, cash prizes will be awarded to the top 2 performing teams, depending on the competition rules
+              Total prize worth ₹20,000, cash prizes will be awarded to the top 2 performing teams, depending on the competition rules
             </p>
             </div>
             </div>
             <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="list-decimal pl-8 pr-4 text-justify">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> Participants must register as teams of 2-4 members for the event. The registration fee is <span className="text-[#ffba61]">₹300</span> per team. <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span> </li>
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> Participants must register as teams of 2-4 members for the event. Registration is <span className="text-[#ffba61]">free </span>for the event. <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span> </li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must conduct themselves in a professional and ethical manner at all times. Cheating, flag sharing or any other inappropriate behavior will result in disqualification.</li>
             <li><span className="font-bold text-[#ffba61]">Collaboration:</span> Collaboration with other teams is strictly prohibited. Make sure you understand the collaboration policy before starting the event.</li>
             <li><span className="font-bold text-[#ffba61]">Scoring:</span> Points are awarded for solving challenges and obtaining flags. </li>

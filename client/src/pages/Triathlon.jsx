@@ -34,21 +34,22 @@ const Triathlon = () => {
           <p className={styles.sectionSubText}>Guidelines and Regulation</p>
           <h3 className={styles.sectionHeadText}>ESCAPE<span className="text-[#ffffff]">ROOM</span></h3>
           <div className="flex xl:flex-row pt-[35px] xxs:flex-col items-center">
-            <div className="xl:w-[600px] xxs:w-[270px]">
-                <img src={triathlon} className="border-4 border-[#ff8f00] rounded-xl mt-[15px] "></img>
+            <div className="xl:w-[1000px] xxs:w-[270px] py-3">
+                <img src={triathlon} className="border-4 border-[#ff8f00]  rounded-xl mt-[15px] mb-5"></img>
 
-                <a href='https://forms.gle/zCZ2J1wnoUvdm7qN6'>
+                {/* <a href='https://forms.gle/zCZ2J1wnoUvdm7qN6'>
                   <button
                     type='submit'
                     className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
                   > REGISTER
                   </button>
-                </a>
+                </a> */}
           </div>
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-            Our escape room is a technology/hacker-themed environment where players must solve a series of computer programming puzzles using Python or C to escape before they are caught by the security team. The room is set up with multiple computer stations with pre-installed compilers, and players must work together to solve a variety of puzzles that test their coding, logic, and problem-solving skills. A system is in place to track players' progress, and a final programming challenge must be solved to unlock the door and escape the room. The escape room is designed to challenge players and promote teamwork, creativity, and quick thinking.
+            {/* Our escape room is a technology/hacker-themed environment where players must solve a series of computer programming puzzles using Python or C to escape before they are caught by the security team. The room is set up with multiple computer stations with pre-installed compilers, and players must work together to solve a variety of puzzles that test their coding, logic, and problem-solving skills. A system is in place to track players' progress, and a final programming challenge must be solved to unlock the door and escape the room. The escape room is designed to challenge players and promote teamwork, creativity, and quick thinking. */}
+            Join us for a fun and exciting event - Escape Room! Put your problem-solving skills to the test as you solve puzzles, decipher clues, and unlock hidden secrets to escape from a series of rooms. This is a team-based activity that anyone can participate in, regardless of their tech expertise. So, gather your friends, family, or colleagues and join us for a memorable and entertaining adventure that will challenge your mind and keep you on the edge of your seat!
             </p>
 
             <div className="xl:flex xl:flex-row xl:items-center mb-8 xxs:flex-col">
@@ -61,20 +62,19 @@ const Triathlon = () => {
 
           <h4 className={`${styles.descriptionHeadText} mt-2`}>PRIZES</h4>
             <p className={`${styles.descriptionText} mt-2 mb-5`}> 
-              The Prize pool is ₹20,000, where the first prize is worth ₹15,000 and the second prize is worth ₹5000.
+              The Prize pool is ₹10,000, where the first prize is worth ₹6,000 and the second prize is worth ₹4,000.
             </p>
             </div>
             </div>
             <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
-          <li><span className="font-bold text-[#ffba61]">Registration:</span> Each team must consist of 2-3 members. The registration fee is set at <span className="text-[#ffba61]">₹50</span> per participant.  <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span></li>            
+          <li><span className="font-bold text-[#ffba61]">Registration:</span> Registrations for this event can be done on spot. Each team must consist of 2-3 members. The registration fee is set at <span className="text-[#ffba61]">₹50</span> per participant.  <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS. </span></li>            
             <li><span className="font-bold text-[#ffba61]">Code of Conduct:</span> Participants are expected to follow a code of conduct which describes the expected behaviour from the participants. The code of conduct for the triple challenge event should emphasize respect, fair play, sportsmanship and safety. Any violation of the code of conduct would lead to consequences that might even include disqualification.</li>            
             <li><span className="font-bold text-[#ffba61]">Challenge format:</span>  In this challenge, participants will be sent to a room 1 team at a time.
 Participants have to complete tasks in order to escape the room.</li>
             <li><span className="font-bold text-[#ffba61]">Equipment:</span> Systems will be provided.</li>
-            <li><span className="font-bold text-[#ffba61]">Time limit:</span> The event will start on April 24th at 9:30 AM. Participants should arrive at
-least 30 minutes before the start time in order to avoid any delays. There is no time limit.</li>
+            <li><span className="font-bold text-[#ffba61]">Time limit:</span> The event will be on April 24th . Participants will be given a time limit of maximum 45 minutes. Registration will be open from 9:00 am.</li>
             <li><span className="font-bold text-[#ffba61]">Communication:</span> The team members are not expected to communicate with other teams during the challenge. They may communicate with the organizers if they face any difficulty.</li>
             <li><span className="font-bold text-[#ffba61]">Disqualification:</span> Participants who violate the rules or engage in any malpractice would be disqualified from the event.</li>
           </ol>

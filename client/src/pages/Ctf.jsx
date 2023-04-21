@@ -73,7 +73,7 @@ const CTF = () => {
             <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="list-decimal pl-8 pr-4 text-justify">
-            <li><span className="font-bold text-[#ffba61]">Registration:</span> Participants must register as teams of 2-4 members for the event. Registration is <span className="text-[#ffba61]">free </span>for the event. <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS.</span> </li>
+            <li><span className="font-bold text-[#ffba61]">Registration:</span> Participants must register as teams of 2-4 members for the event. Registration is <span className="text-[#ffba61]">free </span>for the event. <span className="text-[#ffba61]">REGISTRATION IS OPEN TO BOTH AJCE & NON-AJCE STUDENTS.</span> </li>
             <li><span className="font-bold text-[#ffba61]">Code of conduct:</span> Participants must conduct themselves in a professional and ethical manner at all times. Cheating, flag sharing or any other inappropriate behavior will result in disqualification.</li>
             <li><span className="font-bold text-[#ffba61]">Collaboration:</span> Collaboration with other teams is strictly prohibited. Make sure you understand the collaboration policy before starting the event.</li>
             <li><span className="font-bold text-[#ffba61]">Scoring:</span> Points are awarded for solving challenges and obtaining flags. </li>

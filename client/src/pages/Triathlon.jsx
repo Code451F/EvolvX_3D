@@ -37,13 +37,13 @@ const Triathlon = () => {
             <div className="xl:w-[1000px] xxs:w-[270px] py-3">
                 <img src={triathlon} className="border-4 border-[#ff8f00]  rounded-xl mt-[15px] mb-5"></img>
 
-                {/* <a href='https://forms.gle/zCZ2J1wnoUvdm7qN6'>
+                <a href='https://forms.gle/m4rb8EmpxKWXQuUk8'>
                   <button
                     type='submit'
                     className='bg-tertiary py-3 mt-[25px] px-4 rounded-xl outline-none w-[180px] h-[] text-[23px]  text-white font-bold shadow-md shadow-primary mb-5'
                   > REGISTER
                   </button>
-                </a> */}
+                </a>
           </div>
           <div className="xl:pl-[50px] mt-4 pr-2 xxs:pl-0 ">
           <h4 className={`${styles.descriptionHeadText} mt-2`}>OVERVIEW</h4>
@@ -69,7 +69,7 @@ const Triathlon = () => {
             <span className="text-[#ffba61] font-bold uppercase">All participants will receive a participation certificate and KTU activity points upon attending the event.   </span>
           <h4 className={`${styles.descriptionHeadText} mt-2 mb-2`}>Guidelines</h4>
           <ol className="text-left list-decimal pl-8 pr-4">
-          <li><span className="font-bold text-[#ffba61]">Registration:</span> Registrations for this event can be done on spot. Each team must consist of 2-3 members. The registration fee is set at <span className="text-[#ffba61]">₹50</span> per participant.  <span className="text-[#ffba61]">REGISTRATION IS OPEN ONLY TO NON-AJCE STUDENTS. </span></li>            
+          <li><span className="font-bold text-[#ffba61]">Registration:</span> Registrations for this event can be done on spot. Each team must consist of 2-3 members. The registration fee is set at <span className="text-[#ffba61]">₹50</span> per participant.  <span className="text-[#ffba61]">REGISTRATION IS OPEN TO BOTH AJCE & NON-AJCE STUDENTS. </span></li>            
             <li><span className="font-bold text-[#ffba61]">Code of Conduct:</span> Participants are expected to follow a code of conduct which describes the expected behaviour from the participants. The code of conduct for the triple challenge event should emphasize respect, fair play, sportsmanship and safety. Any violation of the code of conduct would lead to consequences that might even include disqualification.</li>            
             <li><span className="font-bold text-[#ffba61]">Challenge format:</span>  In this challenge, participants will be sent to a room 1 team at a time.
 Participants have to complete tasks in order to escape the room.</li>

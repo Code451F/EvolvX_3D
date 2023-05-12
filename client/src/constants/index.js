@@ -151,8 +151,8 @@ const other_sponsors = [
     batch: "Batch of 2021",
   },
   {
-    name: ["Mr. Jithu K"],
-    batch: "Batch of 2009",
+    name: ["Mr. Benny T"],
+    // batch: "Batch of 2009",
   },
   {
     name: ["MTech","2018 Batch"],
@@ -467,7 +467,7 @@ const projects = [
           name: "24HRS",
           color: "green-text-gradient",
         },
-        {
+        { 
           name: "Hack4AJCE",
           color: "pink-text-gradient",
         },
